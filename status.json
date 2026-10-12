@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-12T11:27:30.062179+00:00",
+ "generated_at": "2026-10-12T11:29:39.349893+00:00",
  "session": {
   "alive": true,
-  "age_min": 114,
+  "age_min": 116,
   "busy": false,
   "job": null
  },
@@ -16,6 +16,14 @@
    "started_at": "2026-10-12T17:37:00+07:00",
    "status": "done",
    "title": "Chicken Run \u2014 file perbaikan (mkvmerge) ke Drive"
+  },
+  {
+   "detail": "Klip uji 151 detik di-encode ulang pakai runner v3 \u2014 memeriksa file AV1 berisi audio Opus dan file H.264 berisi AAC, QC decode bersih. Progres tahap/segmen tampil di kartu Sesi Encode.",
+   "id": "micro-test-opus",
+   "kind": "encode",
+   "started_at": "2026-10-12T18:29:00+07:00",
+   "status": "running",
+   "title": "Tes runner baru: AV1+Opus / H.264+AAC"
   }
  ],
  "results": [
