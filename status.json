@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-12T14:11:25.550159+00:00",
+ "generated_at": "2026-10-12T14:13:40.657256+00:00",
  "session": {
   "alive": true,
-  "age_min": 278,
+  "age_min": 280,
   "busy": true,
   "job": {
    "job": "Chicken.Run.2000.1080p.WEB-DL.MULTi",
@@ -13,7 +13,7 @@
     "av1",
     "h264"
    ],
-   "seg": 9,
+   "seg": 10,
    "total": 22,
    "via": "drive"
   }
@@ -48,9 +48,9 @@
    "master_name": "ChickenRun_master.mkv",
    "job_dir": "Chicken.Run.2000.1080p.WEB-DL.MULTi",
    "total_parts": 44,
-   "parts_done": 8,
+   "parts_done": 9,
    "parts_total": 44,
-   "progress_pct": 18.2
+   "progress_pct": 20.5
   }
  ],
  "results": [
