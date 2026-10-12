@@ -1,22 +1,10 @@
 {
- "generated_at": "2026-10-12T19:12:25.108683+00:00",
+ "generated_at": "2026-10-12T19:14:47.443632+00:00",
  "session": {
   "alive": true,
-  "age_min": 579,
-  "busy": true,
-  "job": {
-   "job": "Chicken.Run.2000.1080p.WEB-DL.MULTi",
-   "name": "Chicken.Run.2000.1080p.WEB-DL.MULTi.mkv",
-   "stage": "encode",
-   "codec": "h264",
-   "codecs": [
-    "av1",
-    "h264"
-   ],
-   "seg": 22,
-   "total": 22,
-   "via": "drive"
-  }
+  "age_min": 581,
+  "busy": false,
+  "job": null
  },
  "tasks": [
   {
@@ -48,12 +36,18 @@
    "master_name": "ChickenRun_master.mkv",
    "job_dir": "Chicken.Run.2000.1080p.WEB-DL.MULTi",
    "total_parts": 44,
-   "parts_done": 44,
+   "parts_done": 0,
    "parts_total": 44,
-   "progress_pct": 100.0
+   "progress_pct": 0.0
   }
  ],
  "results": [
+  {
+   "name": "Chicken.Run.2000.1080p.WEB-DL.MULTi.H.264.AAC5.1-Haru.mkv",
+   "size": 1394980086,
+   "modified": "2026-10-12T19:02:35.176Z",
+   "link": "https://drive.google.com/open?id=1ez1yzIyV29C3ENJibLEPD5BQqzuSnJEw"
+  },
   {
    "name": "Chicken.Run.2000.1080p.WEB-DL.MULTi.AV1.Opus5.1-Haru.mkv",
    "size": 978464715,
