@@ -1,0 +1,41 @@
+{
+ "generated_at": "2026-10-12T11:23:22.416420+00:00",
+ "session": {
+  "alive": false,
+  "age_min": 110,
+  "busy": false,
+  "job": null
+ },
+ "tasks": [
+  {
+   "detail": "Versi perbaikan (mkvmerge) sudah menggantikan file lama di Hasil Encode \u2014 5,93 GB, cover terbaca sebagai lampiran (bukan track video kedua), 23/24 track identik bit-per-bit dengan sumber.",
+   "finished_at": "2026-10-12T18:20:56+07:00",
+   "id": "chicken-run-fixed",
+   "kind": "upload",
+   "link": "https://drive.google.com/open?id=1ZZI7Jh1Eb2Wt8QFToWSDQBA1KZoFfPGg",
+   "started_at": "2026-10-12T17:37:00+07:00",
+   "status": "done",
+   "title": "Chicken Run \u2014 file perbaikan (mkvmerge) ke Drive"
+  }
+ ],
+ "results": [
+  {
+   "name": "Chicken.Run.2000.1080p.NF.WEB-DL.MULTi.DDP5.1.H.264-Haru.mkv",
+   "size": 5934068836,
+   "modified": "2026-10-12T10:36:49.740Z",
+   "link": "https://drive.google.com/open?id=1ZZI7Jh1Eb2Wt8QFToWSDQBA1KZoFfPGg"
+  },
+  {
+   "name": "SmokeTest_H264.mkv",
+   "size": 25117075,
+   "modified": "2026-10-12T10:36:15.837Z",
+   "link": "https://drive.google.com/open?id=1VqwnZwiiuttiOQxkq6qA6hIjwomDjlQ2"
+  },
+  {
+   "name": "SmokeTest_AV1.mkv",
+   "size": 17422786,
+   "modified": "2026-10-12T10:29:15.694Z",
+   "link": "https://drive.google.com/open?id=1RHhj4uQKTeKmf1udVBQhBtatf5aw06Os"
+  }
+ ]
+}
