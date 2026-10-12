@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-12T17:01:51.449392+00:00",
+ "generated_at": "2026-10-12T17:04:08.981735+00:00",
  "session": {
   "alive": true,
-  "age_min": 448,
+  "age_min": 450,
   "busy": true,
   "job": {
    "job": "Chicken.Run.2000.1080p.WEB-DL.MULTi",
@@ -13,7 +13,7 @@
     "av1",
     "h264"
    ],
-   "seg": 9,
+   "seg": 10,
    "total": 22,
    "via": "drive"
   }
