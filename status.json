@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-12T12:02:01.951728+00:00",
+ "generated_at": "2026-10-12T12:04:12.442161+00:00",
  "session": {
   "alive": true,
-  "age_min": 148,
+  "age_min": 151,
   "busy": false,
   "job": null
  },
@@ -18,11 +18,12 @@
    "title": "Chicken Run \u2014 file perbaikan (mkvmerge) ke Drive"
   },
   {
-   "detail": "Klip uji 151 detik di-encode ulang pakai runner v3 \u2014 memeriksa file AV1 berisi audio Opus dan file H.264 berisi AAC, QC decode bersih. Progres tahap/segmen tampil di kartu Sesi Encode.",
+   "detail": "LULUS terverifikasi dari file hasil di Drive: MicroTest2_AV1.mkv (17,2 MB) = video AV1 + audio Opus 6ch 5.1; MicroTest2_H264.mkv (25,2 MB) = video H.264 + audio AAC 6ch 5.1. QC decode bersih, layout channel dipertahankan. Sempat menangkap bug nyata: libopus menolak layout 5.1(side) \u2014 sudah diperbaiki di runner (negosiasi layout kanonis).",
+   "finished_at": "2026-10-12T18:52:00+07:00",
    "id": "micro-test-opus",
    "kind": "encode",
-   "started_at": "2026-10-12T18:29:00+07:00",
-   "status": "running",
+   "started_at": "2026-10-12T18:36:00+07:00",
+   "status": "done",
    "title": "Tes runner baru: AV1+Opus / H.264+AAC"
   }
  ],
