@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-12T12:26:13.073873+00:00",
+ "generated_at": "2026-10-12T12:27:43.539614+00:00",
  "session": {
   "alive": true,
-  "age_min": 173,
+  "age_min": 174,
   "busy": false,
   "job": null
  },
@@ -33,7 +33,7 @@
    "started_at": "2026-10-12T19:21:00+07:00",
    "status": "running",
    "title": "Encode perdana: Chicken Run (2000) \u2014 AV1+Opus5.1 & H.264+AAC5.1",
-   "progress_pct": 15.0
+   "progress_pct": 19.0
   }
  ],
  "results": [
