@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-12T19:54:51.376676+00:00",
+ "generated_at": "2026-10-12T19:57:17.066162+00:00",
  "session": {
   "alive": true,
-  "age_min": 621,
+  "age_min": 624,
   "busy": false,
   "job": null
  },
@@ -27,18 +27,33 @@
    "title": "Tes runner baru: AV1+Opus / H.264+AAC"
   },
   {
-   "detail": "Encode SEDANG BERJALAN di sesi Colab: sumber terbaca 5 audio, durasi 5069,334 dtk, video dipotong 22 segmen @240 dtk per codec (AV1 lalu H.264). Audio Indo = FLAC bersih hasil bangun ulang (tanpa rubberband). Progres segmen live ada di kartu sesi pada halaman tracker.",
+   "detail": "Encode SELESAI + QC independen LULUS (2026-10-13, verifikasi ulang dari file Drive di VM Muse, bukan QC runner): AV1 978.464.715 byte \u2014 video AV1 Main 10-bit (yuv420p10le) 1920x1080, audio Opus 5 track (4x 5.1/6ch eng/jpn/kor/chi + Indo stereo 2ch default, sesuai layout master), 17 subtitle, durasi 5069,342 dtk, decode penuh ffmpeg bersih (rc 0, tanpa error). H.264 1.394.980.086 byte \u2014 video H.264 High 8-bit (yuv420p), audio AAC LC 5 track (4x 5.1/6ch + Indo stereo 2ch default), 17 subtitle, durasi 5069,357 dtk, decode penuh bersih (rc 0, tanpa error). Jumlah audio (5) + subtitle (17) sama dengan master (5069,334 dtk); hanya 1 track video per file \u2014 tidak ada track video kedua; poster/cover memang tidak dibawa runner (encode_job.py hanya memetakan video utama), jadi tidak ada poster yang salah flag. Nama file masih pola LAMA sesuai kesepakatan \u2014 Haru rename manual sendiri. Master ChickenRun_master.mkv masuk tenggang 3 hari (master_expires_at) lalu dihapus otomatis collector kecuali master_keep.",
+   "finished_at": "2026-10-13T02:56:18+07:00",
    "id": "chicken-run-encode",
-   "kind": "encode",
-   "started_at": "2026-10-12T19:21:00+07:00",
-   "status": "running",
-   "title": "Encode perdana: Chicken Run (2000) \u2014 AV1+Opus5.1 & H.264+AAC5.1",
-   "master_name": "ChickenRun_master.mkv",
    "job_dir": "Chicken.Run.2000.1080p.WEB-DL.MULTi",
-   "total_parts": 44,
-   "parts_done": 0,
-   "parts_total": 44,
-   "progress_pct": 0.0
+   "kind": "encode",
+   "links": {
+    "av1": "https://drive.google.com/open?id=1Lio06rX7g-wwmhDEFyloZpG8VOASCIsE",
+    "h264": "https://drive.google.com/open?id=1ez1yzIyV29C3ENJibLEPD5BQqzuSnJEw"
+   },
+   "master_expires_at": "2026-10-16T02:56:18+07:00",
+   "master_name": "ChickenRun_master.mkv",
+   "results": [
+    {
+     "link": "https://drive.google.com/open?id=1Lio06rX7g-wwmhDEFyloZpG8VOASCIsE",
+     "name": "Chicken.Run.2000.1080p.WEB-DL.MULTi.AV1.Opus5.1-Haru.mkv",
+     "size": 978464715
+    },
+    {
+     "link": "https://drive.google.com/open?id=1ez1yzIyV29C3ENJibLEPD5BQqzuSnJEw",
+     "name": "Chicken.Run.2000.1080p.WEB-DL.MULTi.H.264.AAC5.1-Haru.mkv",
+     "size": 1394980086
+    }
+   ],
+   "started_at": "2026-10-12T19:21:00+07:00",
+   "status": "done",
+   "title": "Encode perdana: Chicken Run (2000) \u2014 AV1+Opus5.1 & H.264+AAC5.1",
+   "total_parts": 44
   }
  ],
  "results": [
