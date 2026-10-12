@@ -1,10 +1,22 @@
 {
- "generated_at": "2026-10-12T14:06:58.118633+00:00",
+ "generated_at": "2026-10-12T14:08:53.350964+00:00",
  "session": {
   "alive": true,
-  "age_min": 273,
-  "busy": false,
-  "job": null
+  "age_min": 275,
+  "busy": true,
+  "job": {
+   "job": "Chicken.Run.2000.1080p.WEB-DL.MULTi",
+   "name": "Chicken.Run.2000.1080p.WEB-DL.MULTi.mkv",
+   "stage": "encode",
+   "codec": "av1",
+   "codecs": [
+    "av1",
+    "h264"
+   ],
+   "seg": 9,
+   "total": 22,
+   "via": "drive"
+  }
  },
  "tasks": [
   {
@@ -33,7 +45,12 @@
    "started_at": "2026-10-12T19:21:00+07:00",
    "status": "running",
    "title": "Encode perdana: Chicken Run (2000) \u2014 AV1+Opus5.1 & H.264+AAC5.1",
-   "master_name": "ChickenRun_master.mkv"
+   "master_name": "ChickenRun_master.mkv",
+   "job_dir": "Chicken.Run.2000.1080p.WEB-DL.MULTi",
+   "total_parts": 44,
+   "parts_done": 8,
+   "parts_total": 44,
+   "progress_pct": 18.2
   }
  ],
  "results": [
