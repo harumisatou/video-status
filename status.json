@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-12T12:51:57.584439+00:00",
+ "generated_at": "2026-10-12T12:54:06.306369+00:00",
  "session": {
   "alive": true,
-  "age_min": 198,
+  "age_min": 200,
   "busy": false,
   "job": null
  },
@@ -27,14 +27,13 @@
    "title": "Tes runner baru: AV1+Opus / H.264+AAC"
   },
   {
-   "detail": "Fase: mengunggah master bersih (6,28 GB) dari VM ke Drive \u2014 sesudah itu ditarik ke sesi Colab dan encode dimulai. Master terverifikasi: 23/24 track identik bit-per-bit dengan sumber; audio Indo kini FLAC hasil bangun ulang tanpa rubberband (anchor sync rata-rata -0,05 dtk, durasi persis 5069,334 dtk).",
+   "detail": "Encode SEDANG BERJALAN di sesi Colab: sumber terbaca 5 audio, durasi 5069,334 dtk, video dipotong 22 segmen @240 dtk per codec (AV1 lalu H.264). Audio Indo = FLAC bersih hasil bangun ulang (tanpa rubberband). Progres segmen live ada di kartu sesi pada halaman tracker.",
    "id": "chicken-run-encode",
    "kind": "encode",
    "started_at": "2026-10-12T19:21:00+07:00",
    "status": "running",
    "title": "Encode perdana: Chicken Run (2000) \u2014 AV1+Opus5.1 & H.264+AAC5.1",
-   "master_name": "ChickenRun_master.mkv",
-   "progress_pct": 100.0
+   "master_name": "ChickenRun_master.mkv"
   }
  ],
  "results": [
