@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-13T09:33:37.633894+00:00",
+ "generated_at": "2026-10-13T09:35:53.616803+00:00",
  "session": {
   "alive": true,
-  "age_min": 27,
+  "age_min": 29,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E03.1080p.WEB-DL",
@@ -68,7 +68,7 @@
    "total_parts": 44
   },
   {
-   "detail": "2/14 episode selesai. Sedang jalan: Chef.of.Antarctica.S01E03.1080p.WEB-DL (x264, segmen 2/11; AV1 selesai di-encode). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
+   "detail": "2/14 episode selesai. Sedang jalan: Chef.of.Antarctica.S01E03.1080p.WEB-DL (antrean diluncurkan ulang 16:34 WIB; E01-E02 terkonfirmasi lengkap di Drive dan dilewati). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
    "id": "chef-antartika-series",
    "job_dir": "Chef.of.Antarctica.S01E03.1080p.WEB-DL",
    "kind": "encode",
