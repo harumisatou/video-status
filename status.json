@@ -1,10 +1,22 @@
 {
- "generated_at": "2026-10-13T04:41:31.689885+00:00",
+ "generated_at": "2026-10-13T04:44:32.176672+00:00",
  "session": {
   "alive": true,
-  "age_min": 428,
-  "busy": false,
-  "job": null
+  "age_min": 431,
+  "busy": true,
+  "job": {
+   "job": "Chef.of.Antarctica.S01E02.1080p.WEB-DL",
+   "name": "Chef.of.Antarctica.S01E02.1080p.WEB-DL.mkv",
+   "stage": "encode",
+   "codec": "av1",
+   "codecs": [
+    "av1",
+    "h264"
+   ],
+   "seg": 6,
+   "total": 10,
+   "via": "drive"
+  }
  },
  "tasks": [
   {
@@ -56,43 +68,18 @@
    "total_parts": 44
   },
   {
-   "detail": "0/14 episode selesai. Sedang jalan: Chef.of.Antarctica.S01E01.1080p.WEB-DL (x264, segmen 8/10). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
+   "detail": "1/14 episode selesai. Sedang jalan: Chef.of.Antarctica.S01E02.1080p.WEB-DL (AV1, segmen 5/9). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
    "id": "chef-antartika-series",
-   "job_dir": "Chef.of.Antarctica.S01E01.1080p.WEB-DL",
+   "job_dir": "Chef.of.Antarctica.S01E02.1080p.WEB-DL",
    "kind": "encode",
    "started_at": "2026-10-13T08:05:00+07:00",
    "status": "running",
    "title": "Encode series: Chef of Antarctica S01 \u2014 14 episode (AV1 + x264)",
    "total_parts": 20,
-   "parts_done": 0,
+   "parts_done": 4,
    "parts_total": 20,
-   "progress_pct": 0.0
+   "progress_pct": 20.0
   }
  ],
- "results": [
-  {
-   "name": "MicroTest2_H264.mkv",
-   "size": 25152417,
-   "modified": "2026-10-12T11:45:52.169Z",
-   "link": "https://drive.google.com/open?id=1LOuk1Qzoq-XlzBBG8sMBV9suL3xIe6Le"
-  },
-  {
-   "name": "MicroTest2_AV1.mkv",
-   "size": 17194777,
-   "modified": "2026-10-12T11:39:44.829Z",
-   "link": "https://drive.google.com/open?id=1oiv5l5lJQ4Fksqln3YT1vKr1PrXioVO2"
-  },
-  {
-   "name": "SmokeTest_H264.mkv",
-   "size": 25117075,
-   "modified": "2026-10-12T10:36:15.837Z",
-   "link": "https://drive.google.com/open?id=1VqwnZwiiuttiOQxkq6qA6hIjwomDjlQ2"
-  },
-  {
-   "name": "SmokeTest_AV1.mkv",
-   "size": 17422786,
-   "modified": "2026-10-12T10:29:15.694Z",
-   "link": "https://drive.google.com/open?id=1RHhj4uQKTeKmf1udVBQhBtatf5aw06Os"
-  }
- ]
+ "results": []
 }
