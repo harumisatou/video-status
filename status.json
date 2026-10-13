@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-13T05:30:57.286569+00:00",
+ "generated_at": "2026-10-13T05:33:36.220338+00:00",
  "session": {
   "alive": true,
-  "age_min": 477,
+  "age_min": 480,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E02.1080p.WEB-DL",
    "name": "Chef.of.Antarctica.S01E02.1080p.WEB-DL.mkv",
    "stage": "encode",
-   "codec": "av1",
+   "codec": "h264",
    "codecs": [
     "av1",
     "h264"
    ],
-   "seg": 10,
+   "seg": 2,
    "total": 10,
    "via": "drive"
   }
