@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-13T16:34:33.560779+00:00",
+ "generated_at": "2026-10-13T16:36:50.870108+00:00",
  "session": {
   "alive": true,
-  "age_min": 448,
+  "age_min": 450,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E04.1080p.WEB-DL",
@@ -82,6 +82,12 @@
   }
  ],
  "results": [
+  {
+   "name": "My.Daughter.Is.a.Zombie.2025.1080p.BluRay.Opus5.1.AV1-N3X.mkv",
+   "size": 753073398,
+   "modified": "2026-10-13T14:39:32.951Z",
+   "link": "https://drive.google.com/open?id=1kCDZnZGYPnTue9YsXD3GDhjkakDnxzc5"
+  },
   {
    "name": "Best.&.Bester.S01E26.One.Better.Day.Part.1.&.One.Better.Day.Part.2.1080p.AMZN.WEB-DL.Opus2.0.H.264-Zeyowopi.mkv",
    "size": 625492255,
