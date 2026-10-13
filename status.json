@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-13T03:49:56.070582+00:00",
+ "generated_at": "2026-10-13T03:53:01.868911+00:00",
  "session": {
   "alive": true,
-  "age_min": 376,
+  "age_min": 379,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E01.1080p.WEB-DL",
@@ -13,7 +13,7 @@
     "av1",
     "h264"
    ],
-   "seg": 9,
+   "seg": 10,
    "total": 10,
    "via": "drive"
   }
@@ -76,9 +76,9 @@
    "status": "running",
    "title": "Encode series: Chef of Antarctica S01 \u2014 14 episode (AV1 + x264)",
    "total_parts": 20,
-   "parts_done": 18,
+   "parts_done": 19,
    "parts_total": 20,
-   "progress_pct": 90.0
+   "progress_pct": 95.0
   }
  ],
  "results": [
