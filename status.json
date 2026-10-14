@@ -1,19 +1,19 @@
 {
- "generated_at": "2026-10-14T16:26:38.420720+00:00",
+ "generated_at": "2026-10-14T16:28:53.515066+00:00",
  "session": {
   "alive": true,
-  "age_min": 491,
+  "age_min": 493,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E09.1080p.WEB-DL",
    "name": "Chef.of.Antarctica.S01E09.1080p.WEB-DL.mkv",
    "stage": "encode",
-   "codec": "av1",
+   "codec": "h264",
    "codecs": [
     "av1",
     "h264"
    ],
-   "seg": 10,
+   "seg": 2,
    "total": 10,
    "via": "drive"
   }
@@ -76,9 +76,9 @@
    "status": "running",
    "title": "Encode series: Chef of Antarctica S01 \u2014 14 episode (AV1 + x264)",
    "total_parts": 20,
-   "parts_done": 11,
+   "parts_done": 12,
    "parts_total": 20,
-   "progress_pct": 55.0
+   "progress_pct": 60.0
   },
   {
    "cover": "https://raw.githubusercontent.com/harumisatou/video-status/main/covers/zombie.jpg",
