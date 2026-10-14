@@ -1,0 +1,176 @@
+General
+Unique ID                                : 65760867774533599500213834980126953330 (0x3179151AE44D5C53B0F1EEA34BB50F72)
+Complete name                            : /content/finish_zombie/out/My.Daughter.Is.a.Zombie.2025.1080p.BluRay.x264.AAC.5.1-N3X.mkv
+Format                                   : Matroska
+Format version                           : Version 4
+File size                                : 1.04 GiB
+Duration                                 : 1 h 53 min
+Overall bit rate                         : 1 312 kb/s
+Frame rate                               : 24.000 FPS
+Movie name                               : My Daughter Is a Zombie (2025) - N3X
+Description                              : Jung-hwan is a gruff but loving zookeeper who specializes in training wild beasts. His teenage daughter, Soo-ah, is going through puberty and a full-blown dance obsession. Their days are full of bickering and bonding... until one day, Soo-ah becomes infected by a zombie virus that has swept across the globe. Refusing to give up on his daughter, Jung-hwan takes her to a quiet seaside village called Eunbong-ri, where his mother Bam-soon lives. In a world obsessed with rooting out the infected, Soo-ah shows strange signs of awareness - responding to music, her grandmother's sharp taps with a back scratcher, and even faint traces of human language. Determined to protect her at all costs, Jung-hwan draws on his years of experience training tigers and begins a secret mission to tame and retrain... his zombie daughter.
+Encoded date                             : 2026-10-14 03:13:12 UTC
+Writing application                      : N3X 2.0
+Writing library                          : N3X 2.0 / Lavf63.9.100
+Cover                                    : Yes
+Comment                                  : Encoded by N3X
+Attachments                              : cover.jpg
+IMDB                                     : tt36553678
+TMDB                                     : movie/1306816
+YEAR                                     : 2025
+
+Video
+ID                                       : 1
+Format                                   : AVC
+Format/Info                              : Advanced Video Codec
+Format profile                           : High@L4
+Format settings                          : CABAC / 5 Ref Frames
+Format settings, CABAC                   : Yes
+Format settings, Reference frames        : 5 frames
+Codec ID                                 : V_MPEG4/ISO/AVC
+Duration                                 : 1 h 53 min
+Bit rate                                 : 1 181 kb/s
+Width                                    : 1 920 pixels
+Height                                   : 804 pixels
+Display aspect ratio                     : 2.39:1
+Frame rate mode                          : Constant
+Frame rate                               : 24.000 FPS
+Color space                              : YUV
+Chroma subsampling                       : 4:2:0
+Bit depth                                : 8 bits
+Scan type                                : Progressive
+Bits/(Pixel*Frame)                       : 0.032
+Stream size                              : 962 MiB (90%)
+Writing library                          : x264 core 165
+Encoding settings                        : cabac=1 / ref=5 / deblock=1:0:0 / analyse=0x3:0x113 / me=hex / subme=8 / psy=1 / psy_rd=1.00:0.00 / mixed_ref=1 / me_range=16 / chroma_me=1 / trellis=2 / 8x8dct=1 / cqm=0 / deadzone=21,11 / fast_pskip=1 / chroma_qp_offset=-2 / threads=6 / lookahead_threads=1 / sliced_threads=0 / nr=0 / decimate=1 / interlaced=0 / bluray_compat=0 / constrained_intra=0 / bframes=3 / b_pyramid=2 / b_adapt=1 / b_bias=0 / direct=3 / weightb=1 / open_gop=0 / weightp=2 / keyint=250 / keyint_min=24 / scenecut=40 / intra_refresh=0 / rc_lookahead=50 / rc=crf / mbtree=1 / crf=26.0 / qcomp=0.60 / qpmin=0 / qpmax=69 / qpstep=4 / ip_ratio=1.40 / aq=1:1.00
+Default                                  : No
+Forced                                   : No
+Color range                              : Limited
+Color primaries                          : BT.709
+Transfer characteristics                 : BT.709
+Matrix coefficients                      : BT.709
+
+Audio
+ID                                       : 2
+Format                                   : AAC LC
+Format/Info                              : Advanced Audio Codec Low Complexity
+Codec ID                                 : A_AAC-2
+Duration                                 : 1 h 53 min
+Bit rate                                 : 128 kb/s
+Channel(s)                               : 6 channels
+Channel layout                           : C L R Ls Rs LFE
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 46.875 FPS (1024 SPF)
+Compression mode                         : Lossy
+Stream size                              : 104 MiB (10%)
+Title                                    : Korean
+Writing library                          : Lavc63.18.101 aac
+Language                                 : Korean
+Default                                  : Yes
+Forced                                   : No
+
+Text #1
+ID                                       : 3
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 1 h 50 min
+Bit rate                                 : 42 b/s
+Frame rate                               : 0.207 FPS
+Count of elements                        : 1371
+Stream size                              : 34.0 KiB (0%)
+Title                                    : English
+Language                                 : English
+Default                                  : No
+Forced                                   : No
+
+Text #2
+ID                                       : 4
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 1 h 50 min
+Bit rate                                 : 36 b/s
+Frame rate                               : 0.207 FPS
+Count of elements                        : 1370
+Stream size                              : 29.2 KiB (0%)
+Title                                    : Chinese
+Language                                 : Chinese
+Default                                  : No
+Forced                                   : No
+
+Text #3
+ID                                       : 5
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 1 h 50 min
+Bit rate                                 : 34 b/s
+Frame rate                               : 0.207 FPS
+Count of elements                        : 1370
+Stream size                              : 28.0 KiB (0%)
+Title                                    : Cantonese / OCR
+Language                                 : Chinese
+Default                                  : No
+Forced                                   : No
+
+Text #4
+ID                                       : 6
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 1 h 49 min
+Bit rate                                 : 55 b/s
+Frame rate                               : 0.263 FPS
+Count of elements                        : 1724
+Stream size                              : 44.0 KiB (0%)
+Title                                    : Korean
+Language                                 : Korean
+Default                                  : No
+Forced                                   : No
+
+Text #5
+ID                                       : 7
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 1 h 51 min
+Bit rate                                 : 94 b/s
+Frame rate                               : 0.362 FPS
+Count of elements                        : 2419
+Stream size                              : 77.4 KiB (0%)
+Title                                    : Korean / SDH
+Language                                 : Korean
+Default                                  : No
+Forced                                   : No
+
+Text #6
+ID                                       : 8
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 1 h 50 min
+Bit rate                                 : 45 b/s
+Frame rate                               : 0.225 FPS
+Count of elements                        : 1486
+Stream size                              : 36.5 KiB (0%)
+Language                                 : Indonesian
+Default                                  : Yes
+Forced                                   : No
+
+Menu
+00:00:00.000                             : Chapter 01
+00:11:51.833                             : Chapter 02
+00:19:57.458                             : Chapter 03
+00:28:30.042                             : Chapter 04
+00:38:50.542                             : Chapter 05
+00:46:08.375                             : Chapter 06
+00:58:08.958                             : Chapter 07
+01:05:38.417                             : Chapter 08
+01:16:04.458                             : Chapter 09
+01:24:04.917                             : Chapter 10
+01:35:15.708                             : Chapter 11
+01:45:29.875                             : Chapter 12
+01:53:51.125                             : Chapter 13
+
+
