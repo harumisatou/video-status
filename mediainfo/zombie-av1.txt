@@ -1,0 +1,168 @@
+General
+Unique ID                                : 274688004824337704791721813041327928627 (0xCEA6FC4239ACAF0B60B7F4E621947533)
+Complete name                            : /content/finish_zombie/out/My.Daughter.Is.a.Zombie.2025.1080p.BluRay.AV1.10bit.Opus.5.1-N3X.mkv
+Format                                   : Matroska
+Format version                           : Version 4
+File size                                : 717 MiB
+Duration                                 : 1 h 53 min
+Overall bit rate                         : 881 kb/s
+Frame rate                               : 24.000 FPS
+Movie name                               : My Daughter Is a Zombie (2025) - N3X
+Description                              : Jung-hwan is a gruff but loving zookeeper who specializes in training wild beasts. His teenage daughter, Soo-ah, is going through puberty and a full-blown dance obsession. Their days are full of bickering and bonding... until one day, Soo-ah becomes infected by a zombie virus that has swept across the globe. Refusing to give up on his daughter, Jung-hwan takes her to a quiet seaside village called Eunbong-ri, where his mother Bam-soon lives. In a world obsessed with rooting out the infected, Soo-ah shows strange signs of awareness - responding to music, her grandmother's sharp taps with a back scratcher, and even faint traces of human language. Determined to protect her at all costs, Jung-hwan draws on his years of experience training tigers and begins a secret mission to tame and retrain... his zombie daughter.
+Encoded date                             : 2026-10-14 03:10:51 UTC
+Writing application                      : N3X 2.0
+Writing library                          : N3X 2.0 / Lavf63.9.100
+Cover                                    : Yes
+Comment                                  : Encoded by N3X
+Attachments                              : cover.jpg
+IMDB                                     : tt36553678
+TMDB                                     : movie/1306816
+YEAR                                     : 2025
+
+Video
+ID                                       : 1
+Format                                   : AV1
+Format/Info                              : AOMedia Video 1
+Codec ID                                 : V_AV1
+Duration                                 : 1 h 53 min
+Bit rate                                 : 776 kb/s
+Width                                    : 1 920 pixels
+Height                                   : 804 pixels
+Display aspect ratio                     : 2.39:1
+Frame rate mode                          : Constant
+Frame rate                               : 24.000 FPS
+Color space                              : YUV
+Bits/(Pixel*Frame)                       : 0.021
+Stream size                              : 632 MiB (88%)
+Writing library                          : Lavc63.18.101 libsvtav1
+Default                                  : No
+Forced                                   : No
+Color range                              : Limited
+Color primaries                          : BT.709
+Transfer characteristics                 : BT.709
+Matrix coefficients                      : BT.709
+
+Audio
+ID                                       : 2
+Format                                   : Opus
+Codec ID                                 : A_OPUS
+Duration                                 : 1 h 53 min
+Bit rate                                 : 101 kb/s
+Channel(s)                               : 6 channels
+Channel layout                           : L R C Lb Rb LFE
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 50.000 FPS (960 SPF)
+Bit depth                                : 32 bits
+Compression mode                         : Lossy
+Stream size                              : 82.6 MiB (12%)
+Title                                    : Korean
+Writing library                          : Lavc63.18.101 libopus
+Language                                 : Korean
+Default                                  : Yes
+Forced                                   : No
+
+Text #1
+ID                                       : 3
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 1 h 50 min
+Bit rate                                 : 42 b/s
+Frame rate                               : 0.207 FPS
+Count of elements                        : 1371
+Stream size                              : 34.0 KiB (0%)
+Title                                    : English
+Language                                 : English
+Default                                  : No
+Forced                                   : No
+
+Text #2
+ID                                       : 4
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 1 h 50 min
+Bit rate                                 : 36 b/s
+Frame rate                               : 0.207 FPS
+Count of elements                        : 1370
+Stream size                              : 29.2 KiB (0%)
+Title                                    : Chinese
+Language                                 : Chinese
+Default                                  : No
+Forced                                   : No
+
+Text #3
+ID                                       : 5
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 1 h 50 min
+Bit rate                                 : 34 b/s
+Frame rate                               : 0.207 FPS
+Count of elements                        : 1370
+Stream size                              : 28.0 KiB (0%)
+Title                                    : Cantonese / OCR
+Language                                 : Chinese
+Default                                  : No
+Forced                                   : No
+
+Text #4
+ID                                       : 6
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 1 h 49 min
+Bit rate                                 : 55 b/s
+Frame rate                               : 0.263 FPS
+Count of elements                        : 1724
+Stream size                              : 44.0 KiB (0%)
+Title                                    : Korean
+Language                                 : Korean
+Default                                  : No
+Forced                                   : No
+
+Text #5
+ID                                       : 7
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 1 h 51 min
+Bit rate                                 : 94 b/s
+Frame rate                               : 0.362 FPS
+Count of elements                        : 2419
+Stream size                              : 77.4 KiB (0%)
+Title                                    : Korean / SDH
+Language                                 : Korean
+Default                                  : No
+Forced                                   : No
+
+Text #6
+ID                                       : 8
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 1 h 50 min
+Bit rate                                 : 45 b/s
+Frame rate                               : 0.225 FPS
+Count of elements                        : 1486
+Stream size                              : 36.5 KiB (0%)
+Language                                 : Indonesian
+Default                                  : Yes
+Forced                                   : No
+
+Menu
+00:00:00.000                             : Chapter 01
+00:11:51.833                             : Chapter 02
+00:19:57.458                             : Chapter 03
+00:28:30.042                             : Chapter 04
+00:38:50.542                             : Chapter 05
+00:46:08.375                             : Chapter 06
+00:58:08.958                             : Chapter 07
+01:05:38.417                             : Chapter 08
+01:16:04.458                             : Chapter 09
+01:24:04.917                             : Chapter 10
+01:35:15.708                             : Chapter 11
+01:45:29.875                             : Chapter 12
+01:53:51.125                             : Chapter 13
+
+
