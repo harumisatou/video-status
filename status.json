@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-14T09:42:56.387316+00:00",
+ "generated_at": "2026-10-14T09:45:17.665886+00:00",
  "session": {
   "alive": true,
-  "age_min": 87,
+  "age_min": 89,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E07.1080p.WEB-DL",
@@ -13,7 +13,7 @@
     "av1",
     "h264"
    ],
-   "seg": 2,
+   "seg": 3,
    "total": 10,
    "via": "drive"
   }
