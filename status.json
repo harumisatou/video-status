@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-14T04:12:44.922497+00:00",
+ "generated_at": "2026-10-14T04:14:27.599076+00:00",
  "session": {
   "alive": true,
-  "age_min": 450,
+  "age_min": 452,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E06.1080p.WEB-DL",
@@ -88,10 +88,12 @@
    "kind": "encode",
    "mediainfo": [
     {
+     "katb": "https://katb.in/hifobecilar",
      "label": "MediaInfo \u2014 AV1",
      "url": "https://raw.githubusercontent.com/harumisatou/video-status/main/mediainfo/zombie-av1.txt"
     },
     {
+     "katb": "https://katb.in/nikinuharob",
      "label": "MediaInfo \u2014 x264",
      "url": "https://raw.githubusercontent.com/harumisatou/video-status/main/mediainfo/zombie-x264.txt"
     }
