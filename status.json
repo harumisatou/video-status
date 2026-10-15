@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-15T09:59:46.790893+00:00",
+ "generated_at": "2026-10-15T10:02:10.511452+00:00",
  "session": {
   "alive": true,
-  "age_min": 11,
+  "age_min": 14,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -173,9 +173,9 @@
    "status": "running",
    "title": "Encode series: Yuru Camp\u25b3 S01+S02+SP \u2014 25 file (AV1 + x264)",
    "total_parts": 25,
-   "parts_done": 5,
+   "parts_done": 7,
    "parts_total": 25,
-   "progress_pct": 20.0
+   "progress_pct": 28.0
   }
  ],
  "results": []
