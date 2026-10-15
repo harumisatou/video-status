@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-15T19:54:08.073354+00:00",
+ "generated_at": "2026-10-15T19:56:31.809185+00:00",
  "session": {
   "alive": true,
-  "age_min": 4,
+  "age_min": 6,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -111,7 +111,8 @@
    "started_at": "2026-10-12T19:21:00+07:00",
    "status": "done",
    "title": "Encode perdana: Chicken Run (2000) \u2014 AV1+Opus5.1 & H.264+AAC5.1",
-   "total_parts": 44
+   "total_parts": 44,
+   "master_cleaned_at": "2026-10-15T19:56:20.609829+00:00"
   },
   {
    "detail": "11/14 episode selesai. Sedang jalan: Chef.of.Antarctica.S01E12.1080p.WEB-DL. Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
