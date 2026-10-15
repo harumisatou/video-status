@@ -1,10 +1,22 @@
 {
- "generated_at": "2026-10-15T15:22:07.896416+00:00",
+ "generated_at": "2026-10-15T15:24:32.184506+00:00",
  "session": {
-  "alive": false,
-  "age_min": 35,
-  "busy": false,
-  "job": null
+  "alive": true,
+  "age_min": 1,
+  "busy": true,
+  "job": {
+   "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
+   "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.mkv",
+   "stage": "encode",
+   "codec": "av1",
+   "codecs": [
+    "av1",
+    "h264"
+   ],
+   "seg": 6,
+   "total": 10,
+   "via": "drive"
+  }
  },
  "machines": [
   {
@@ -15,8 +27,8 @@
    "platform": "Colab",
    "role": "Encode utama \u2014 series Chef of Antarctica (antrean Colab)",
    "status": "live",
-   "status_label": "Mati",
-   "status_kind": "blocked"
+   "status_label": "Sibuk",
+   "status_kind": "busy"
   },
   {
    "account": "GitHub gucinggaminf-lab",
@@ -152,7 +164,7 @@
    "title": "Encode film: My Daughter Is a Zombie (2025) \u2014 AV1 + x264 + finishing N3X"
   },
   {
-   "detail": "0/25 selesai. Sedang jalan: Yuru.Camp.S01E01.1080p.WEB-DL (relaunch antrean 21:52 WIB 15 Okt \u2014 sesi encode3 hidup tapi antrean mati/STATE_BELUM_ADA setelah reap \u00b130 mnt; upload queue_yc.py + start terverifikasi QUEUE_PROCS 1 CURRENT S01E01 DONE [] FAILED [], log menunjukkan mux AV1 S01E01 berjalan). Keenam folder hasil (S01/S02/SP x AV1/x264) belum ada di Drive \u2014 belum ada item selesai. Antrean 25 file (S1 12 eps + S2 12 eps + 1 SP) dual-mode (AV1+Opus / x264+AAC) dari sumber AMZN WEB-DL 1080p di Mesin 3 (Colab akun Arif). Subtitle eksternal Jepang (.srt di folder sumber) TIDAK ikut di encode \u2014 ditambahkan nanti di tahap finishing/muxer. Hasil per episode masuk folder per codec per season di Hasil Encode.",
+   "detail": "0/25 selesai. Sedang jalan: Yuru.Camp.S01E01.1080p.WEB-DL (relaunch antrean 22:17 WIB 15 Okt \u2014 sesi encode3 hidup tapi antrean mati/STATE_BELUM_ADA setelah reap; upload queue_yc.py + start terverifikasi QUEUE_PROCS 1 CURRENT S01E01, log menunjukkan mux AV1 S01E01 berjalan). ANOMALI run ini: lsf awal sempat mencatat S01E01 lengkap di kedua folder S01 (AV1 602.323.149 byte, x264 745.232.402 byte), tetapi beberapa menit kemudian kedua folder S01 hilang seluruhnya dari Hasil Encode (lsjson: hanya folder Chef + First Love) sehingga unduh QC gagal 'directory not found' \u2014 QC S01E01 TIDAK dijalankan dan item TIDAK ditandai reported/qc_failed; antrean yang relaunched juga menilai S01E01 belum selesai dan meng-encode ulang dari sumber. Penyebab hilangnya folder belum diketahui (kode queue_yc.py tidak menghapus file Drive). Antrean 25 file (S1 12 eps + S2 12 eps + 1 SP) dual-mode (AV1+Opus / x264+AAC) dari sumber AMZN WEB-DL 1080p di Mesin 3 (Colab akun Arif). Subtitle eksternal Jepang (.srt di folder sumber) TIDAK ikut di encode \u2014 ditambahkan nanti di tahap finishing/muxer. Hasil per episode masuk folder per codec per season di Hasil Encode.",
    "id": "yurucamp-series",
    "job_dir": "Yuru.Camp.S01E01.1080p.WEB-DL",
    "kind": "encode",
