@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-15T01:29:50.769335+00:00",
+ "generated_at": "2026-10-15T01:32:07.705123+00:00",
  "session": {
   "alive": true,
-  "age_min": 339,
+  "age_min": 341,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E11.1080p.WEB-DL",
@@ -42,14 +42,14 @@
    "status_kind": "blocked"
   },
   {
-   "account": "Akun Google fresh (belum disiapkan)",
-   "detail": "Menunggu akun Google fresh + link sumber dari Haru.",
+   "account": "Arif (akun Google nganggur, profil CLI terauth 2026-10-15)",
+   "detail": "Profil colab-cli Mesin 3 sudah login dan terverifikasi bersih (0 sesi, 0 assignment). Stack encode dibangun saat link sumber drama dikirim.",
    "id": "mesin3",
    "name": "Mesin 3",
    "platform": "Colab",
    "role": "Drama Jepang 3 season + 1 spesial (long-run)",
    "status": "planned",
-   "status_label": "Belum dibuat",
+   "status_label": "Profil siap \u2014 menunggu sumber",
    "status_kind": "planned"
   },
   {
