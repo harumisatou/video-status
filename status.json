@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-15T01:02:01.690733+00:00",
+ "generated_at": "2026-10-15T01:04:32.540949+00:00",
  "session": {
   "alive": true,
-  "age_min": 311,
+  "age_min": 314,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E11.1080p.WEB-DL",
@@ -18,6 +18,52 @@
    "via": "drive"
   }
  },
+ "machines": [
+  {
+   "account": "Nama Saya (nama64034@gmail.com)",
+   "detail": "Status ngikutin sesi encode Colab langsung; detail job-nya ada di kartu Mesin 1 di bawah.",
+   "id": "mesin1",
+   "name": "Mesin 1",
+   "platform": "Colab",
+   "role": "Encode utama \u2014 series Chef of Antarctica (antrean Colab)",
+   "status": "live",
+   "status_label": "Sibuk",
+   "status_kind": "busy"
+  },
+  {
+   "account": "GitHub gucinggaminf-lab",
+   "detail": "Kuota Codespaces bulan ini habis (start ditolak HTTP 402); First Love berhenti di E20 (E01\u2013E19 selesai). Reset kuota 1 November.",
+   "id": "mesin2",
+   "name": "Mesin 2",
+   "platform": "Codespaces",
+   "role": "Encode film + rantai series First Love",
+   "status": "blocked",
+   "status_label": "Berhenti \u2014 kuota habis",
+   "status_kind": "blocked"
+  },
+  {
+   "account": "Akun Google fresh (belum disiapkan)",
+   "detail": "Menunggu akun Google fresh + link sumber dari Haru.",
+   "id": "mesin3",
+   "name": "Mesin 3",
+   "platform": "Colab",
+   "role": "Drama Jepang 3 season + 1 spesial (long-run)",
+   "status": "planned",
+   "status_label": "Belum dibuat",
+   "status_kind": "planned"
+  },
+  {
+   "account": "GitHub nama64034-commits",
+   "detail": "Akun GitHub dibuat Haru 2026-10-15; proses auth gh + pembuatan codespace sedang berjalan.",
+   "id": "mesin4",
+   "name": "Mesin 4",
+   "platform": "Codespaces",
+   "role": "Cadangan + encode film; tugas pertama: beresin First Love E20\u2013E24",
+   "status": "planned",
+   "status_label": "Lagi disiapkan",
+   "status_kind": "planned"
+  }
+ ],
  "tasks": [
   {
    "detail": "Versi perbaikan (mkvmerge) sudah menggantikan file lama di Hasil Encode \u2014 5,93 GB, cover terbaca sebagai lampiran (bukan track video kedua), 23/24 track identik bit-per-bit dengan sumber.",
