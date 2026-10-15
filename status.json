@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-15T05:16:55.377423+00:00",
+ "generated_at": "2026-10-15T05:19:18.174710+00:00",
  "session": {
   "alive": true,
-  "age_min": 566,
+  "age_min": 569,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E11.1080p.WEB-DL",
@@ -43,14 +43,14 @@
   },
   {
    "account": "Arif (akun Google nganggur, profil CLI terauth 2026-10-15)",
-   "detail": "Profil colab-cli Mesin 3 sudah login dan terverifikasi bersih (0 sesi, 0 assignment). Stack encode dibangun saat link sumber drama dikirim.",
+   "detail": "Sesi encode3 terbukti stabil (3 jam+; holder SSH menempel sejak awal). Antrean Yuru Camp\u25b3 jalan sejak 2026-10-15 12:15 WIB, dual-codec per episode, diawasi cron yurucamp-babysitter.",
    "id": "mesin3",
    "name": "Mesin 3",
    "platform": "Colab",
-   "role": "Drama Jepang 3 season + 1 spesial (long-run)",
-   "status": "planned",
-   "status_label": "Profil siap \u2014 menunggu sumber",
-   "status_kind": "planned"
+   "role": "Encode series Yuru Camp\u25b3 \u2014 2 season + 1 SP (25 file, long-run)",
+   "status": "busy",
+   "status_label": "Sibuk \u2014 Yuru Camp\u25b3 S1+S2+SP",
+   "status_kind": "busy"
   },
   {
    "account": "GitHub nama64034-commits",
@@ -162,6 +162,20 @@
    "started_at": "2026-10-13T20:10:00+07:00",
    "status": "done",
    "title": "Encode film: My Daughter Is a Zombie (2025) \u2014 AV1 + x264 + finishing N3X"
+  },
+  {
+   "detail": "0/25 selesai. Sedang jalan: Yuru.Camp.S01E01.1080p.WEB-DL. Antrean 25 file (S1 12 eps + S2 12 eps + 1 SP) dual-mode (AV1+Opus / x264+AAC) dari sumber AMZN WEB-DL 1080p di Mesin 3 (Colab akun Arif). Subtitle eksternal Jepang (.srt di folder sumber) TIDAK ikut di encode \u2014 ditambahkan nanti di tahap finishing/muxer. Hasil per episode masuk folder per codec per season di Hasil Encode.",
+   "id": "yurucamp-series",
+   "job_dir": "Yuru.Camp.S01E01.1080p.WEB-DL",
+   "kind": "encode",
+   "source": "[MagicStar] Yuru Camp\u25b3 Season 1+2 + SP [WEBDL] [1080p] [AMZN] \u2014 25 file MKV H.264 DDP2.0 + .srt Jepang eksternal (42,67 GB, folder Drive Haru)",
+   "started_at": "2026-10-15T12:15:00+07:00",
+   "status": "running",
+   "title": "Encode series: Yuru Camp\u25b3 S01+S02+SP \u2014 25 file (AV1 + x264)",
+   "total_parts": 25,
+   "parts_done": 0,
+   "parts_total": 25,
+   "progress_pct": 0.0
   }
  ],
  "results": []
