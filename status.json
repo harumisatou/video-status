@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T16:27:05.787683+00:00",
+ "generated_at": "2026-10-16T16:29:23.206831+00:00",
  "session": {
   "alive": true,
-  "age_min": 6,
+  "age_min": 8,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -179,18 +179,16 @@
    "progress_pct": 28.0
   },
   {
-   "detail": "7/8 episode selesai. Sedang jalan: Oshi.No.Ko.S01E08.1080p.WEB-DL di Mesin 4 (heartbeat terakhir 2026-10-16T14:56:28Z 'E08 encoding' \u2014 segar \u00b118 menit pada run 22:14 WIB, chain sehat setelah codespace distart ulang 14:48Z pada run sebelumnya). E07 QC lulus: AV1 Opus 5.1 387,09 MiB + x264 AAC 5.1 484,39 MiB, subtitle 17 di kedua versi (sama), durasi selisih 0,013 dtk, decode penuh bersih kedua file. E06 QC lulus: AV1 Opus 5.1 444,72 MiB + x264 AAC 5.1 519,80 MiB, subtitle 17 di kedua versi (sama), durasi selisih 0,013 dtk, decode penuh bersih kedua file. Pemulihan 2026-10-16: heartbeat sempat basi 104 menit (terakhir 08:31:21Z) dan codespace Shutdown \u2014 codespace distart via API, jembatan Colab encode di-provision ulang supervisor, chain diluncurkan ulang (skip E01-E05 yang sudah delivered) dan heartbeat bergerak lagi ke E06 encoding. E05 QC lulus: AV1 Opus 5.1 474,87 MiB + x264 AAC 5.1 560,50 MiB, subtitle 17 di kedua versi (sama), durasi selisih 0,013 dtk, decode penuh bersih kedua file. E04 QC lulus: AV1 Opus 5.1 364,93 MiB + x264 AAC 5.1 448,47 MiB, subtitle 15 di kedua versi (sama), durasi selisih 0,013 dtk, decode penuh bersih kedua file. E03 QC lulus: AV1 Opus 5.1 399,73 MiB + x264 AAC 5.1 526,50 MiB, subtitle 17 di kedua versi (sama), durasi selisih 0,013 dtk, decode penuh bersih kedua file. E02 QC lulus: AV1 Opus 5.1 315,99 MiB + x264 AAC 5.1 398,23 MiB, subtitle 17 di kedua versi (sama, termasuk Bahasa Indonesia), durasi selisih 0,013 dtk, decode penuh bersih. E01 QC lulus: AV1 Opus 5.1 371,15 MiB + x264 AAC 5.1 459,14 MiB, subtitle 17 di kedua versi, durasi selisih 0,013 dtk, decode penuh bersih. Dual-mode AV1+Opus 5.1 / x264+AAC 5.1 dari sumber AMZN WEB-DL HEVC DDP5.1 (8 eps); hasil per episode masuk folder per codec di Hasil Encode; postingan bot hanya untuk hasil final setelah finishing N3X, menyusul setelah encode komplet.",
+   "detail": "SELESAI 8/8 episode, semua QC lulus. Rantai tamat: heartbeat SERIES_CHAIN_FINISHED 2026-10-16T15:30:55Z. Transfer.it folder: AV1 https://transfer.it/t/zyjafToT1BaZ (8 file, 3.255.243.991 byte) dan x264 https://transfer.it/t/DBBcqTh1WT6Y (8 file, 4.056.509.358 byte) \u2014 dibuat run final 2026-10-16 (sesi Colab encode sempat recycle di tengah percobaan pertama; skrip TF + transferit-py dipasang ulang, kedua transfer lulus). E08 QC lulus: AV1 Opus 5.1 345,97 MiB + x264 AAC 5.1 471,59 MiB, subtitle 17 di kedua versi (sama), durasi selisih 0,013 dtk, decode penuh bersih kedua file. E07 QC lulus: AV1 Opus 5.1 387,09 MiB + x264 AAC 5.1 484,39 MiB, subtitle 17, selisih 0,013 dtk, decode bersih. E06 QC lulus: AV1 444,72 MiB + x264 519,80 MiB, subtitle 17, selisih 0,013 dtk, decode bersih. E05 QC lulus: AV1 474,87 MiB + x264 560,50 MiB, subtitle 17, selisih 0,013 dtk, decode bersih. E04 QC lulus: AV1 364,93 MiB + x264 448,47 MiB, subtitle 15, selisih 0,013 dtk, decode bersih. E03 QC lulus: AV1 399,73 MiB + x264 526,50 MiB, subtitle 17, selisih 0,013 dtk, decode bersih. E02 QC lulus: AV1 315,99 MiB + x264 398,23 MiB, subtitle 17 (termasuk Bahasa Indonesia), selisih 0,013 dtk, decode bersih. E01 QC lulus: AV1 371,15 MiB + x264 459,14 MiB, subtitle 17, selisih 0,013 dtk, decode bersih. Dual-mode AV1+Opus 5.1 / x264+AAC 5.1 dari sumber AMZN WEB-DL HEVC DDP5.1 (8 eps) di Mesin 4. Postingan bot @harun3xbot hanya untuk hasil FINAL setelah finishing N3X \u2014 menyusul di tahap finishing, bukan dari pengasuh encode.",
+   "finished_at": "2026-10-16T23:29:06+07:00",
    "id": "oshi-no-ko-la-series",
    "job_dir": "Oshi.No.Ko.S01E08.1080p.WEB-DL",
    "kind": "encode",
    "source": "OSHI.NO.KO.S01E##.EPISODE.#.1080p.AMZN.WEB-DL.DDP5.1.H.265-ATMOS \u2014 Oshi no Ko LIVE ACTION (2024), folder Drive Haru",
    "started_at": "2026-10-16T07:13:00+07:00",
-   "status": "running",
+   "status": "done",
    "title": "Encode series: Oshi no Ko LIVE ACTION S01 \u2014 8 episode (AV1 + x264)",
-   "total_parts": 8,
-   "parts_done": 0,
-   "parts_total": 8,
-   "progress_pct": 0.0
+   "total_parts": 8
   }
  ],
  "results": []
