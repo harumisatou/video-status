@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T08:25:49.244523+00:00",
+ "generated_at": "2026-10-16T08:28:21.170826+00:00",
  "session": {
   "alive": true,
-  "age_min": 8,
+  "age_min": 10,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -188,9 +188,9 @@
    "status": "running",
    "title": "Encode series: Oshi no Ko LIVE ACTION S01 \u2014 8 episode (AV1 + x264)",
    "total_parts": 8,
-   "parts_done": 25,
+   "parts_done": 26,
    "parts_total": 8,
-   "progress_pct": 312.5
+   "progress_pct": 325.0
   }
  ],
  "results": []
