@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T22:48:52.726137+00:00",
+ "generated_at": "2026-10-16T22:51:11.100917+00:00",
  "session": {
   "alive": true,
-  "age_min": null,
+  "age_min": 1,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -165,7 +165,7 @@
    "title": "Encode film: My Daughter Is a Zombie (2025) \u2014 AV1 + x264 + finishing N3X"
   },
   {
-   "detail": "0/25 selesai. Sedang jalan: Yuru.Camp.S01E01.1080p.WEB-DL (relaunch antrean 05:17 WIB 17 Okt \u2014 sesi encode3 hidup tapi QUEUE_PROCS 0 dan STATE_BELUM_ADA setelah reap lagi; upload queue_yc.py + start QUEUE_STARTED pid 6127, terverifikasi QUEUE_PROCS 1 CURRENT S01E01 DONE [] FAILED [] FINISHED None). Verifikasi Drive (lsf keenam folder hasil): keenam folder Yuru Camp belum ada di Hasil Encode (directory not found) \u2014 belum ada item selesai untuk QC. Antrean 25 file (S1 12 eps + S2 12 eps + 1 SP) dual-mode (AV1+Opus / x264+AAC) dari sumber AMZN WEB-DL 1080p di Mesin 3 (Colab akun Arif). Subtitle eksternal Jepang (.srt di folder sumber) TIDAK ikut di encode \u2014 ditambahkan nanti di tahap finishing/muxer. Hasil per episode masuk folder per codec per season di Hasil Encode.",
+   "detail": "0/25 selesai. Sedang jalan: Yuru.Camp.S01E01.1080p.WEB-DL (relaunch antrean 05:47 WIB 17 Okt \u2014 sesi encode3 hidup tapi QUEUE_PROCS 0 dan STATE_BELUM_ADA setelah reap lagi; upload queue_yc.py + start QUEUE_STARTED pid 7585, terverifikasi QUEUE_PROCS 1 CURRENT S01E01 DONE [] FAILED [] FINISHED None). Verifikasi Drive (lsf keenam folder hasil): keenam folder Yuru Camp belum ada di Hasil Encode (directory not found) \u2014 belum ada item selesai untuk QC. Antrean 25 file (S1 12 eps + S2 12 eps + 1 SP) dual-mode (AV1+Opus / x264+AAC) dari sumber AMZN WEB-DL 1080p di Mesin 3 (Colab akun Arif). Subtitle eksternal Jepang (.srt di folder sumber) TIDAK ikut di encode \u2014 ditambahkan nanti di tahap finishing/muxer. Hasil per episode masuk folder per codec per season di Hasil Encode.",
    "id": "yurucamp-series",
    "job_dir": "Yuru.Camp.S01E01.1080p.WEB-DL",
    "kind": "encode",
