@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T17:18:33.276506+00:00",
+ "generated_at": "2026-10-16T17:20:46.380661+00:00",
  "session": {
   "alive": false,
-  "age_min": 28,
+  "age_min": 30,
   "busy": false,
   "job": null
  },
@@ -153,7 +153,7 @@
    "title": "Encode film: My Daughter Is a Zombie (2025) \u2014 AV1 + x264 + finishing N3X"
   },
   {
-   "detail": "0/25 selesai. Sedang jalan: Yuru.Camp.S01E01.1080p.WEB-DL (relaunch antrean 23:50 WIB 16 Okt \u2014 sesi encode3 hidup tapi QUEUE_PROCS 0 dan STATE_BELUM_ADA setelah reap; upload queue_yc.py + start QUEUE_STARTED pid 6605, terverifikasi QUEUE_PROCS 1 CURRENT S01E01 DONE [] FAILED [] FINISHED None). Verifikasi Drive (lsf keenam folder hasil): keenam folder Yuru Camp belum ada di Hasil Encode \u2014 belum ada item selesai untuk QC. Antrean 25 file (S1 12 eps + S2 12 eps + 1 SP) dual-mode (AV1+Opus / x264+AAC) dari sumber AMZN WEB-DL 1080p di Mesin 3 (Colab akun Arif). Subtitle eksternal Jepang (.srt di folder sumber) TIDAK ikut di encode \u2014 ditambahkan nanti di tahap finishing/muxer. Hasil per episode masuk folder per codec per season di Hasil Encode.",
+   "detail": "0/25 selesai. Sedang jalan: Yuru.Camp.S01E01.1080p.WEB-DL (relaunch antrean 00:20 WIB 17 Okt \u2014 sesi encode3 hidup tapi QUEUE_PROCS 0 dan STATE_BELUM_ADA setelah reap; upload queue_yc.py + start QUEUE_STARTED pid 6664, terverifikasi QUEUE_PROCS 1 CURRENT S01E01 DONE [] FAILED [] FINISHED None). Verifikasi Drive (lsf keenam folder hasil): keenam folder Yuru Camp belum ada di Hasil Encode \u2014 belum ada item selesai untuk QC. Antrean 25 file (S1 12 eps + S2 12 eps + 1 SP) dual-mode (AV1+Opus / x264+AAC) dari sumber AMZN WEB-DL 1080p di Mesin 3 (Colab akun Arif). Subtitle eksternal Jepang (.srt di folder sumber) TIDAK ikut di encode \u2014 ditambahkan nanti di tahap finishing/muxer. Hasil per episode masuk folder per codec per season di Hasil Encode.",
    "id": "yurucamp-series",
    "job_dir": "Yuru.Camp.S01E01.1080p.WEB-DL",
    "kind": "encode",
