@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T04:49:58.832490+00:00",
+ "generated_at": "2026-10-16T04:52:19.921561+00:00",
  "session": {
   "alive": true,
-  "age_min": 3,
+  "age_min": 5,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -165,7 +165,7 @@
    "title": "Encode film: My Daughter Is a Zombie (2025) \u2014 AV1 + x264 + finishing N3X"
   },
   {
-   "detail": "0/25 selesai. Sedang jalan: Yuru.Camp.S01E01.1080p.WEB-DL (relaunch antrean 11:49 WIB 16 Okt \u2014 sesi encode3 hidup tapi antrean mati/STATE_BELUM_ADA setelah reap; upload queue_yc.py + start QUEUE_STARTED pid 8512, terverifikasi QUEUE_PROCS 1 CURRENT S01E01 DONE [] FAILED [] FINISHED None). Antrean 25 file (S1 12 eps + S2 12 eps + 1 SP) dual-mode (AV1+Opus / x264+AAC) dari sumber AMZN WEB-DL 1080p di Mesin 3 (Colab akun Arif). Subtitle eksternal Jepang (.srt di folder sumber) TIDAK ikut di encode \u2014 ditambahkan nanti di tahap finishing/muxer. Hasil per episode masuk folder per codec per season di Hasil Encode.",
+   "detail": "0/25 selesai. Sedang jalan: Yuru.Camp.S01E01.1080p.WEB-DL (relaunch antrean 11:49 WIB 16 Okt \u2014 sesi encode3 hidup tapi antrean mati/STATE_BELUM_ADA setelah reap; upload queue_yc.py + start QUEUE_STARTED pid 8512, terverifikasi QUEUE_PROCS 1 CURRENT S01E01 DONE [] FAILED [] FINISHED None). Keenam folder hasil di Drive belum ada (rclone lsf: directory not found semua) \u2014 belum ada item selesai untuk QC. Antrean 25 file (S1 12 eps + S2 12 eps + 1 SP) dual-mode (AV1+Opus / x264+AAC) dari sumber AMZN WEB-DL 1080p di Mesin 3 (Colab akun Arif). Subtitle eksternal Jepang (.srt di folder sumber) TIDAK ikut di encode \u2014 ditambahkan nanti di tahap finishing/muxer. Hasil per episode masuk folder per codec per season di Hasil Encode.",
    "id": "yurucamp-series",
    "job_dir": "Yuru.Camp.S01E01.1080p.WEB-DL",
    "kind": "encode",
@@ -179,7 +179,7 @@
    "progress_pct": 28.0
   },
   {
-   "detail": "2/8 episode selesai. Sedang jalan: Oshi.No.Ko.S01E03.1080p.WEB-DL encoding di Mesin 4 (heartbeat 2026-10-16T02:58:38Z 'E03 encoding'). E02 QC lulus: AV1 Opus 5.1 315,99 MiB + x264 AAC 5.1 398,23 MiB, subtitle 17 di kedua versi (sama, termasuk Bahasa Indonesia), durasi selisih 0,013 dtk, decode penuh bersih. E01 QC lulus: AV1 Opus 5.1 371,15 MiB + x264 AAC 5.1 459,14 MiB, subtitle 17 di kedua versi, durasi selisih 0,013 dtk, decode penuh bersih. Dual-mode AV1+Opus 5.1 / x264+AAC 5.1 dari sumber AMZN WEB-DL HEVC DDP5.1 (8 eps); hasil per episode masuk folder per codec di Hasil Encode; postingan bot hanya untuk hasil final setelah finishing N3X, menyusul setelah encode komplet.",
+   "detail": "2/8 episode selesai. Sedang jalan: Oshi.No.Ko.S01E03.1080p.WEB-DL di Mesin 4 (heartbeat 2026-10-16T04:49:42Z 'E03 downloading' setelah pemulihan 11:44 WIB: codespace Shutdown -> start API -> cs4_setup + relaunch chain_oshi3, chain terverifikasi jalan & skip E01-E02). E02 QC lulus: AV1 Opus 5.1 315,99 MiB + x264 AAC 5.1 398,23 MiB, subtitle 17 di kedua versi (sama, termasuk Bahasa Indonesia), durasi selisih 0,013 dtk, decode penuh bersih. E01 QC lulus: AV1 Opus 5.1 371,15 MiB + x264 AAC 5.1 459,14 MiB, subtitle 17 di kedua versi, durasi selisih 0,013 dtk, decode penuh bersih. Dual-mode AV1+Opus 5.1 / x264+AAC 5.1 dari sumber AMZN WEB-DL HEVC DDP5.1 (8 eps); hasil per episode masuk folder per codec di Hasil Encode; postingan bot hanya untuk hasil final setelah finishing N3X, menyusul setelah encode komplet.",
    "id": "oshi-no-ko-la-series",
    "job_dir": "Oshi.No.Ko.S01E03.1080p.WEB-DL",
    "kind": "encode",
