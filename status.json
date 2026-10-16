@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T23:48:42.488467+00:00",
+ "generated_at": "2026-10-16T23:50:55.926514+00:00",
  "session": {
   "alive": false,
-  "age_min": 28,
+  "age_min": 30,
   "busy": false,
   "job": null
  },
@@ -153,7 +153,7 @@
    "title": "Encode film: My Daughter Is a Zombie (2025) \u2014 AV1 + x264 + finishing N3X"
   },
   {
-   "detail": "0/25 selesai. Sedang jalan: Yuru.Camp.S01E01.1080p.WEB-DL (relaunch antrean 06:20 WIB 17 Okt \u2014 sesi encode3 hidup tapi QUEUE_PROCS 0 dan STATE_BELUM_ADA setelah reap lagi; upload queue_yc.py + start QUEUE_STARTED pid 3858, terverifikasi QUEUE_PROCS 1 CURRENT S01E01 DONE [] FAILED [] FINISHED None). Verifikasi Drive: listing induk Hasil Encode hanya berisi folder Chef/First Love/Oshi no Ko \u2014 keenam folder Yuru Camp belum ada, belum ada item selesai untuk QC. Antrean 25 file (S1 12 eps + S2 12 eps + 1 SP) dual-mode (AV1+Opus / x264+AAC) dari sumber AMZN WEB-DL 1080p di Mesin 3 (Colab akun Arif). Subtitle eksternal Jepang (.srt di folder sumber) TIDAK ikut di encode \u2014 ditambahkan nanti di tahap finishing/muxer. Hasil per episode masuk folder per codec per season di Hasil Encode.",
+   "detail": "0/25 selesai. Sedang jalan: Yuru.Camp.S01E01.1080p.WEB-DL (relaunch antrean 06:47 WIB 17 Okt \u2014 sesi encode3 hidup tapi QUEUE_PROCS 0 dan STATE_BELUM_ADA setelah reap lagi; upload queue_yc.py + start QUEUE_STARTED pid 4956, terverifikasi QUEUE_PROCS 1 CURRENT S01E01 DONE [] FAILED [] FINISHED None). Verifikasi Drive: listing induk Hasil Encode hanya berisi folder Chef/First Love/Oshi no Ko \u2014 keenam folder Yuru Camp belum ada, belum ada item selesai untuk QC. Antrean 25 file (S1 12 eps + S2 12 eps + 1 SP) dual-mode (AV1+Opus / x264+AAC) dari sumber AMZN WEB-DL 1080p di Mesin 3 (Colab akun Arif). Subtitle eksternal Jepang (.srt di folder sumber) TIDAK ikut di encode \u2014 ditambahkan nanti di tahap finishing/muxer. Hasil per episode masuk folder per codec per season di Hasil Encode.",
    "id": "yurucamp-series",
    "job_dir": "Yuru.Camp.S01E01.1080p.WEB-DL",
    "kind": "encode",
