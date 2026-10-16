@@ -1,10 +1,22 @@
 {
- "generated_at": "2026-10-16T13:49:31.599606+00:00",
+ "generated_at": "2026-10-16T13:51:52.077118+00:00",
  "session": {
-  "alive": false,
-  "age_min": 29,
-  "busy": false,
-  "job": null
+  "alive": true,
+  "age_min": 0,
+  "busy": true,
+  "job": {
+   "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
+   "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.mkv",
+   "stage": "encode",
+   "codec": "av1",
+   "codecs": [
+    "av1",
+    "h264"
+   ],
+   "seg": 10,
+   "total": 10,
+   "via": "drive"
+  }
  },
  "machines": [
   {
@@ -15,8 +27,8 @@
    "platform": "Colab",
    "role": "Encode utama \u2014 series Chef of Antarctica (antrean Colab)",
    "status": "live",
-   "status_label": "Mati",
-   "status_kind": "blocked"
+   "status_label": "Sibuk",
+   "status_kind": "busy"
   },
   {
    "account": "GitHub gucinggaminf-lab",
@@ -153,7 +165,7 @@
    "title": "Encode film: My Daughter Is a Zombie (2025) \u2014 AV1 + x264 + finishing N3X"
   },
   {
-   "detail": "0/25 selesai. Sedang jalan: Yuru.Camp.S01E01.1080p.WEB-DL (relaunch antrean 20:17 WIB 16 Okt \u2014 sesi encode3 hidup tapi QUEUE_PROCS 0 dan STATE_BELUM_ADA setelah reap runtime; upload queue_yc.py + start QUEUE_STARTED pid 4105, terverifikasi QUEUE_PROCS 1 CURRENT S01E01 DONE [] FAILED [] FINISHED None, encode S01E01 mulai). Verifikasi Drive (lsf keenam folder hasil): keenam folder final Yuru Camp belum ada di Hasil Encode (directory not found) \u2014 belum ada item selesai untuk QC. Antrean 25 file (S1 12 eps + S2 12 eps + 1 SP) dual-mode (AV1+Opus / x264+AAC) dari sumber AMZN WEB-DL 1080p di Mesin 3 (Colab akun Arif). Subtitle eksternal Jepang (.srt di folder sumber) TIDAK ikut di encode \u2014 ditambahkan nanti di tahap finishing/muxer. Hasil per episode masuk folder per codec per season di Hasil Encode.",
+   "detail": "0/25 selesai. Sedang jalan: Yuru.Camp.S01E01.1080p.WEB-DL (relaunch antrean 20:47 WIB 16 Okt \u2014 sesi encode3 hidup tapi QUEUE_PROCS 0 dan STATE_BELUM_ADA setelah reap runtime; upload queue_yc.py + start QUEUE_STARTED pid 6821, terverifikasi QUEUE_PROCS 1 CURRENT S01E01 DONE [] FAILED [] FINISHED None, encode S01E01 mulai). Verifikasi Drive (lsf keenam folder hasil): keenam folder final Yuru Camp belum ada di Hasil Encode (directory not found) \u2014 belum ada item selesai untuk QC. Antrean 25 file (S1 12 eps + S2 12 eps + 1 SP) dual-mode (AV1+Opus / x264+AAC) dari sumber AMZN WEB-DL 1080p di Mesin 3 (Colab akun Arif). Subtitle eksternal Jepang (.srt di folder sumber) TIDAK ikut di encode \u2014 ditambahkan nanti di tahap finishing/muxer. Hasil per episode masuk folder per codec per season di Hasil Encode.",
    "id": "yurucamp-series",
    "job_dir": "Yuru.Camp.S01E01.1080p.WEB-DL",
    "kind": "encode",
@@ -176,9 +188,9 @@
    "status": "running",
    "title": "Encode series: Oshi no Ko LIVE ACTION S01 \u2014 8 episode (AV1 + x264)",
    "total_parts": 8,
-   "parts_done": 10,
+   "parts_done": 11,
    "parts_total": 8,
-   "progress_pct": 125.0
+   "progress_pct": 137.5
   }
  ],
  "results": []
