@@ -1,22 +1,10 @@
 {
- "generated_at": "2026-10-16T01:15:21.095180+00:00",
+ "generated_at": "2026-10-16T01:17:37.641465+00:00",
  "session": {
-  "alive": true,
-  "age_min": 26,
-  "busy": true,
-  "job": {
-   "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
-   "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.mkv",
-   "stage": "encode",
-   "codec": "av1",
-   "codecs": [
-    "av1",
-    "h264"
-   ],
-   "seg": 10,
-   "total": 10,
-   "via": "drive"
-  }
+  "alive": false,
+  "age_min": 29,
+  "busy": false,
+  "job": null
  },
  "machines": [
   {
@@ -27,8 +15,8 @@
    "platform": "Colab",
    "role": "Encode utama \u2014 series Chef of Antarctica (antrean Colab)",
    "status": "live",
-   "status_label": "Sibuk",
-   "status_kind": "busy"
+   "status_label": "Mati",
+   "status_kind": "blocked"
   },
   {
    "account": "GitHub gucinggaminf-lab",
@@ -188,9 +176,9 @@
    "status": "running",
    "title": "Encode series: Oshi no Ko LIVE ACTION S01 \u2014 8 episode (AV1 + x264)",
    "total_parts": 8,
-   "parts_done": 16,
+   "parts_done": 17,
    "parts_total": 8,
-   "progress_pct": 200.0
+   "progress_pct": 212.5
   }
  ],
  "results": []
