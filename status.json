@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T00:14:16.132886+00:00",
+ "generated_at": "2026-10-16T00:16:38.501857+00:00",
  "session": {
   "alive": true,
-  "age_min": 8,
+  "age_min": 10,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -54,13 +54,13 @@
   },
   {
    "account": "GitHub nama64034-commits",
-   "detail": "Codespace encode-4core-m4 (encode-4core-m4-jr9qrg79j69wcpr45) \u2014 rantai First Love jalan lagi dari E20 sejak 2026-10-15 08:16 WIB.",
+   "detail": "Codespace encode-4core-m4 (encode-4core-m4-jr9qrg79j69wcpr45) \u2014 rantai Oshi no Ko LA jalan sejak 2026-10-16 07:13 WIB (E01 encoding), diawasi cron oshi-babysitter. Sempat gagal start 2x karena bug padding nomor episode (seq -w 1 8) \u2014 sudah diperbaiki (v3).",
    "id": "mesin4",
    "name": "Mesin 4",
    "platform": "Codespaces",
-   "role": "Cadangan + encode film; tugas pertama: beresin First Love E20\u2013E24",
+   "role": "Encode series Oshi no Ko LA S01 (8 eps); sebelumnya: First Love 24/24 + finishing + Transfer.it tuntas (2026-10-15/16)",
    "status": "busy",
-   "status_label": "Sibuk \u2014 First Love E20\u2013E24",
+   "status_label": "Sibuk \u2014 Oshi no Ko LA S01",
    "status_kind": "busy"
   }
  ],
@@ -177,6 +177,20 @@
    "parts_done": 7,
    "parts_total": 25,
    "progress_pct": 28.0
+  },
+  {
+   "detail": "0/8 selesai. Sedang jalan: Oshi.No.Ko.S01E01.1080p.WEB-DL encoding di Mesin 4 (chain v3 start 2026-10-16 07:13 WIB). Dual-mode AV1+Opus 5.1 / x264+AAC 5.1 dari sumber AMZN WEB-DL HEVC DDP5.1 (8 eps, 8,36 GB); 18 subtitle termasuk Indonesia dipertahankan semua. Hasil per episode masuk folder per codec di Hasil Encode; finishing N3X menyusul setelah encode komplet.",
+   "id": "oshi-no-ko-la-series",
+   "job_dir": "Oshi.No.Ko.S01E01.1080p.WEB-DL",
+   "kind": "encode",
+   "source": "OSHI.NO.KO.S01E##.EPISODE.#.1080p.AMZN.WEB-DL.DDP5.1.H.265-ATMOS \u2014 Oshi no Ko LIVE ACTION (2024), folder Drive Haru",
+   "started_at": "2026-10-16T07:13:00+07:00",
+   "status": "running",
+   "title": "Encode series: Oshi no Ko LIVE ACTION S01 \u2014 8 episode (AV1 + x264)",
+   "total_parts": 8,
+   "parts_done": 0,
+   "parts_total": 8,
+   "progress_pct": 0.0
   }
  ],
  "results": []
