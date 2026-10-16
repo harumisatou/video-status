@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T07:45:52.044141+00:00",
+ "generated_at": "2026-10-16T07:48:07.066688+00:00",
  "session": {
   "alive": false,
-  "age_min": 26,
+  "age_min": 29,
   "busy": false,
   "job": null
  },
@@ -176,9 +176,9 @@
    "status": "running",
    "title": "Encode series: Oshi no Ko LIVE ACTION S01 \u2014 8 episode (AV1 + x264)",
    "total_parts": 8,
-   "parts_done": 14,
+   "parts_done": 15,
    "parts_total": 8,
-   "progress_pct": 175.0
+   "progress_pct": 187.5
   }
  ],
  "results": []
