@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-16T07:31:56.808564+00:00",
+ "generated_at": "2026-10-16T07:34:18.045193+00:00",
  "session": {
   "alive": true,
-  "age_min": 12,
+  "age_min": 15,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -179,18 +179,18 @@
    "progress_pct": 28.0
   },
   {
-   "detail": "3/8 episode selesai. Sedang jalan: Oshi.No.Ko.S01E04.1080p.WEB-DL di Mesin 4 (heartbeat terakhir 2026-10-16T05:23:39Z 'E04 encoding'). E03 QC lulus: AV1 Opus 5.1 399,73 MiB + x264 AAC 5.1 526,50 MiB, subtitle 17 di kedua versi (sama), durasi selisih 0,013 dtk, decode penuh bersih kedua file. E02 QC lulus: AV1 Opus 5.1 315,99 MiB + x264 AAC 5.1 398,23 MiB, subtitle 17 di kedua versi (sama, termasuk Bahasa Indonesia), durasi selisih 0,013 dtk, decode penuh bersih. E01 QC lulus: AV1 Opus 5.1 371,15 MiB + x264 AAC 5.1 459,14 MiB, subtitle 17 di kedua versi, durasi selisih 0,013 dtk, decode penuh bersih. Dual-mode AV1+Opus 5.1 / x264+AAC 5.1 dari sumber AMZN WEB-DL HEVC DDP5.1 (8 eps); hasil per episode masuk folder per codec di Hasil Encode; postingan bot hanya untuk hasil final setelah finishing N3X, menyusul setelah encode komplet.",
+   "detail": "4/8 episode selesai. Sedang jalan: Oshi.No.Ko.S01E05.1080p.WEB-DL di Mesin 4 (heartbeat terakhir 2026-10-16T06:54:05Z 'E05 encoding'). E04 QC lulus: AV1 Opus 5.1 364,93 MiB + x264 AAC 5.1 448,47 MiB, subtitle 15 di kedua versi (sama), durasi selisih 0,013 dtk, decode penuh bersih kedua file. E03 QC lulus: AV1 Opus 5.1 399,73 MiB + x264 AAC 5.1 526,50 MiB, subtitle 17 di kedua versi (sama), durasi selisih 0,013 dtk, decode penuh bersih kedua file. E02 QC lulus: AV1 Opus 5.1 315,99 MiB + x264 AAC 5.1 398,23 MiB, subtitle 17 di kedua versi (sama, termasuk Bahasa Indonesia), durasi selisih 0,013 dtk, decode penuh bersih. E01 QC lulus: AV1 Opus 5.1 371,15 MiB + x264 AAC 5.1 459,14 MiB, subtitle 17 di kedua versi, durasi selisih 0,013 dtk, decode penuh bersih. Dual-mode AV1+Opus 5.1 / x264+AAC 5.1 dari sumber AMZN WEB-DL HEVC DDP5.1 (8 eps); hasil per episode masuk folder per codec di Hasil Encode; postingan bot hanya untuk hasil final setelah finishing N3X, menyusul setelah encode komplet.",
    "id": "oshi-no-ko-la-series",
-   "job_dir": "Oshi.No.Ko.S01E04.1080p.WEB-DL",
+   "job_dir": "Oshi.No.Ko.S01E05.1080p.WEB-DL",
    "kind": "encode",
    "source": "OSHI.NO.KO.S01E##.EPISODE.#.1080p.AMZN.WEB-DL.DDP5.1.H.265-ATMOS \u2014 Oshi no Ko LIVE ACTION (2024), folder Drive Haru",
    "started_at": "2026-10-16T07:13:00+07:00",
    "status": "running",
    "title": "Encode series: Oshi no Ko LIVE ACTION S01 \u2014 8 episode (AV1 + x264)",
    "total_parts": 8,
-   "parts_done": 0,
+   "parts_done": 11,
    "parts_total": 8,
-   "progress_pct": 0.0
+   "progress_pct": 137.5
   }
  ],
  "results": []
