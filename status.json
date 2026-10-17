@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17T17:57:29.578107+00:00",
+ "generated_at": "2026-10-17T17:59:57.938572+00:00",
  "session": {
   "alive": true,
-  "age_min": 7,
+  "age_min": 10,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -213,6 +213,20 @@
    "total_parts": 25,
    "parts_done": 0,
    "parts_total": 25,
+   "progress_pct": 0.0
+  },
+  {
+   "detail": "Dataset sumber ready (19.981.467.503 byte, MD5 terverifikasi identik dgn Drive). Dua kernel TERPISAH jalan PARALEL di Mesin 5 (Kaggle): stephanygerald/spermageddon-encode-av1 + stephanygerald/spermageddon-encode-x264, status RUNNING sejak 2026-10-18 00:57 WIB. Crop letterbox 1920x804 (aturan no-blackbar), audio MULTi 4x AC-3 5.1 -> Opus 5.1 / AAC 5.1 128k, 2 sub PGS dipertahankan. Sub Indo (Kudalumping, SubSource) sudah diamankan, dimux saat finishing.",
+   "id": "spermageddon-movie",
+   "job_dir": "Spermageddon.2024.1080p.BluRay",
+   "kind": "encode",
+   "source": "Spermageddon.2024.NORDiC.1080p.REMUX.BluRay.AVC.DD5.1-VideoGod \u2014 REMUX BluRay 1080p (audio Nordik MULTi), via BuzzHeavier",
+   "started_at": "2026-10-18T00:57:00+07:00",
+   "status": "running",
+   "title": "Encode film: Spermageddon (2024) REMUX \u2014 AV1 + x264",
+   "total_parts": 2,
+   "parts_done": 0,
+   "parts_total": 2,
    "progress_pct": 0.0
   }
  ],
