@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17T03:41:17.626119+00:00",
+ "generated_at": "2026-10-17T03:43:55.818473+00:00",
  "session": {
   "alive": true,
-  "age_min": 22,
+  "age_min": 25,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -202,9 +202,9 @@
    "total_parts": 8
   },
   {
-   "detail": "1/25 episode selesai (E01 pilot QC lulus, sudah di Hasil Encode). Batch [2,3,4,5]: E02 (915.870.863 B) dan E03 (915.682.406 B) sudah staged sebagai dataset Kaggle (KG_DATASET_OK: stephanygerald/solo-e02, stephanygerald/solo-e03), file sumber lokal sudah dihapus. Run berikutnya staging E04+E05, lalu push kernel batch2. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0 di Mesin 5 (Kaggle).",
+   "detail": "1/25 episode selesai (E01 pilot QC lulus, sudah di Hasil Encode). Batch [2,3,4,5] semua sudah staged sebagai dataset Kaggle (terbaru E04 917.245.111 B dan E05 916.642.483 B, KG_DATASET_OK: stephanygerald/solo-e04, stephanygerald/solo-e05; file sumber lokal sudah dihapus). Kernel stephanygerald/solo-leveling-encode v2 di-push 2026-10-17 10:42 WIB dengan EPS=[2,3,4,5], status terverifikasi RUNNING. Run berikutnya: cek status kernel; bila COMPLETE unduh output + QC E02-E05. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0 di Mesin 5 (Kaggle).",
    "id": "solo-leveling-series",
-   "job_dir": "Solo.Leveling.S01E04.1080p.WEB-DL",
+   "job_dir": "Solo.Leveling.S01E02.1080p.WEB-DL",
    "kind": "encode",
    "source": "Solo.Leveling.S01E##.1080p.NF.WEB-DL.AAC2.0.H.264-Haru \u2014 Solo Leveling S01 (25 eps), folder Drive Haru",
    "started_at": "2026-10-17T07:50:00+07:00",
