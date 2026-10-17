@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17T16:25:47.022107+00:00",
+ "generated_at": "2026-10-17T16:28:07.580487+00:00",
  "session": {
   "alive": true,
-  "age_min": 5,
+  "age_min": 7,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -202,9 +202,9 @@
    "total_parts": 8
   },
   {
-   "detail": "5/25 episode selesai tercatat di state (E01 pilot + E02-E05 batch pertama, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini: kernel batch [6,7,8,9] COMPLETE di Mesin 5 (Kaggle) \u2014 log kernel semua rc=0 (cek 2026-10-17 22:45 WIB). PERLU PERBAIKAN run berikutnya: terdeteksi proses paralel (upload_batch.py daemon + rclone manual) mengunggah batch yang sama bersamaan \u2014 di Drive folder AV1 E06-E09 terduplikat (2 kopi ukuran identik), folder x264 E07/E08 terduplikat, E06 x264 di Drive 0 byte (terunggah saat file lokal terpotong oleh unduhan output ganda), E09 x264 sudah mendarat utuh 295.688.498 byte; E06 x264 masih 0 byte saat cek terakhir dan pekerja paralel terpantau sedang mengunggah-ulangnya. QC independen + update state batch ini BELUM dilakukan run ini demi menghindari tabrakan; file lokal output sudah dipulihkan utuh 8/8 di ~/workspace/kaggle-m5/outputs/solo-batch untuk QC run berikutnya. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0.",
+   "detail": "9/25 episode selesai (E01 pilot + batch E02-E05 + batch E06-E09, semua QC lulus). Batch E06-E09 sempat tabrakan upload ganda (duplikat + E06 x264 0 byte) - sudah dirapikan: dedupe + upload ulang, listing Drive terverifikasi 1 file per episode ukuran persis. Berikutnya staging batch E10-E13.",
    "id": "solo-leveling-series",
-   "job_dir": "Solo.Leveling.S01E06.1080p.WEB-DL",
+   "job_dir": "Solo.Leveling.S01E10.1080p.WEB-DL",
    "kind": "encode",
    "source": "Solo.Leveling.S01E##.1080p.NF.WEB-DL.AAC2.0.H.264-Haru \u2014 Solo Leveling S01 (25 eps), folder Drive Haru",
    "started_at": "2026-10-17T07:50:00+07:00",
