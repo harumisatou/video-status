@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17T03:46:12.070415+00:00",
+ "generated_at": "2026-10-17T03:48:28.676025+00:00",
  "session": {
   "alive": false,
-  "age_min": 27,
+  "age_min": 30,
   "busy": false,
   "job": null
  },
@@ -190,7 +190,7 @@
    "total_parts": 8
   },
   {
-   "detail": "1/25 episode selesai (E01 pilot QC lulus, sudah di Hasil Encode). Batch [2,3,4,5] semua sudah staged sebagai dataset Kaggle (terbaru E04 917.245.111 B dan E05 916.642.483 B, KG_DATASET_OK: stephanygerald/solo-e04, stephanygerald/solo-e05; file sumber lokal sudah dihapus). Kernel stephanygerald/solo-leveling-encode v2 di-push 2026-10-17 10:42 WIB dengan EPS=[2,3,4,5], status terverifikasi RUNNING. Run berikutnya: cek status kernel; bila COMPLETE unduh output + QC E02-E05. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0 di Mesin 5 (Kaggle).",
+   "detail": "1/25 episode selesai (E01 pilot QC lulus, sudah di Hasil Encode). Batch [2,3,4,5] staged sebagai dataset Kaggle (stephanygerald/solo-e02..e05, KG_DATASET_OK). Kernel stephanygerald/solo-leveling-encode di-push 2026-10-17 10:42 WIB dengan EPS=[2,3,4,5]; cek 10:45 WIB: status RUNNING (KG_STATUS RUNNING, log kosong selama RUNNING = normal Kaggle). Run berikutnya: cek status kernel; bila COMPLETE unduh output + QC E02-E05. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0 di Mesin 5 (Kaggle).",
    "id": "solo-leveling-series",
    "job_dir": "Solo.Leveling.S01E02.1080p.WEB-DL",
    "kind": "encode",
