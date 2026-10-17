@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17T14:16:46.065061+00:00",
+ "generated_at": "2026-10-17T14:19:02.277895+00:00",
  "session": {
   "alive": false,
-  "age_min": 22,
+  "age_min": 24,
   "busy": false,
   "job": null
  },
@@ -190,7 +190,7 @@
    "total_parts": 8
   },
   {
-   "detail": "5/25 episode selesai (E01 pilot + E02-E05 batch pertama, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini: kernel batch [6,7,8,9] RUNNING di Mesin 5 (Kaggle) \u2014 cek 2026-10-17 20:45 WIB status masih RUNNING (kg.py status). Kernel stephanygerald/solo-leveling-encode di-push 2026-10-17T18:49:12+07:00 WIB, dataset_sources ffmpeg-btb + solo-e06/e07/e08/e09, EPS=[6,7,8,9]. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0.",
+   "detail": "5/25 episode selesai (E01 pilot + E02-E05 batch pertama, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini: kernel batch [6,7,8,9] RUNNING di Mesin 5 (Kaggle) \u2014 cek 2026-10-17 21:15 WIB status masih RUNNING (kg.py status). Kernel stephanygerald/solo-leveling-encode di-push 2026-10-17T18:49:12+07:00 WIB, dataset_sources ffmpeg-btb + solo-e06/e07/e08/e09, EPS=[6,7,8,9]. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0.",
    "id": "solo-leveling-series",
    "job_dir": "Solo.Leveling.S01E06.1080p.WEB-DL",
    "kind": "encode",
