@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17T07:47:18.060412+00:00",
+ "generated_at": "2026-10-17T07:49:38.426933+00:00",
  "session": {
   "alive": true,
-  "age_min": null,
+  "age_min": 2,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
