@@ -1,22 +1,10 @@
 {
- "generated_at": "2026-10-17T05:46:09.459915+00:00",
+ "generated_at": "2026-10-17T05:48:25.520824+00:00",
  "session": {
-  "alive": true,
-  "age_min": 26,
-  "busy": true,
-  "job": {
-   "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
-   "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.mkv",
-   "stage": "encode",
-   "codec": "av1",
-   "codecs": [
-    "av1",
-    "h264"
-   ],
-   "seg": 10,
-   "total": 10,
-   "via": "drive"
-  }
+  "alive": false,
+  "age_min": 28,
+  "busy": false,
+  "job": null
  },
  "machines": [
   {
@@ -27,8 +15,8 @@
    "platform": "Colab",
    "role": "Encode utama \u2014 series Chef of Antarctica (antrean Colab)",
    "status": "live",
-   "status_label": "Sibuk",
-   "status_kind": "busy"
+   "status_label": "Mati",
+   "status_kind": "blocked"
   },
   {
    "account": "GitHub gucinggaminf-lab",
@@ -202,7 +190,7 @@
    "total_parts": 8
   },
   {
-   "detail": "1/25 episode selesai (E01 pilot QC lulus, sudah di Hasil Encode). Batch [2,3,4,5] sedang di-encode: kernel stephanygerald/solo-leveling-encode di-push 2026-10-17 10:42 WIB dengan EPS=[2,3,4,5]; cek 12:15 WIB: status RUNNING (KG_STATUS RUNNING, log kosong selama RUNNING = normal Kaggle). Run berikutnya: cek status kernel; bila COMPLETE unduh output + QC E02-E05. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0 di Mesin 5 (Kaggle).",
+   "detail": "1/25 episode selesai (E01 pilot QC lulus, sudah di Hasil Encode). Batch [2,3,4,5] sedang di-encode: kernel stephanygerald/solo-leveling-encode di-push 2026-10-17 10:42 WIB dengan EPS=[2,3,4,5]; cek 12:45 WIB: status RUNNING (KG_STATUS RUNNING, log kosong selama RUNNING = normal Kaggle). Run berikutnya: cek status kernel; bila COMPLETE unduh output + QC E02-E05. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0 di Mesin 5 (Kaggle).",
    "id": "solo-leveling-series",
    "job_dir": "Solo.Leveling.S01E02.1080p.WEB-DL",
    "kind": "encode",
