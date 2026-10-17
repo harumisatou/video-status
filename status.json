@@ -1,22 +1,10 @@
 {
- "generated_at": "2026-10-17T16:44:47.036478+00:00",
+ "generated_at": "2026-10-17T16:47:01.839044+00:00",
  "session": {
-  "alive": true,
-  "age_min": 24,
-  "busy": true,
-  "job": {
-   "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
-   "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.mkv",
-   "stage": "encode",
-   "codec": "av1",
-   "codecs": [
-    "av1",
-    "h264"
-   ],
-   "seg": 10,
-   "total": 10,
-   "via": "drive"
-  }
+  "alive": false,
+  "age_min": 26,
+  "busy": false,
+  "job": null
  },
  "machines": [
   {
@@ -27,8 +15,8 @@
    "platform": "Colab",
    "role": "Encode utama \u2014 series Chef of Antarctica (antrean Colab)",
    "status": "live",
-   "status_label": "Sibuk",
-   "status_kind": "busy"
+   "status_label": "Mati",
+   "status_kind": "blocked"
   },
   {
    "account": "GitHub gucinggaminf-lab",
@@ -126,7 +114,7 @@
    "master_cleaned_at": "2026-10-15T19:56:20.609829+00:00"
   },
   {
-   "detail": "11/14 episode selesai. Episode saat ini: Chef.of.Antarctica.S01E12.1080p.WEB-DL (antrean JALAN lagi sejak run 2026-10-17 23:03 WIB \u2014 sesi encode hidup tapi proses/queue_state hilang lagi, relaunch stage_series OK + start_queue pid 5738, verifikasi encode_job pid 6303 stage split untuk E12, queue_state done [1..11], failed [], current 12). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
+   "detail": "11/14 episode selesai. Episode saat ini: Chef.of.Antarctica.S01E12.1080p.WEB-DL (run 2026-10-17 23:33 WIB: sesi encode hidup [encode terdaftar] tapi proses series_queue/encode_job + queue_state.json HILANG lagi \u2014 relaunch stage_series OK (encode_job.py 15098 + series_queue.py 3659 compile OK, disk free 92,4 GB) + start_queue QUEUE_LAUNCHED pid 5559; NAMUN verifikasi queue_status sesudahnya GAGAL 3x berturut-turut dengan RuntimeError 'Connection was lost' dari kernel Colab, meski colab sessions tetap memuat [encode] \u2014 status antrean pasca-relaunch BELUM terverifikasi, run berikutnya wajib cek ulang dulu sebelum relaunch lagi agar tidak dobel). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
    "id": "chef-antartika-series",
    "job_dir": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
    "kind": "encode",
