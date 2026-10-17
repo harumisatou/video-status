@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17T11:07:25.734802+00:00",
+ "generated_at": "2026-10-17T11:09:50.518955+00:00",
  "session": {
   "alive": true,
-  "age_min": 17,
+  "age_min": 20,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -202,9 +202,9 @@
    "total_parts": 8
   },
   {
-   "detail": "5/25 episode selesai (E01 pilot + E02-E05 batch pertama, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini: staging batch [6,7,8,9] \u2014 E06 sudah KG_DATASET_OK dan staged (sumber lokal dihapus), daemon staging PID 2513 masih hidup dan sedang dataset-create/upload E07 ke Kaggle (mulai 16:41 WIB, file lokal 915.971.589 byte terverifikasi = listing Drive). E08+E09 menyusul run berikutnya (maks 2 episode/run), baru kernel di-push. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0 di Mesin 5 (Kaggle).",
+   "detail": "5/25 episode selesai (E01 pilot + E02-E05 batch pertama, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini: staging batch [6,7,8,9] \u2014 E06+E07 sudah staged (KG_DATASET_OK). E08: sumber terverifikasi persis 913.783.699 byte = listing Drive; daemon staging PID 19167 (PPID 1, stage_batch_8_9.py, log di hidden_files/solo-series/stage_batch_8_9.log) terverifikasi masih hidup pada cek 18:08 WIB, sedang dataset-create E08, lalu lanjut E09 otomatis (rclone 916.814.471 byte + dataset-create), update state + hapus sumber lokal sendiri. Bila E06-E09 semua staged, run berikutnya menulis ulang metadata kernel + baris EPS=[6,7,8,9] lalu push kernel. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0 di Mesin 5 (Kaggle).",
    "id": "solo-leveling-series",
-   "job_dir": "Solo.Leveling.S01E07.1080p.WEB-DL",
+   "job_dir": "Solo.Leveling.S01E08.1080p.WEB-DL",
    "kind": "encode",
    "source": "Solo.Leveling.S01E##.1080p.NF.WEB-DL.AAC2.0.H.264-Haru \u2014 Solo Leveling S01 (25 eps), folder Drive Haru",
    "started_at": "2026-10-17T07:50:00+07:00",
