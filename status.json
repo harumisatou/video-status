@@ -1,22 +1,10 @@
 {
- "generated_at": "2026-10-17T11:48:16.703192+00:00",
+ "generated_at": "2026-10-17T11:50:34.814993+00:00",
  "session": {
-  "alive": true,
-  "age_min": 26,
-  "busy": true,
-  "job": {
-   "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
-   "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.mkv",
-   "stage": "encode",
-   "codec": "av1",
-   "codecs": [
-    "av1",
-    "h264"
-   ],
-   "seg": 10,
-   "total": 10,
-   "via": "drive"
-  }
+  "alive": false,
+  "age_min": 28,
+  "busy": false,
+  "job": null
  },
  "machines": [
   {
@@ -27,8 +15,8 @@
    "platform": "Colab",
    "role": "Encode utama \u2014 series Chef of Antarctica (antrean Colab)",
    "status": "live",
-   "status_label": "Sibuk",
-   "status_kind": "busy"
+   "status_label": "Mati",
+   "status_kind": "blocked"
   },
   {
    "account": "GitHub gucinggaminf-lab",
@@ -202,9 +190,9 @@
    "total_parts": 8
   },
   {
-   "detail": "5/25 episode selesai (E01 pilot + E02-E05 batch pertama, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini: staging batch [6,7,8,9] \u2014 E06, E07, E08 sudah staged (E08 KG_DATASET_OK terkonfirmasi di log 18:11 WIB, sumber lokal E08 sudah dihapus daemon). E09: daemon staging PID 19167 (PPID 1, stage_batch_8_9.py) terverifikasi masih hidup pada cek 18:15 WIB, sedang rclone sumber E09 (file .partial \u00b1470 MB dari 916.814.471 byte), lalu dataset-create E09 otomatis, update state + hapus sumber lokal sendiri. Bila E06-E09 semua staged, run berikutnya menulis ulang metadata kernel + baris EPS=[6,7,8,9] lalu push kernel. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0 di Mesin 5 (Kaggle).",
+   "detail": "5/25 episode selesai (E01 pilot + E02-E05 batch pertama, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini: kernel batch [6,7,8,9] RUNNING di Mesin 5 (Kaggle) \u2014 kernel stephanygerald/solo-leveling-encode versi 3 di-push 2026-10-17T18:49:12+07:00 WIB, dataset_sources ffmpeg-btb + solo-e06/e07/e08/e09, EPS=[6,7,8,9]. E09 terkonfirmasi staged via dataset-status ready (dataset-create daemon 11:25-11:45 WIB mengunggah 874 MB 100% lalu client gagal parse respons JSON; verifikasi pembeda: dataset ada balas ready, dataset tak-ada balas 403). Sumber lokal E09 sudah dihapus. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0.",
    "id": "solo-leveling-series",
-   "job_dir": "Solo.Leveling.S01E09.1080p.WEB-DL",
+   "job_dir": "Solo.Leveling.S01E06.1080p.WEB-DL",
    "kind": "encode",
    "source": "Solo.Leveling.S01E##.1080p.NF.WEB-DL.AAC2.0.H.264-Haru \u2014 Solo Leveling S01 (25 eps), folder Drive Haru",
    "started_at": "2026-10-17T07:50:00+07:00",
