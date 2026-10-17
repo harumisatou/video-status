@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17T16:47:01.839044+00:00",
+ "generated_at": "2026-10-17T16:49:18.436516+00:00",
  "session": {
   "alive": false,
-  "age_min": 26,
+  "age_min": 28,
   "busy": false,
   "job": null
  },
@@ -190,9 +190,9 @@
    "total_parts": 8
   },
   {
-   "detail": "9/25 episode selesai tercatat di state (E01 pilot + E02-E05 batch pertama + E06-E09 batch kedua, semua QC lulus, sudah di Hasil Encode). Batch [6,7,8,9] terverifikasi run 2026-10-17 23:15 WIB: kernel COMPLETE, QC independen lulus penuh (qc_result.json: AV1 yuv420p10le/Opus 2ch, x264 yuv420p/AAC 2ch, 1 video stream, subtitle 4=4, selisih durasi 0,013-0,014 dtk, decode bersih rc 0), dan rclone ls Drive kini bersih \u2014 tiap file E06-E09 tepat 1 kopi dengan ukuran persis (AV1 249.744.682/240.095.070/186.241.958/202.989.646; x264 333.397.362/352.584.759/243.725.210/295.688.498 byte; E06 x264 yang sempat 0 byte dan duplikat dari tabrakan proses paralel SUDAH pulih). State: reported [1..9], current_batch=null. Aktivitas saat ini: staging batch berikutnya [10,11,12,13] \u2014 daemon stage_batch_10_11.py (PID 15041) sedang menarik E10 dari Drive (918.173.923 byte), lanjut E11, dataset-create per episode; E12+E13 menyusul run berikutnya, lalu push kernel batch10. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0.",
+   "detail": "9/25 episode selesai (E01 pilot + E02-E05 batch pertama + E06-E09 batch kedua, semua QC lulus, sudah di Hasil Encode). Batch berikutnya [10,11,12,13]: E10 sudah staged di Kaggle (dataset stephanygerald/solo-e10, KG_DATASET_OK 2026-10-17 23:45 WIB, sumber lokal sudah dihapus). Aktivitas saat ini (run 2026-10-17 23:45 WIB): staging E11 sedang berjalan \u2014 daemon stage_batch_10_11.py PID 15041 (PPID 1) menarik E11 dari Drive (916.396.727 byte; partial \u00b1250 MB / \u00b127% saat dicek dan masih bertumbuh, rclone aktif), lanjut dataset-create per skrip; E12+E13 menyusul run berikutnya (maks 2 staging per run), lalu push kernel batch10. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0.",
    "id": "solo-leveling-series",
-   "job_dir": "Solo.Leveling.S01E10.1080p.WEB-DL",
+   "job_dir": "Solo.Leveling.S01E11.1080p.WEB-DL",
    "kind": "encode",
    "source": "Solo.Leveling.S01E##.1080p.NF.WEB-DL.AAC2.0.H.264-Haru \u2014 Solo Leveling S01 (25 eps), folder Drive Haru",
    "started_at": "2026-10-17T07:50:00+07:00",
