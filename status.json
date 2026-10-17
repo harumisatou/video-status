@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17T19:15:29.292134+00:00",
+ "generated_at": "2026-10-17T19:17:53.492372+00:00",
  "session": {
   "alive": true,
-  "age_min": 23,
+  "age_min": null,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -202,7 +202,7 @@
    "total_parts": 8
   },
   {
-   "detail": "9/25 episode selesai (E01 pilot + E02-E05 batch pertama + E06-E09 batch kedua, semua QC lulus, sudah di Hasil Encode). Batch [10,11,12,13] semua staged (E10-E13 KG_DATASET_OK, sumber lokal terhapus). Aktivitas saat ini (run 2026-10-18 01:45 WIB): kernel stephanygerald/solo-leveling-encode masih RUNNING untuk batch10 (EPS=[10,11,12,13], push 00:47 WIB) \u2014 menunggu COMPLETE untuk unduh output + QC. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0.",
+   "detail": "9/25 episode selesai (E01 pilot + E02-E05 batch pertama + E06-E09 batch kedua, semua QC lulus, sudah di Hasil Encode). Batch [10,11,12,13] semua staged (E10-E13 KG_DATASET_OK, sumber lokal terhapus). Aktivitas saat ini (run 2026-10-18 02:15 WIB): kernel stephanygerald/solo-leveling-encode masih RUNNING untuk batch10 (EPS=[10,11,12,13], push 00:47 WIB) \u2014 menunggu COMPLETE untuk unduh output + QC. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0.",
    "id": "solo-leveling-series",
    "job_dir": "Solo.Leveling.S01E10.1080p.WEB-DL",
    "kind": "encode",
