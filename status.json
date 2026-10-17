@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17T20:35:37.922813+00:00",
+ "generated_at": "2026-10-17T20:38:04.902595+00:00",
  "session": {
   "alive": true,
-  "age_min": 18,
+  "age_min": 20,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -126,7 +126,7 @@
    "master_cleaned_at": "2026-10-15T19:56:20.609829+00:00"
   },
   {
-   "detail": "11/14 episode selesai. Episode saat ini: Chef.of.Antarctica.S01E12.1080p.WEB-DL (run 2026-10-18 03:03 WIB: sesi encode hidup [encode terdaftar], proses series_queue/encode_job + queue_state.json hilang lagi \u2014 relaunch stage_series OK (encode_job.py 15098 + series_queue.py 3659 compile OK, disk free 92,4 GB) + start_queue QUEUE_LAUNCHED pid 5644; verifikasi queue_status SESUDAHNYA LULUS: proses 5644 python3 series_queue.py + 5932 encode_job.py E12 hidup, queue_state done [1-11], failed [], current 12, stage split, log skip E01-E11 hasil lengkap di Drive). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
+   "detail": "11/14 episode selesai. Episode saat ini: Chef.of.Antarctica.S01E12.1080p.WEB-DL (run 2026-10-18 03:33 WIB: sesi encode hidup [encode terdaftar], proses series_queue/encode_job + queue_state.json hilang lagi \u2014 relaunch stage_series OK (encode_job.py 15098 + series_queue.py 3659 compile OK, disk free 92,4 GB) + start_queue QUEUE_LAUNCHED pid 8158; verifikasi queue_status SESUDAHNYA LULUS: proses 8158 python3 series_queue.py + 8503 encode_job.py E12 hidup, queue_state done [1-11], failed [], current 12, stage split, log E12 pull rc=0 encode mulai + segmen 9). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
    "id": "chef-antartika-series",
    "job_dir": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
    "kind": "encode",
