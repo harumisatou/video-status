@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17T00:35:14.962382+00:00",
+ "generated_at": "2026-10-17T00:37:34.725086+00:00",
  "session": {
   "alive": true,
-  "age_min": 16,
+  "age_min": 18,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -62,6 +62,17 @@
    "status": "busy",
    "status_label": "Sibuk \u2014 Oshi no Ko LA S01",
    "status_kind": "busy"
+  },
+  {
+   "account": "Stephany Gerald (username Kaggle: stephanygerald)",
+   "detail": "Resmi jadi Mesin 5 pada 2026-10-17. Kernel batch Kaggle: 4 core Xeon 2,20 GHz, RAM 32 GB, disk kerja 20 GB, run sampai 12 jam tanpa reap/babysit. TANPA internet di kernel (akun belum verifikasi) \u2014 bahan masuk sebagai dataset, hasil keluar via output kernel lalu diantar ke Drive. Benchmark klip CR 240 dtk: AV1 298 dtk, x264 465 dtk (per-core \u00b1\u00bd Codespaces, menang di daya tahan). Kuota CPU mingguan belum terverifikasi.",
+   "id": "mesin5",
+   "name": "Mesin 5",
+   "platform": "Kaggle",
+   "role": "Lane batch overflow \u2014 encode via kernel (dataset masuk, output keluar)",
+   "status": "free",
+   "status_label": "Free \u2014 siap terima job batch",
+   "status_kind": "free"
   }
  ],
  "tasks": [
