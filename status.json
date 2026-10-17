@@ -1,22 +1,10 @@
 {
- "generated_at": "2026-10-17T08:46:54.338530+00:00",
+ "generated_at": "2026-10-17T08:49:12.840371+00:00",
  "session": {
-  "alive": true,
-  "age_min": 28,
-  "busy": true,
-  "job": {
-   "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
-   "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.mkv",
-   "stage": "encode",
-   "codec": "av1",
-   "codecs": [
-    "av1",
-    "h264"
-   ],
-   "seg": 10,
-   "total": 10,
-   "via": "drive"
-  }
+  "alive": false,
+  "age_min": 30,
+  "busy": false,
+  "job": null
  },
  "machines": [
   {
@@ -27,8 +15,8 @@
    "platform": "Colab",
    "role": "Encode utama \u2014 series Chef of Antarctica (antrean Colab)",
    "status": "live",
-   "status_label": "Sibuk",
-   "status_kind": "busy"
+   "status_label": "Mati",
+   "status_kind": "blocked"
   },
   {
    "account": "GitHub gucinggaminf-lab",
@@ -54,14 +42,14 @@
   },
   {
    "account": "GitHub nama64034-commits",
-   "detail": "Codespace encode-4core-m4 (encode-4core-m4-jr9qrg79j69wcpr45) \u2014 rantai Oshi no Ko LA jalan sejak 2026-10-16 07:13 WIB (E01 encoding), diawasi cron oshi-babysitter. Sempat gagal start 2x karena bug padding nomor episode (seq -w 1 8) \u2014 sudah diperbaiki (v3).",
+   "detail": "Oshi no Ko LA SELESAI 8/8 + finishing N3X tuntas 2026-10-17. Kuota Codespaces Oktober HABIS \u2014 tes start 2026-10-17 15:43 WIB ditolak HTTP 402 (billing issue), sama seperti Mesin 2. Codespace encode-4core-m4 Shutdown. Reset kuota 1 November 2026.",
    "id": "mesin4",
    "name": "Mesin 4",
    "platform": "Codespaces",
    "role": "Encode series Oshi no Ko LA S01 (8 eps); sebelumnya: First Love 24/24 + finishing + Transfer.it tuntas (2026-10-15/16)",
-   "status": "busy",
-   "status_label": "Sibuk \u2014 Oshi no Ko LA S01",
-   "status_kind": "busy"
+   "status": "blocked",
+   "status_label": "Berhenti \u2014 kuota Oktober habis (402)",
+   "status_kind": "blocked"
   },
   {
    "account": "Stephany Gerald (username Kaggle: stephanygerald)",
@@ -69,10 +57,10 @@
    "id": "mesin5",
    "name": "Mesin 5",
    "platform": "Kaggle",
-   "role": "Lane batch overflow \u2014 encode via kernel (dataset masuk, output keluar)",
-   "status": "free",
-   "status_label": "Free \u2014 siap terima job batch",
-   "status_kind": "free"
+   "role": "Lane batch \u2014 Solo Leveling S01 (25 eps) berjalan; film bisa jalan sebagai kernel terpisah barengan",
+   "status": "busy",
+   "status_label": "Sibuk \u2014 Solo Leveling S01 (batch)",
+   "status_kind": "busy"
   }
  ],
  "tasks": [
