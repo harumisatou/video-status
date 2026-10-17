@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-17T21:04:52.814045+00:00",
+ "generated_at": "2026-10-17T21:07:25.754679+00:00",
  "session": {
   "alive": true,
-  "age_min": 16,
+  "age_min": 18,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -126,7 +126,7 @@
    "master_cleaned_at": "2026-10-15T19:56:20.609829+00:00"
   },
   {
-   "detail": "11/14 episode selesai. Episode saat ini: Chef.of.Antarctica.S01E12.1080p.WEB-DL (run 2026-10-18 03:33 WIB: sesi encode hidup [encode terdaftar], proses series_queue/encode_job + queue_state.json hilang lagi \u2014 relaunch stage_series OK (encode_job.py 15098 + series_queue.py 3659 compile OK, disk free 92,4 GB) + start_queue QUEUE_LAUNCHED pid 8158; verifikasi queue_status SESUDAHNYA LULUS: proses 8158 python3 series_queue.py + 8503 encode_job.py E12 hidup, queue_state done [1-11], failed [], current 12, stage split, log E12 pull rc=0 encode mulai + segmen 9). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
+   "detail": "11/14 episode selesai. Episode saat ini: Chef.of.Antarctica.S01E12.1080p.WEB-DL (run 2026-10-18 04:03 WIB: sesi encode hidup [encode terdaftar], proses series_queue/encode_job + queue_state.json hilang lagi \u2014 relaunch stage_series OK (encode_job.py 15098 + series_queue.py 3659 compile OK, disk free 92,4 GB) + start_queue QUEUE_LAUNCHED pid 6567; verifikasi queue_status SESUDAHNYA LULUS: proses 6567 python3 series_queue.py + 6898 encode_job.py E12 hidup, queue_state done [1-11], failed [], current 12, stage split, log E12 segmen 9, segmen av1 ditarik dari Drive). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
    "id": "chef-antartika-series",
    "job_dir": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
    "kind": "encode",
@@ -216,18 +216,16 @@
    "progress_pct": 0.0
   },
   {
-   "detail": "Dataset sumber ready (19.981.467.503 byte, MD5 terverifikasi identik dgn Drive). Dua kernel TERPISAH jalan PARALEL di Mesin 5 (Kaggle): stephanygerald/spermageddon-encode-av1 + stephanygerald/spermageddon-encode-x264, status RUNNING sejak 2026-10-18 00:57 WIB. Crop letterbox 1920x804 (aturan no-blackbar), audio MULTi 4x AC-3 5.1 -> Opus 5.1 / AAC 5.1 128k, 2 sub PGS dipertahankan. Sub Indo (Kudalumping, SubSource) sudah diamankan, dimux saat finishing.",
+   "detail": "SELESAI 2026-10-18: dua kernel paralel Mesin 5 COMPLETE (AV1 48 mnt, x264 2 jam), QC independen LULUS PENUH keduanya (probe codec/1920x804/4 audio/2 sub PGS sesuai sumber, durasi selisih 0,001 dtk, decode penuh bersih). Hasil di Video Editor/Hasil Encode/: AV1 Opus5.1 798.370.498 byte (id 1JNrtYRvRbycOVfEop1m-KvdrTqhi6T0w), x264 AAC5.1 1.035.220.222 byte (id 1ZIwxL1pVIE4UI1e-dtwJtZgYZb93BuGz). Dari REMUX 19,98 GB jadi 0,80/1,04 GB. Finishing N3X (cover + mux sub Indo Kudalumping + metadata + katb + Transfer.it + bot) menyusul atas aba-aba Haru.",
    "id": "spermageddon-movie",
    "job_dir": "Spermageddon.2024.1080p.BluRay",
    "kind": "encode",
    "source": "Spermageddon.2024.NORDiC.1080p.REMUX.BluRay.AVC.DD5.1-VideoGod \u2014 REMUX BluRay 1080p (audio Nordik MULTi), via BuzzHeavier",
    "started_at": "2026-10-18T00:57:00+07:00",
-   "status": "running",
+   "status": "done",
    "title": "Encode film: Spermageddon (2024) REMUX \u2014 AV1 + x264",
    "total_parts": 2,
-   "parts_done": 0,
-   "parts_total": 2,
-   "progress_pct": 0.0
+   "finished_at": "2026-10-18T04:05:00+07:00"
   }
  ],
  "results": [
