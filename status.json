@@ -1,10 +1,22 @@
 {
- "generated_at": "2026-10-17T09:17:04.957538+00:00",
+ "generated_at": "2026-10-17T09:19:31.331013+00:00",
  "session": {
-  "alive": false,
-  "age_min": 26,
-  "busy": false,
-  "job": null
+  "alive": true,
+  "age_min": 0,
+  "busy": true,
+  "job": {
+   "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
+   "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.mkv",
+   "stage": "encode",
+   "codec": "av1",
+   "codecs": [
+    "av1",
+    "h264"
+   ],
+   "seg": 10,
+   "total": 10,
+   "via": "drive"
+  }
  },
  "machines": [
   {
@@ -15,8 +27,8 @@
    "platform": "Colab",
    "role": "Encode utama \u2014 series Chef of Antarctica (antrean Colab)",
    "status": "live",
-   "status_label": "Mati",
-   "status_kind": "blocked"
+   "status_label": "Sibuk",
+   "status_kind": "busy"
   },
   {
    "account": "GitHub gucinggaminf-lab",
@@ -190,7 +202,7 @@
    "total_parts": 8
   },
   {
-   "detail": "5/25 episode selesai (E01 pilot + E02-E05 batch pertama, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini: staging batch [6,7,8,9] \u2014 E06+E07 sedang ditransfer dari Drive dan dibuat dataset Kaggle-nya via proses daemon terpisah (log: hidden_files/solo-series/stage_batch_6_7.log, state: hidden_files/solo-series/state.json); percobaan transfer E06 pertama terputus di 743 MB karena runtime restart, lalu diulang bersih via daemon. E08+E09 menyusul run berikutnya (maks 2 episode/run), baru kernel di-push. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0 di Mesin 5 (Kaggle).",
+   "detail": "5/25 episode selesai (E01 pilot + E02-E05 batch pertama, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini: staging batch [6,7,8,9] \u2014 daemon staging E06+E07 (PID 2513, log: hidden_files/solo-series/stage_batch_6_7.log) terverifikasi masih hidup dan sedang mentransfer sumber E06 dari Drive (\u00b1211 MB dari 915 MB per cek 16:17 WIB), lalu dataset-create E06 dan lanjut E07 otomatis. E08+E09 menyusul run berikutnya (maks 2 episode/run), baru kernel di-push. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0 di Mesin 5 (Kaggle).",
    "id": "solo-leveling-series",
    "job_dir": "Solo.Leveling.S01E06.1080p.WEB-DL",
    "kind": "encode",
