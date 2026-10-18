@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T17:27:53.341761+00:00",
+ "generated_at": "2026-10-18T17:30:21.813221+00:00",
  "session": {
   "alive": true,
-  "age_min": 220,
+  "age_min": 222,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -302,7 +302,7 @@
    "total_parts": 2
   },
   {
-   "detail": "Progres: 0/12 episode QC lulus, batch aktif batch1 (E01-E04), kernel stephanygerald/loner-life-encode RUNNING. Encode dual-codec di Mesin 1 (Kaggle, kernel batch 4 episode) dimulai 2026-10-18. Sumber BluRay REMUX CRUCiBLE 63,27 GB total (H.264 1920x1080 23.976 tanpa crop, audio FLAC 2.0 Jepang + Inggris = DUAL, 14 subtitle termasuk Bahasa Indonesia, 18 font attachment dipertahankan via -map 0:t). Ingest per episode pakai jalur upload terpecah: sesi Colab menarik file dari Drive dan PUT langsung ke storage Kaggle, byte tidak lewat VM. Batch 1 = E01-E04.",
+   "detail": "Progres: 4/12 episode QC lulus, batch1 (E01-E04) SELESAI & terupload ke Drive (AV1 282.764.295 / 258.525.929 / 265.615.412 / 302.694.384 byte; x264 308.992.684 / 277.560.595 / 297.113.830 / 323.814.876 byte; ukuran Drive == lokal, full decode bersih, durasi ~1421 dtk). QC stream vs SUMBER persis per episode (subs/attach E01 12/18, E02 11/13, E03 12/14, E04 12/16) terverifikasi ffprobe sumber di Drive \u2014 angka nominal 14 subs di catatan awal terbukti keliru (sumber E01 pun 12). Batch aktif berikutnya batch2 (E05-E08): E05 & E06 sudah staged ke dataset Kaggle (LONER_E05/E06_DATASET_OK 2026-10-19), E07-E08 menyusul run berikutnya, lalu kernel batch2 di-push. Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle, akun stephanygerald).",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
