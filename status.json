@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T05:14:16.241026+00:00",
+ "generated_at": "2026-10-18T05:16:41.042745+00:00",
  "session": {
   "alive": true,
-  "age_min": 22,
+  "age_min": 25,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -202,7 +202,7 @@
    "total_parts": 8
   },
   {
-   "detail": "13/25 episode selesai (E01 pilot + E02-E05 batch pertama + E06-E09 batch kedua + E10-E13 batch ketiga, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-18 11:45 WIB): kernel stephanygerald/solo-leveling-encode batch [14,15,16,17] masih RUNNING (KG_STATUS RUNNING) \u2014 encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 sedang berjalan, hasil dicek run berikutnya. Tidak ada episode baru selesai run ini.",
+   "detail": "13/25 episode selesai (E01 pilot + E02-E05 batch pertama + E06-E09 batch kedua + E10-E13 batch ketiga, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-18 12:15 WIB): kernel stephanygerald/solo-leveling-encode batch [14,15,16,17] masih RUNNING (KG_STATUS RUNNING) \u2014 encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 sedang berjalan, hasil dicek run berikutnya. Tidak ada episode baru selesai run ini.",
    "id": "solo-leveling-series",
    "job_dir": "Solo.Leveling.S01E14.1080p.WEB-DL",
    "kind": "encode",
