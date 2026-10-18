@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T13:06:54.943446+00:00",
+ "generated_at": "2026-10-18T13:09:24.402497+00:00",
  "session": {
   "alive": true,
-  "age_min": 0,
+  "age_min": 3,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -302,7 +302,7 @@
    "total_parts": 2
   },
   {
-   "detail": "Encode dual-codec di Mesin 1 (Kaggle, kernel batch 4 episode) dimulai 2026-10-18. Sumber BluRay REMUX CRUCiBLE 63,27 GB total (H.264 1920x1080 23.976 tanpa crop, audio FLAC 2.0 Jepang + Inggris = DUAL, 14 subtitle termasuk Bahasa Indonesia, 18 font attachment dipertahankan via -map 0:t). Ingest per episode pakai jalur upload terpecah: sesi Colab menarik file dari Drive dan PUT langsung ke storage Kaggle, byte tidak lewat VM. Batch 1 = E01-E04.",
+   "detail": "Progres: 0/12 episode QC lulus, batch aktif batch1 (E01-E04), kernel stephanygerald/loner-life-encode RUNNING. Encode dual-codec di Mesin 1 (Kaggle, kernel batch 4 episode) dimulai 2026-10-18. Sumber BluRay REMUX CRUCiBLE 63,27 GB total (H.264 1920x1080 23.976 tanpa crop, audio FLAC 2.0 Jepang + Inggris = DUAL, 14 subtitle termasuk Bahasa Indonesia, 18 font attachment dipertahankan via -map 0:t). Ingest per episode pakai jalur upload terpecah: sesi Colab menarik file dari Drive dan PUT langsung ke storage Kaggle, byte tidak lewat VM. Batch 1 = E01-E04.",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
