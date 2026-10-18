@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T20:37:09.657566+00:00",
+ "generated_at": "2026-10-18T20:39:38.869588+00:00",
  "session": {
   "alive": true,
   "age_min": null,
@@ -187,7 +187,7 @@
    "title": "Encode film: My Daughter Is a Zombie (2025) \u2014 AV1 + x264 + finishing N3X"
   },
   {
-   "detail": "4/25 selesai. Batch1 (S01E01\u2013E04) di Mesin 2 Kaggle (gucinggaminf/yuru-camp-encode v1) COMPLETE, QC lolos 8/8 file (AV1 yuv420p10le + Opus 2ch 0 sub; x264 yuv420p + AAC 2ch 0 sub; durasi 1440\u20131442 dtk, \u0394 AV1/x264 0,013 dtk; full decode bersih), terupload & terverifikasi ulang ukuran di Drive run 2026-10-19 03:00 WIB: AV1 E01 357403604, E02 325455674, E03 229999644, E04 353881848; x264 E01 416920843, E02 388864761, E03 334584808, E04 409801060 \u2014 semua persis sama lokal. Staging batch2: S01E05 & S01E06 dataset OK. Run 03:00 WIB: ingest S01E07 GAGAL di tahap PUT (hasil put tidak muncul sampai batas 25 menit, YURU_S01E07_PUT_FAILED) dan S01E08 gagal 2x di langkah upload tool ke sesi Colab (YURU_S01E08_UPLOAD_FAILED) \u2014 keduanya gangguan jalur Colab Mesin 5, BUKAN kegagalan item; retry run berikutnya, setelah lengkap baru push kernel batch2. Dataset batch1 (yuru-s01e01..e04) masuk datasets_deletable \u2014 penghapusan wewenang agen utama. Subtitle Jepang eksternal ditambahkan nanti di finishing, BUKAN di encode (hasil encode 0 sub). Mesin 6 Colab lama sudah pensiun untuk series ini.",
+   "detail": "4/25 selesai. Batch1 (S01E01\u2013E04) di Mesin 2 Kaggle (gucinggaminf/yuru-camp-encode v1) COMPLETE, QC lolos 8/8 file (AV1 yuv420p10le + Opus 2ch 0 sub; x264 yuv420p + AAC 2ch 0 sub; durasi 1440\u20131442 dtk, \u0394 AV1/x264 0,013 dtk; full decode bersih), terupload & terverifikasi ulang ukuran di Drive run 2026-10-19 03:00 WIB: AV1 E01 357403604, E02 325455674, E03 229999644, E04 353881848; x264 E01 416920843, E02 388864761, E03 334584808, E04 409801060 \u2014 semua persis sama lokal. Staging batch2: S01E05 & S01E06 dataset OK. Run 03:00 WIB: ingest S01E07 GAGAL di tahap PUT (hasil put tidak muncul sampai batas 25 menit, YURU_S01E07_PUT_FAILED) dan S01E08 gagal 2x di langkah upload tool ke sesi Colab (YURU_S01E08_UPLOAD_FAILED) \u2014 keduanya gangguan jalur Colab Mesin 5, BUKAN kegagalan item; retry run berikutnya, setelah lengkap baru push kernel batch2. Dataset batch1 (yuru-s01e01..e04) masuk datasets_deletable \u2014 penghapusan wewenang agen utama. Subtitle Jepang eksternal ditambahkan nanti di finishing, BUKAN di encode (hasil encode 0 sub). Mesin 6 Colab lama sudah pensiun untuk series ini. Run 03:30 WIB: retry ingest S01E07 & S01E08 keduanya GAGAL di tahap upload tool ke sesi Colab (YURU_S01E07_UPLOAD_FAILED, YURU_S01E08_UPLOAD_FAILED, rc upload=1); verifikasi primer: colab sessions masih listar sesi encode tapi healthcheck balas DEAD dan upload manual balas 500 Internal Server Error \u2014 sesi Colab Mesin 5 mati/rusak, BUKAN kegagalan item; tidak ada item ditandai failed, kernel tidak di-push (batch2 belum lengkap: staged tetap S01E05+S01E06), retry di run berikutnya.",
    "id": "yurucamp-series",
    "job_dir": "Yuru.Camp.S01E01.1080p.WEB-DL",
    "kind": "encode",
@@ -302,7 +302,7 @@
    "total_parts": 2
   },
   {
-   "detail": "Progres: 4/12 episode QC lulus, batch1 (E01-E04) SELESAI & terupload ke Drive (ukuran Drive == lokal, full decode bersih, durasi ~1421 dtk; QC stream vs SUMBER persis per episode: subs/attach E01 12/18, E02 11/13, E03 12/14, E04 12/16). Batch2 (E05-E08): keempat dataset staged ke Kaggle (E05 & E06 2026-10-19, E07 retry sukses + E08 sukses 2026-10-19 run 00:37, LONER_E07/E08_DATASET_OK, md5 put cocok). Kernel batch2 di-push (versi 2, EPS=[5,6,7,8], dataset e05-e08) dan status RUNNING per akhir run. Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle, akun stephanygerald). Cek 03:07 WIB: kernel masih RUNNING (batch2), belum ada hasil baru.",
+   "detail": "Progres: 4/12 episode QC lulus, batch1 (E01-E04) SELESAI & terupload ke Drive (ukuran Drive == lokal, full decode bersih, durasi ~1421 dtk; QC stream vs SUMBER persis per episode: subs/attach E01 12/18, E02 11/13, E03 12/14, E04 12/16). Batch2 (E05-E08): keempat dataset staged ke Kaggle (E05 & E06 2026-10-19, E07 retry sukses + E08 sukses 2026-10-19 run 00:37, LONER_E07/E08_DATASET_OK, md5 put cocok). Kernel batch2 di-push (versi 2, EPS=[5,6,7,8], dataset e05-e08) dan status RUNNING per akhir run. Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle, akun stephanygerald). Cek 03:37 WIB: kernel masih RUNNING (batch2), belum ada hasil baru.",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
