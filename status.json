@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T08:09:39.332013+00:00",
+ "generated_at": "2026-10-18T08:12:08.252341+00:00",
  "session": {
   "alive": true,
-  "age_min": 19,
+  "age_min": 21,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -202,9 +202,9 @@
    "total_parts": 8
   },
   {
-   "detail": "17/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-18 13:45 WIB): kernel batch [14,15,16,17] COMPLETE \u2014 E14-E17 QC independen lulus semua (AV1 yuv420p10le+Opus 2ch / x264 yuv420p+AAC 2ch, 1 video stream, 4 subtitle kedua versi, durasi selisih <0,02 dtk, decode penuh bersih), kedua versi tiap episode sudah diupload & terverifikasi ukurannya di folder Hasil Encode. Batch berikutnya [18,19,20,21] akan di-staging run berikutnya.",
+   "detail": "17/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-18 14:15 WIB): staging batch [18,19,20,21] \u2014 E18 dan E19 sudah staged ke Kaggle sebagai dataset (KG_DATASET_OK, ukuran lokal cocok Drive: E18 913402680 byte, E19 914129227 byte, file sumber lokal sudah dihapus). E20-E21 akan di-staging run berikutnya, lalu kernel batch di-push.",
    "id": "solo-leveling-series",
-   "job_dir": "Solo.Leveling.S01E18.1080p.WEB-DL",
+   "job_dir": "Solo.Leveling.S01E20.1080p.WEB-DL",
    "kind": "encode",
    "source": "Solo.Leveling.S01E##.1080p.NF.WEB-DL.AAC2.0.H.264-Haru \u2014 Solo Leveling S01 (25 eps), folder Drive Haru",
    "started_at": "2026-10-17T07:50:00+07:00",
