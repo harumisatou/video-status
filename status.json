@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T23:15:15.858919+00:00",
+ "generated_at": "2026-10-18T23:19:12.453304+00:00",
  "session": {
   "alive": true,
-  "age_min": 115,
+  "age_min": 119,
   "busy": false,
   "job": null
  },
@@ -201,7 +201,7 @@
    "total_parts": 8
   },
   {
-   "detail": "21/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17 + E18-E21, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-19 02:45 WIB): kernel batch terakhir [22,23,24,25] di Kaggle stephanygerald/solo-leveling-encode masih RUNNING (failureMessage null) \u2014 hasil dicek run berikutnya.",
+   "detail": "21/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17 + E18-E21, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-19 05:15 WIB): kernel batch terakhir [22,23,24,25] COMPLETE \u2014 kedelapan file hasil sudah terunduh lengkap di outputs/solo-batch (ukuran persis cocok log kernel, JANGAN unduh ulang), QC probe lulus semua, decode penuh sedang berjalan via daemon persisten (CPU VM jenuh malam ini) \u2014 hasil decode + upload dicek run berikutnya. Catatan lengkap: hidden_files/solo-series/qc_batch22_note.md",
    "id": "solo-leveling-series",
    "job_dir": "Solo.Leveling.S01E22.1080p.WEB-DL",
    "kind": "encode",
@@ -290,7 +290,7 @@
    "total_parts": 2
   },
   {
-   "detail": "Progres: 4/12 episode QC lulus, batch1 (E01-E04) SELESAI & terupload ke Drive (ukuran Drive == lokal, full decode bersih, durasi ~1421 dtk; QC stream vs SUMBER persis per episode: subs/attach E01 12/18, E02 11/13, E03 12/14, E04 12/16). Batch2 (E05-E08): keempat dataset staged ke Kaggle (E05 & E06 2026-10-19, E07 retry sukses + E08 sukses 2026-10-19 run 00:37, LONER_E07/E08_DATASET_OK, md5 put cocok). Kernel batch2 di-push (versi 2, EPS=[5,6,7,8], dataset e05-e08) dan status RUNNING per akhir run. Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle, akun stephanygerald). Cek 04:37 WIB: kernel masih RUNNING (batch2), belum ada hasil baru.",
+   "detail": "Progres: 4/12 episode QC lulus & terupload (batch1 E01-E04 selesai). Batch2 (E05-E08): kernel COMPLETE 2026-10-19; E05-E07 output ada (ukuran == log kernel) dan QC stream/durasi LULUS vs sumber per episode (E05 11sub/15att, E06 12/17, E07 12/6; durasi ~1421 dtk, diff <0,02 dtk) \u2014 tinggal gerbang full-decode yang masih berjalan (daemon decode_batch2.sh, file pertama E05 AV1, CPU VM bersaing dengan decode judul lain; decode E05 x264 menyusul). E08 gagal di kernel: SOURCE_NOT_FOUND, padahal sumber E08 terverifikasi ada di Drive (5.244.055.898 byte, 12 sub/13 att) \u2014 direncanakan push retry EPS=[8] saja setelah E05-E07 terupload, sebelum batch3 (E09-E12, belum staged). Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle).",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
