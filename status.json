@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T00:07:34.990850+00:00",
+ "generated_at": "2026-10-18T00:09:57.492811+00:00",
  "session": {
   "alive": true,
-  "age_min": 20,
+  "age_min": 22,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -126,7 +126,7 @@
    "master_cleaned_at": "2026-10-15T19:56:20.609829+00:00"
   },
   {
-   "detail": "11/14 episode selesai. Episode saat ini: Chef.of.Antarctica.S01E12.1080p.WEB-DL (run 2026-10-18 06:33 WIB: sesi encode hidup [encode terdaftar], proses series_queue/encode_job + queue_state.json hilang lagi \u2014 relaunch stage_series OK (encode_job.py 15098 + series_queue.py 3659 compile OK, disk free 92,4 GB) + start_queue QUEUE_LAUNCHED pid 10177; verifikasi queue_status SESUDAHNYA LULUS: proses 10177 python3 series_queue.py hidup, queue_state done [1-11], failed [], current 12, log skip E01-E11 hasil lengkap di Drive). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
+   "detail": "11/14 episode selesai. Episode saat ini: Chef.of.Antarctica.S01E12.1080p.WEB-DL (run 2026-10-18 07:03 WIB: sesi encode hidup [encode terdaftar], proses series_queue/encode_job + queue_state.json hilang lagi \u2014 relaunch stage_series OK (encode_job.py 15098 + series_queue.py 3659 compile OK, disk free 92,4 GB) + start_queue QUEUE_LAUNCHED pid 5337; verifikasi queue_status SESUDAHNYA LULUS: proses 5337 python3 series_queue.py + 5640 encode_job E12 hidup, queue_state done [1-11], failed [], current 12, stage split, log E12 9 segmen). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
    "id": "chef-antartika-series",
    "job_dir": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
    "kind": "encode",
@@ -202,9 +202,9 @@
    "total_parts": 8
   },
   {
-   "detail": "13/25 episode selesai (E01 pilot + E02-E05 batch pertama + E06-E09 batch kedua + E10-E13 batch ketiga, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-18 06:37 WIB): kernel batch10 COMPLETE \u2014 output E10-E13 diunduh, QC independen lulus semua (AV1 yuv420p10le/Opus 2ch, x264 yuv420p/AAC 2ch, 1 video stream, subtitle 4 per versi sama, selisih durasi <0,02 dtk, decode penuh bersih), ukuran Drive terverifikasi sama dengan lokal. Batch berikutnya [14,15,16,17] belum staged \u2014 staging mulai run berikutnya. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0.",
+   "detail": "13/25 episode selesai (E01 pilot + E02-E05 batch pertama + E06-E09 batch kedua + E10-E13 batch ketiga, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-18 06:15 WIB): staging batch berikutnya [14,15,16,17] \u2014 E14 (914.944.981 byte) dan E15 (915.928.165 byte) sudah diunduh dari Drive dengan ukuran cocok persis, dibuat dataset Kaggle stephanygerald/solo-e14 & solo-e15 (KG_DATASET_OK), sumber lokal dihapus. E16 & E17 belum staged \u2014 lanjut staging run berikutnya, kernel belum di-push untuk batch ini. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0.",
    "id": "solo-leveling-series",
-   "job_dir": "Solo.Leveling.S01E14.1080p.WEB-DL",
+   "job_dir": "Solo.Leveling.S01E16.1080p.WEB-DL",
    "kind": "encode",
    "source": "Solo.Leveling.S01E##.1080p.NF.WEB-DL.AAC2.0.H.264-Haru \u2014 Solo Leveling S01 (25 eps), folder Drive Haru",
    "started_at": "2026-10-17T07:50:00+07:00",
