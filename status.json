@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T17:00:08.273813+00:00",
+ "generated_at": "2026-10-18T17:02:57.620614+00:00",
  "session": {
   "alive": true,
-  "age_min": 192,
+  "age_min": 195,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -213,9 +213,9 @@
    "total_parts": 8
   },
   {
-   "detail": "21/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17 + E18-E21, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-18 23:15 WIB): staging batch terakhir [22,23,24,25] \u2014 E22, E23, dan E24 (914.083.735 byte, cocok Drive) sudah staged sebagai dataset Kaggle stephanygerald/solo-e22, solo-e23 & solo-e24 (KG_DATASET_OK, sumber lokal dihapus). Tersisa E25 di-staging run ini, lalu push kernel batch22 bila E25 staged.",
+   "detail": "21/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17 + E18-E21, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-18 23:15 WIB): staging batch terakhir [22,23,24,25] TUNTAS \u2014 E24 (914.083.735 byte, cocok Drive) dan E25 (914.958.960 byte, cocok Drive) staged sebagai dataset Kaggle stephanygerald/solo-e24 & solo-e25 (KG_DATASET_OK, sumber lokal dihapus); E22 & E23 sudah staged sebelumnya. Kernel stephanygerald/solo-leveling-encode versi 7 di-push dengan EPS=[22,23,24,25], status terverifikasi RUNNING (failureMessage null) \u2014 hasil dicek run berikutnya.",
    "id": "solo-leveling-series",
-   "job_dir": "Solo.Leveling.S01E25.1080p.WEB-DL",
+   "job_dir": "Solo.Leveling.S01E22.1080p.WEB-DL",
    "kind": "encode",
    "source": "Solo.Leveling.S01E##.1080p.NF.WEB-DL.AAC2.0.H.264-Haru \u2014 Solo Leveling S01 (25 eps), folder Drive Haru",
    "started_at": "2026-10-17T07:50:00+07:00",
