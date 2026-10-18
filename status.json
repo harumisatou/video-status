@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T20:10:21.627257+00:00",
+ "generated_at": "2026-10-18T20:12:43.987406+00:00",
  "session": {
   "alive": true,
   "age_min": null,
@@ -187,7 +187,7 @@
    "title": "Encode film: My Daughter Is a Zombie (2025) \u2014 AV1 + x264 + finishing N3X"
   },
   {
-   "detail": "4/25 selesai. Batch1 (S01E01\u2013E04) di Mesin 2 Kaggle (gucinggaminf/yuru-camp-encode v1) COMPLETE, QC lolos 8/8 file (AV1 yuv420p10le + Opus 2ch 0 sub; x264 yuv420p + AAC 2ch 0 sub; durasi 1440\u20131442 dtk, \u0394 AV1/x264 0,013 dtk; full decode bersih), terupload & terverifikasi ukuran di Drive: folder Yuru.Camp.S01.1080p.WEB-DL.Opus2.0.AV1-N3X (E01 357403604, E02 325455674, E03 229999644, E04 353881848) dan Yuru.Camp.S01.1080p.WEB-DL.AAC2.0.x264-N3X (E01 416920843, E02 388864761, E03 334584808, E04 409801060). Staging batch2 berjalan: S01E05 dataset OK; S01E06 menyusul (maks 2 item/run), lalu push kernel batch2. Dataset batch1 (yuru-s01e01..e04) masuk datasets_deletable \u2014 penghapusan wewenang agen utama. Subtitle Jepang eksternal ditambahkan nanti di finishing, BUKAN di encode (hasil encode 0 sub). Mesin 6 Colab lama sudah pensiun untuk series ini.",
+   "detail": "4/25 selesai. Batch1 (S01E01\u2013E04) di Mesin 2 Kaggle (gucinggaminf/yuru-camp-encode v1) COMPLETE, QC lolos 8/8 file (AV1 yuv420p10le + Opus 2ch 0 sub; x264 yuv420p + AAC 2ch 0 sub; durasi 1440\u20131442 dtk, \u0394 AV1/x264 0,013 dtk; full decode bersih), terupload & terverifikasi ulang ukuran di Drive run 2026-10-19 03:00 WIB: AV1 E01 357403604, E02 325455674, E03 229999644, E04 353881848; x264 E01 416920843, E02 388864761, E03 334584808, E04 409801060 \u2014 semua persis sama lokal. Staging batch2: S01E05, S01E06, S01E07 dataset OK (E07 run ini, YURU_S01E07_DATASET_OK); S01E08 gagal di langkah upload tool ke sesi Colab Mesin 5 (YURU_S01E08_UPLOAD_FAILED x2, bukan kegagalan item) \u2014 retry run berikutnya, setelah itu push kernel batch2. Dataset batch1 (yuru-s01e01..e04) masuk datasets_deletable \u2014 penghapusan wewenang agen utama. Subtitle Jepang eksternal ditambahkan nanti di finishing, BUKAN di encode (hasil encode 0 sub). Mesin 6 Colab lama sudah pensiun untuk series ini.",
    "id": "yurucamp-series",
    "job_dir": "Yuru.Camp.S01E01.1080p.WEB-DL",
    "kind": "encode",
