@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T03:14:06.669163+00:00",
+ "generated_at": "2026-10-18T03:17:16.860587+00:00",
  "session": {
   "alive": true,
-  "age_min": 24,
+  "age_min": 28,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -126,7 +126,7 @@
    "master_cleaned_at": "2026-10-15T19:56:20.609829+00:00"
   },
   {
-   "detail": "11/14 episode selesai. Episode saat ini: Chef.of.Antarctica.S01E12.1080p.WEB-DL (run 2026-10-18 10:03 WIB: Drive AV1 E01-E12 dan x264 E01-E11, jadi tidak ada episode baru komplet untuk QC \u2014 reported tetap 1-11; sesi encode hidup [encode terdaftar], tapi proses series_queue/encode_job + queue_state.json hilang lagi \u2014 relaunch stage_series OK (encode_job.py 15098 + series_queue.py 3659 compile OK, disk free 92,4 GB) + start_queue QUEUE_LAUNCHED pid 7369; verifikasi queue_status: proses 7369 series_queue.py + 7817 encode_job.py E12 hidup, queue_state done [1-11], failed [], current 12, JOB stage split, log menunjukkan E01-E11 'hasil lengkap di Drive \u2014 skip' dan E12 pull rc=0, encode mulai 03:10:16 UTC). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
+   "detail": "11/14 episode selesai. Episode saat ini: Chef.of.Antarctica.S01E12.1080p.WEB-DL",
    "id": "chef-antartika-series",
    "job_dir": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
    "kind": "encode",
@@ -202,7 +202,7 @@
    "total_parts": 8
   },
   {
-   "detail": "13/25 episode selesai (E01 pilot + E02-E05 batch pertama + E06-E09 batch kedua + E10-E13 batch ketiga, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-18 09:45 WIB): kernel stephanygerald/solo-leveling-encode batch [14,15,16,17] masih RUNNING (KG_STATUS RUNNING) \u2014 encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 sedang berjalan, hasil dicek run berikutnya. Tidak ada episode baru selesai run ini.",
+   "detail": "13/25 episode selesai (E01 pilot + E02-E05 batch pertama + E06-E09 batch kedua + E10-E13 batch ketiga, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-18 10:15 WIB): kernel stephanygerald/solo-leveling-encode batch [14,15,16,17] masih RUNNING (KG_STATUS RUNNING) \u2014 encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 sedang berjalan, hasil dicek run berikutnya. Tidak ada episode baru selesai run ini.",
    "id": "solo-leveling-series",
    "job_dir": "Solo.Leveling.S01E14.1080p.WEB-DL",
    "kind": "encode",
