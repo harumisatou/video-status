@@ -1,10 +1,22 @@
 {
- "generated_at": "2026-10-18T18:09:22.692762+00:00",
+ "generated_at": "2026-10-18T18:11:51.613540+00:00",
  "session": {
-  "alive": false,
-  "age_min": 31,
-  "busy": false,
-  "job": null
+  "alive": true,
+  "age_min": 1,
+  "busy": true,
+  "job": {
+   "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
+   "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.mkv",
+   "stage": "encode",
+   "codec": "av1",
+   "codecs": [
+    "av1",
+    "h264"
+   ],
+   "seg": 10,
+   "total": 10,
+   "via": "drive"
+  }
  },
  "machines": [
   {
@@ -59,8 +71,8 @@
    "role": "Colab serbaguna \u2014 finishing, Transfer.it, putter dataset Kaggle",
    "status": "live",
    "detail": "Sesi encode Colab langsung; detail job-nya ada di kartu tugas masing-masing. Swap 2026-10-16: encode pindah ke akun Pro Stephany (units lagi 0 \u2014 kelas free sampai refill langganan), HaruBot pindah ke akun Nama Saya. 2026-10-18 malam: sisa Chef (E12\u2013E14) DIPINDAH ke Mesin 2 (Kaggle) karena antrean Colab tidak kunjung tuntas. (Nomor lama: Mesin 1.)",
-   "status_label": "Mati",
-   "status_kind": "blocked"
+   "status_label": "Sibuk",
+   "status_kind": "busy"
   },
   {
    "id": "mesin6",
@@ -290,7 +302,7 @@
    "total_parts": 2
   },
   {
-   "detail": "Progres: 4/12 episode QC lulus, batch1 (E01-E04) SELESAI & terupload ke Drive (ukuran Drive == lokal, full decode bersih, durasi ~1421 dtk; QC stream vs SUMBER persis per episode: subs/attach E01 12/18, E02 11/13, E03 12/14, E04 12/16). Batch2 (E05-E08): E05 & E06 sudah staged ke dataset Kaggle (LONER_E05/E06_DATASET_OK 2026-10-19). Ingest E07 terputus 2026-10-19 dini hari: sesi Colab encode ter-recycle di tengah upload blob (putter mati, hasil tidak muncul) \u2014 E07 belum staged, retry di run babysitter berikutnya, lalu E08, lalu kernel batch2 di-push. Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle, akun stephanygerald), status terakhir COMPLETE (batch1).",
+   "detail": "Progres: 4/12 episode QC lulus, batch1 (E01-E04) SELESAI & terupload ke Drive (ukuran Drive == lokal, full decode bersih, durasi ~1421 dtk; QC stream vs SUMBER persis per episode: subs/attach E01 12/18, E02 11/13, E03 12/14, E04 12/16). Batch2 (E05-E08): keempat dataset staged ke Kaggle (E05 & E06 2026-10-19, E07 retry sukses + E08 sukses 2026-10-19 run 00:37, LONER_E07/E08_DATASET_OK, md5 put cocok). Kernel batch2 di-push (versi 2, EPS=[5,6,7,8], dataset e05-e08) dan status RUNNING per akhir run. Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle, akun stephanygerald).",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
