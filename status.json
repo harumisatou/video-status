@@ -1,10 +1,22 @@
 {
- "generated_at": "2026-10-18T10:45:12.653915+00:00",
+ "generated_at": "2026-10-18T10:47:41.417190+00:00",
  "session": {
-  "alive": false,
-  "age_min": 25,
-  "busy": false,
-  "job": null
+  "alive": true,
+  "age_min": 0,
+  "busy": true,
+  "job": {
+   "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
+   "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.mkv",
+   "stage": "encode",
+   "codec": "av1",
+   "codecs": [
+    "av1",
+    "h264"
+   ],
+   "seg": 10,
+   "total": 10,
+   "via": "drive"
+  }
  },
  "machines": [
   {
@@ -15,8 +27,8 @@
    "platform": "Colab",
    "role": "Encode utama \u2014 series Chef of Antarctica (antrean Colab)",
    "status": "live",
-   "status_label": "Mati",
-   "status_kind": "blocked"
+   "status_label": "Sibuk",
+   "status_kind": "busy"
   },
   {
    "account": "GitHub gucinggaminf-lab",
@@ -190,7 +202,7 @@
    "total_parts": 8
   },
   {
-   "detail": "17/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-18 17:15 WIB): kernel Kaggle stephanygerald/solo-leveling-encode batch [18,19,20,21] masih RUNNING (push 15:40 WIB, KG_STATUS RUNNING failureMessage null) \u2014 hasil dicek run berikutnya.",
+   "detail": "17/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-18 17:45 WIB): kernel Kaggle stephanygerald/solo-leveling-encode batch [18,19,20,21] masih RUNNING (push 15:40 WIB, KG_STATUS RUNNING failureMessage null) \u2014 hasil dicek run berikutnya.",
    "id": "solo-leveling-series",
    "job_dir": "Solo.Leveling.S01E18.1080p.WEB-DL",
    "kind": "encode",
