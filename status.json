@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T23:41:51.220455+00:00",
+ "generated_at": "2026-10-18T23:45:46.967506+00:00",
  "session": {
   "alive": true,
-  "age_min": 141,
+  "age_min": 145,
   "busy": false,
   "job": null
  },
@@ -290,7 +290,7 @@
    "total_parts": 2
   },
   {
-   "detail": "Progres: 4/12 episode QC lulus & terupload (batch1 E01-E04 selesai). Batch2 (E05-E08): kernel COMPLETE 2026-10-19; E05-E07 output ada (ukuran == log kernel) dan QC stream/durasi LULUS vs sumber per episode (E05 11sub/15att, E06 12/17, E07 12/6; durasi ~1421 dtk, diff <0,02 dtk) \u2014 tinggal gerbang full-decode yang masih berjalan (daemon decode_batch2.sh, file pertama E05 AV1, CPU VM bersaing dengan decode judul lain; decode E05 x264 menyusul). E08 gagal di kernel: SOURCE_NOT_FOUND, padahal sumber E08 terverifikasi ada di Drive (5.244.055.898 byte, 12 sub/13 att) \u2014 direncanakan push retry EPS=[8] saja setelah E05-E07 terupload, sebelum batch3 (E09-E12, belum staged). Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle).",
+   "detail": "Progres: 4/12 episode QC lulus & terupload (batch1 E01-E04 selesai). Batch2 (E05-E08): kernel COMPLETE; E05-E07 lolos QC stream/durasi vs sumber per episode (E05 11sub/15att, E06 12/17, E07 12/6; durasi ~1421 dtk, diff <0,02 dtk) dan full-decode E05 AV1 sudah LULUS (rc=0, nol error) \u2014 full-decode sisanya (E06 x264/AV1, E07 x264/AV1, E05 x264) sedang berjalan via daemon berurutan (CPU VM berbagi dengan decode judul lain), upload E05-E07 menyusul setelah semua decode lulus. E08 gagal di kernel: SOURCE_NOT_FOUND, padahal sumber E08 terverifikasi ada di Drive (5.244.055.898 byte, 12 sub/13 att) \u2014 direncanakan push retry EPS=[8] saja setelah E05-E07 terupload, sebelum batch3 (E09-E12, belum staged). Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle).",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
