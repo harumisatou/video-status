@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T01:06:55.269542+00:00",
+ "generated_at": "2026-10-18T01:09:26.824090+00:00",
  "session": {
   "alive": true,
-  "age_min": 16,
+  "age_min": 19,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -126,7 +126,7 @@
    "master_cleaned_at": "2026-10-15T19:56:20.609829+00:00"
   },
   {
-   "detail": "11/14 episode selesai. Episode saat ini: Chef.of.Antarctica.S01E12.1080p.WEB-DL (run 2026-10-18 07:33 WIB: Drive AV1 E01-E12 ada tapi x264 baru E01-E11, jadi E12 belum komplet dan tidak ada episode baru untuk QC; sesi encode hidup [encode terdaftar], tapi proses series_queue/encode_job + queue_state.json hilang lagi \u2014 relaunch stage_series OK (encode_job.py 15098 + series_queue.py 3659 compile OK, disk free 92,4 GB) + start_queue QUEUE_LAUNCHED pid 9282; verifikasi queue_status: proses 9282 python3 series_queue.py hidup, queue_state done sementara [1-6] hasil skip Drive, failed [], log menunjukkan E01-E06 'hasil lengkap di Drive \u2014 skip' dan antrean lanjut menyapu menuju E12). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
+   "detail": "11/14 episode selesai. Episode saat ini: Chef.of.Antarctica.S01E12.1080p.WEB-DL (run 2026-10-18 08:03 WIB: Drive AV1 E01-E11 dan x264 E01-E11, jadi tidak ada episode baru komplet untuk QC \u2014 reported tetap 1-11; sesi encode hidup [encode terdaftar], tapi proses series_queue/encode_job + queue_state.json hilang lagi \u2014 relaunch stage_series OK (encode_job.py 15098 + series_queue.py 3659 compile OK, disk free 92,4 GB) + start_queue QUEUE_LAUNCHED pid 4729; verifikasi queue_status: proses 4729 python3 series_queue.py hidup, queue_state done sementara [1-5] hasil skip Drive, failed [], log menunjukkan E01-E05 'hasil lengkap di Drive \u2014 skip' dan antrean lanjut menyapu menuju E12). Antrean series 14 episode dual-mode (AV1+Opus / x264+AAC) dari sumber VIU WEB-DL 1080p. Hasil per episode masuk folder per codec: 'Chef.of.Antarctica.S01.1080p.WEB-DL.Opus2.0.AV1-N3X' dan 'Chef.of.Antarctica.S01.1080p.WEB-DL.AAC2.0.x264-N3X' di Hasil Encode.",
    "id": "chef-antartika-series",
    "job_dir": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
    "kind": "encode",
