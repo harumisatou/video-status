@@ -1,22 +1,34 @@
 {
- "generated_at": "2026-10-18T12:47:10.364137+00:00",
+ "generated_at": "2026-10-18T12:49:41.918023+00:00",
  "session": {
-  "alive": false,
-  "age_min": 22,
-  "busy": false,
-  "job": null
+  "alive": true,
+  "age_min": 0,
+  "busy": true,
+  "job": {
+   "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
+   "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.mkv",
+   "stage": "encode",
+   "codec": "av1",
+   "codecs": [
+    "av1",
+    "h264"
+   ],
+   "seg": 10,
+   "total": 10,
+   "via": "drive"
+  }
  },
  "machines": [
   {
    "account": "Stephany Gerald (stephanygerald9@gmail.com) \u2014 swap akun 2026-10-16 (sebelumnya HaruBot)",
-   "detail": "Status ngikutin sesi encode Colab langsung; detail job-nya ada di kartu Mesin 1 di bawah. Swap 2026-10-16: encode pindah ke akun Pro Stephany (units lagi 0 \u2014 kelas free sampai refill langganan), HaruBot pindah ke akun Nama Saya. Sesi encode provision ulang + antrean Chef relaunch terverifikasi 07:32 WIB.",
+   "detail": "Status ngikutin sesi encode Colab langsung; detail job-nya ada di kartu Mesin 1 di bawah. Swap 2026-10-16: encode pindah ke akun Pro Stephany (units lagi 0 \u2014 kelas free sampai refill langganan), HaruBot pindah ke akun Nama Saya. Sesi encode provision ulang + antrean Chef relaunch terverifikasi 07:32 WIB. 2026-10-18 malam: sisa Chef (E12\u2013E14) DIPINDAH ke Mesin 6 (Kaggle) karena antrean Colab tidak kunjung tuntas; antrean Colab dihentikan.",
    "id": "mesin1",
    "name": "Mesin 1",
    "platform": "Colab",
-   "role": "Encode utama \u2014 series Chef of Antarctica (antrean Colab)",
+   "role": "Encode utama Colab \u2014 sesi serbaguna (finishing, Transfer.it, putter dataset Kaggle)",
    "status": "live",
-   "status_label": "Mati",
-   "status_kind": "blocked"
+   "status_label": "Sibuk",
+   "status_kind": "busy"
   },
   {
    "account": "GitHub gucinggaminf-lab",
@@ -31,14 +43,14 @@
   },
   {
    "account": "Arif (akun Google nganggur, profil CLI terauth 2026-10-15)",
-   "detail": "Sesi encode3 terbukti stabil (3 jam+; holder SSH menempel sejak awal). Antrean Yuru Camp\u25b3 jalan sejak 2026-10-15 12:15 WIB, dual-codec per episode, diawasi cron yurucamp-babysitter.",
+   "detail": "OAuth sesi encode3 MATI sejak 2026-10-17 21:57 (butuh login ulang dari Haru). Keputusan 2026-10-18: Yuru Camp\u25b3 TIDAK dilanjutkan di sini \u2014 dipindah ke Mesin 6 (Kaggle akun gucinggaminf); Mesin 3 pensiun untuk encode.",
    "id": "mesin3",
    "name": "Mesin 3",
    "platform": "Colab",
    "role": "Encode series Yuru Camp\u25b3 \u2014 2 season + 1 SP (25 file, long-run)",
-   "status": "busy",
-   "status_label": "Sibuk \u2014 Yuru Camp\u25b3 S1+S2+SP",
-   "status_kind": "busy"
+   "status": "blocked",
+   "status_label": "Berhenti \u2014 OAuth mati, Yuru Camp\u25b3 pindah ke Mesin 6",
+   "status_kind": "blocked"
   },
   {
    "account": "GitHub nama64034-commits",
@@ -57,9 +69,20 @@
    "id": "mesin5",
    "name": "Mesin 5",
    "platform": "Kaggle",
-   "role": "Lane batch \u2014 Solo Leveling S01 (25 eps) berjalan; film bisa jalan sebagai kernel terpisah barengan",
+   "role": "Lane batch \u2014 Solo Leveling S01 (25 eps) + Loner Life in Another World S01 (12 eps REMUX) berjalan",
    "status": "busy",
-   "status_label": "Sibuk \u2014 Solo Leveling S01 (batch)",
+   "status_label": "Sibuk \u2014 Solo Leveling + Loner Life (batch)",
+   "status_kind": "busy"
+  },
+  {
+   "account": "gucinggaminf (username Kaggle: gucinggaminf) \u2014 akun Kaggle BARU dibuat Haru 2026-10-18",
+   "detail": "Resmi jadi Mesin 6 pada 2026-10-18 malam: token API terverifikasi (ListKernels 200), dataset ffmpeg terpasang, kernel probe COMPLETE. Kuota CPU mingguan per akun terpisah dari Mesin 5 \u2192 armada Kaggle kini 2 akun paralel. Tugas pertama: menuntaskan Chef of Antarctica E12\u2013E14 (pindahan dari Mesin 1); berikutnya antrean Yuru Camp\u25b3 (pindahan dari Mesin 3).",
+   "id": "mesin6",
+   "name": "Mesin 6",
+   "platform": "Kaggle",
+   "role": "Lane limpahan Colab \u2014 Chef E12\u2013E14 (berjalan), lalu Yuru Camp\u25b3 25 item",
+   "status": "busy",
+   "status_label": "Sibuk \u2014 Chef of Antarctica E12\u2013E14",
    "status_kind": "busy"
   }
  ],
