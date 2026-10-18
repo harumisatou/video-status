@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T17:52:28.627742+00:00",
+ "generated_at": "2026-10-18T17:57:05.588522+00:00",
  "session": {
   "alive": true,
-  "age_min": 14,
+  "age_min": 18,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -302,7 +302,7 @@
    "total_parts": 2
   },
   {
-   "detail": "Progres: 4/12 episode QC lulus, batch1 (E01-E04) SELESAI & terupload ke Drive (AV1 282.764.295 / 258.525.929 / 265.615.412 / 302.694.384 byte; x264 308.992.684 / 277.560.595 / 297.113.830 / 323.814.876 byte; ukuran Drive == lokal, full decode bersih, durasi ~1421 dtk). QC stream vs SUMBER persis per episode (subs/attach E01 12/18, E02 11/13, E03 12/14, E04 12/16) terverifikasi ffprobe sumber di Drive \u2014 angka nominal 14 subs di catatan awal terbukti keliru (sumber E01 pun 12). Batch aktif berikutnya batch2 (E05-E08): E05 & E06 sudah staged ke dataset Kaggle (LONER_E05/E06_DATASET_OK 2026-10-19), E07-E08 menyusul run berikutnya, lalu kernel batch2 di-push. Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle, akun stephanygerald).",
+   "detail": "Progres: 4/12 episode QC lulus, batch1 (E01-E04) SELESAI & terupload ke Drive (ukuran Drive == lokal, full decode bersih, durasi ~1421 dtk; QC stream vs SUMBER persis per episode: subs/attach E01 12/18, E02 11/13, E03 12/14, E04 12/16). Batch2 (E05-E08): E05 & E06 sudah staged ke dataset Kaggle (LONER_E05/E06_DATASET_OK 2026-10-19). Ingest E07 terputus 2026-10-19 dini hari: sesi Colab encode ter-recycle di tengah upload blob (putter mati, hasil tidak muncul) \u2014 E07 belum staged, retry di run babysitter berikutnya, lalu E08, lalu kernel batch2 di-push. Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle, akun stephanygerald), status terakhir COMPLETE (batch1).",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
