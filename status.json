@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T05:33:07.365301+00:00",
+ "generated_at": "2026-10-18T05:35:40.845013+00:00",
  "session": {
   "alive": true,
-  "age_min": 10,
+  "age_min": 12,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -216,30 +216,42 @@
    "progress_pct": 0.0
   },
   {
-   "detail": "SELESAI 2026-10-18: dua kernel paralel Mesin 5 COMPLETE (AV1 48 mnt, x264 2 jam), QC independen LULUS PENUH keduanya (probe codec/1920x804/4 audio/2 sub PGS sesuai sumber, durasi selisih 0,001 dtk, decode penuh bersih). Hasil di Video Editor/Hasil Encode/: AV1 Opus5.1 798.370.498 byte (id 1JNrtYRvRbycOVfEop1m-KvdrTqhi6T0w), x264 AAC5.1 1.035.220.222 byte (id 1ZIwxL1pVIE4UI1e-dtwJtZgYZb93BuGz). Dari REMUX 19,98 GB jadi 0,80/1,04 GB. Finishing N3X (cover + mux sub Indo Kudalumping + metadata + katb + Transfer.it + bot) menyusul atas aba-aba Haru.",
+   "cover": "https://raw.githubusercontent.com/harumisatou/video-status/main/covers/spermageddon.jpg",
+   "detail": "Encode dual-codec di Mesin 5 (Kaggle, dua kernel paralel) + finishing N3X SELESAI, verifikasi LULUS PENUH (semua stream sumber identik bit di file jadi, durasi delta 0,0 dtk, sub Indo default terverifikasi). Sumber REMUX 19,98 GB dicrop ke scope 1920x804 sesuai aturan N3X (cropdetect 1920:804:0:138). Finishing: metadata N3X (TMDB movie/1064307, IMDB tt14828040, Writing application N3X 2.0), cover template N3X dari poster teatrikal resmi, nama pola N3X, plus subtitle Indonesia dari SubSource (uploader Kudalumping, sync target persis rilis sumber) dimux sebagai subtitle default 'Bahasa Indonesia' \u2014 cek korelasi timing vs track PGS Norwegia memberi skor 0,975 dengan koreksi -300 ms yang diterapkan saat mux. File jadi tersimpan privat \u2014 link tidak ditampilkan di sini.",
+   "finished_at": "2026-10-18T12:35:00+07:00",
    "id": "spermageddon-movie",
-   "job_dir": "Spermageddon.2024.1080p.BluRay",
    "kind": "encode",
-   "source": "Spermageddon.2024.NORDiC.1080p.REMUX.BluRay.AVC.DD5.1-VideoGod \u2014 REMUX BluRay 1080p (audio Nordik MULTi), via BuzzHeavier",
+   "mediainfo": [
+    {
+     "katb": "https://katb.in/decomusasav",
+     "label": "MediaInfo \u2014 AV1",
+     "url": "https://raw.githubusercontent.com/harumisatou/video-status/main/mediainfo/spermageddon-av1.txt"
+    },
+    {
+     "katb": "https://katb.in/oyanaqojape",
+     "label": "MediaInfo \u2014 x264",
+     "url": "https://raw.githubusercontent.com/harumisatou/video-status/main/mediainfo/spermageddon-x264.txt"
+    }
+   ],
+   "results": [
+    {
+     "name": "Spermageddon.2024.1080p.BluRay.AV1.10bit.Opus.5.1-N3X.mkv",
+     "size": 775178065
+    },
+    {
+     "name": "Spermageddon.2024.1080p.BluRay.x264.AAC.5.1-N3X.mkv",
+     "size": 1012284054
+    }
+   ],
+   "results_exclude": [
+    "Spermageddon.2024.1080p.BluRay.MULTi.Opus5.1.AV1-N3X.mkv",
+    "Spermageddon.2024.1080p.BluRay.MULTi.AAC5.1.x264-N3X.mkv"
+   ],
+   "source": "Spermageddon.2024.NORDiC.1080p.REMUX.BluRay.AVC.DD5.1-VideoGod.mkv (19,98 GB, BluRay REMUX 1080p, audio Nordik MULTi 4x AC-3 5.1, via BuzzHeavier)",
    "started_at": "2026-10-18T00:57:00+07:00",
    "status": "done",
-   "title": "Encode film: Spermageddon (2024) REMUX \u2014 AV1 + x264",
-   "total_parts": 2,
-   "finished_at": "2026-10-18T04:05:00+07:00"
+   "title": "Encode film: Spermageddon (2024) REMUX \u2014 AV1 + x264 + finishing N3X"
   }
  ],
- "results": [
-  {
-   "name": "Spermageddon.2024.1080p.BluRay.MULTi.AAC5.1.x264-N3X.mkv",
-   "size": 1035220222,
-   "modified": "2026-10-17T20:49:05.871Z",
-   "link": "https://drive.google.com/open?id=1ZIwxL1pVIE4UI1e-dtwJtZgYZb93BuGz"
-  },
-  {
-   "name": "Spermageddon.2024.1080p.BluRay.MULTi.Opus5.1.AV1-N3X.mkv",
-   "size": 798370498,
-   "modified": "2026-10-17T20:02:08.150Z",
-   "link": "https://drive.google.com/open?id=1JNrtYRvRbycOVfEop1m-KvdrTqhi6T0w"
-  }
- ]
+ "results": []
 }
