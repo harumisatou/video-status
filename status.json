@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T06:32:17.916734+00:00",
+ "generated_at": "2026-10-18T06:34:49.730366+00:00",
  "session": {
   "alive": true,
-  "age_min": 12,
+  "age_min": 15,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -251,6 +251,20 @@
    "started_at": "2026-10-18T00:57:00+07:00",
    "status": "done",
    "title": "Encode film: Spermageddon (2024) REMUX \u2014 AV1 + x264 + finishing N3X"
+  },
+  {
+   "detail": "Encode dual-codec di Mesin 5 (Kaggle, dua kernel paralel stephanygerald/oshi-movie-encode-av1 & oshi-movie-encode-x264) dimulai 2026-10-18 13:35 WIB. Sumber AMZN WEB-DL ATMOS 4,62 GB (HEVC 1920x800 scope native TANPA crop, audio DD+ 5.1 Jepang, 17 subtitle termasuk Bahasa Indonesia). Dataset dibuat via jalur upload TERPECAH baru: VM hanya initiate+finalize API, sesi Colab menarik file dari Drive dan PUT langsung ke storage Kaggle (4,62 GB dalam 41 detik) \u2014 byte tidak lewat VM. Kernel RUNNING; QC independen + upload hasil ke Hasil Encode menyusul saat COMPLETE.",
+   "id": "oshi-final-act-movie",
+   "job_dir": "Oshi.No.Ko.The.Final.Act.2024.1080p.WEB-DL",
+   "kind": "encode",
+   "source": "Oshi.No.Ko.The.Final.Act.2024.1080p.AMZN.WEB-DL.DDP5.1.H.265-ATMOS.mkv (4,62 GB, AMZN WEB-DL 1080p HEVC, DD+ 5.1 Jepang, 17 subtitle)",
+   "started_at": "2026-10-18T13:35:00+07:00",
+   "status": "running",
+   "title": "Encode film: Oshi no Ko The Final Act (2024) \u2014 AV1 + x264",
+   "total_parts": 2,
+   "parts_done": 0,
+   "parts_total": 2,
+   "progress_pct": 0.0
   }
  ],
  "results": []
