@@ -1,10 +1,22 @@
 {
- "generated_at": "2026-10-18T11:17:04.633499+00:00",
+ "generated_at": "2026-10-18T11:19:34.214157+00:00",
  "session": {
-  "alive": false,
-  "age_min": 14,
-  "busy": false,
-  "job": null
+  "alive": true,
+  "age_min": null,
+  "busy": true,
+  "job": {
+   "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
+   "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.mkv",
+   "stage": "encode",
+   "codec": "av1",
+   "codecs": [
+    "av1",
+    "h264"
+   ],
+   "seg": 10,
+   "total": 10,
+   "via": "drive"
+  }
  },
  "machines": [
   {
@@ -15,8 +27,8 @@
    "platform": "Colab",
    "role": "Encode utama \u2014 series Chef of Antarctica (antrean Colab)",
    "status": "live",
-   "status_label": "Mati",
-   "status_kind": "blocked"
+   "status_label": "Sibuk",
+   "status_kind": "busy"
   },
   {
    "account": "GitHub gucinggaminf-lab",
