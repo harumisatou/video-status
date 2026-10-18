@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T10:02:39.054160+00:00",
+ "generated_at": "2026-10-18T10:07:08.585784+00:00",
  "session": {
   "alive": true,
-  "age_min": 10,
+  "age_min": 14,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -267,5 +267,12 @@
    "progress_pct": 0.0
   }
  ],
- "results": []
+ "results": [
+  {
+   "name": "Oshi.No.Ko.The.Final.Act.2024.1080p.WEB-DL.Opus5.1.AV1-N3X.mkv",
+   "size": 1154501640,
+   "modified": "2026-10-18T09:40:58.448Z",
+   "link": "https://drive.google.com/open?id=1xlAcLaUm3mqxFRhpC5nC4Da6XkqGpQre"
+  }
+ ]
 }
