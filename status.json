@@ -1,10 +1,22 @@
 {
- "generated_at": "2026-10-18T00:48:16.639167+00:00",
+ "generated_at": "2026-10-18T00:50:57.444947+00:00",
  "session": {
-  "alive": false,
-  "age_min": 29,
-  "busy": false,
-  "job": null
+  "alive": true,
+  "age_min": 0,
+  "busy": true,
+  "job": {
+   "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
+   "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.mkv",
+   "stage": "encode",
+   "codec": "av1",
+   "codecs": [
+    "av1",
+    "h264"
+   ],
+   "seg": 10,
+   "total": 10,
+   "via": "drive"
+  }
  },
  "machines": [
   {
@@ -15,8 +27,8 @@
    "platform": "Colab",
    "role": "Encode utama \u2014 series Chef of Antarctica (antrean Colab)",
    "status": "live",
-   "status_label": "Mati",
-   "status_kind": "blocked"
+   "status_label": "Sibuk",
+   "status_kind": "busy"
   },
   {
    "account": "GitHub gucinggaminf-lab",
@@ -190,7 +202,7 @@
    "total_parts": 8
   },
   {
-   "detail": "13/25 episode selesai (E01 pilot + E02-E05 batch pertama + E06-E09 batch kedua + E10-E13 batch ketiga, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-18 07:45 WIB): staging batch [14,15,16,17] selesai \u2014 E16 (911.010.056 byte) dan E17 (914.229.506 byte) sudah diunduh dari Drive dengan ukuran cocok persis, dibuat dataset Kaggle stephanygerald/solo-e16 & solo-e17 (KG_DATASET_OK), sumber lokal dihapus. Kernel stephanygerald/solo-leveling-encode version 5 di-push (KG_PUSH_OK, EPS=[14,15,16,17], dataset_sources ffmpeg-btb + solo-e14..e17) dan sedang encode \u2014 status dicek run berikutnya. Encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 dari sumber NF WEB-DL H.264 AAC 2.0.",
+   "detail": "13/25 episode selesai (E01 pilot + E02-E05 batch pertama + E06-E09 batch kedua + E10-E13 batch ketiga, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-18 07:45 WIB): kernel stephanygerald/solo-leveling-encode batch [14,15,16,17] masih RUNNING (KG_STATUS RUNNING) \u2014 encode dual-mode AV1+Opus 2.0 / x264+AAC 2.0 sedang berjalan, hasil dicek run berikutnya. Tidak ada episode baru selesai run ini.",
    "id": "solo-leveling-series",
    "job_dir": "Solo.Leveling.S01E14.1080p.WEB-DL",
    "kind": "encode",
