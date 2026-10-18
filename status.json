@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T22:14:38.432389+00:00",
+ "generated_at": "2026-10-18T22:17:38.136831+00:00",
  "session": {
   "alive": true,
-  "age_min": 55,
+  "age_min": 58,
   "busy": false,
   "job": null
  },
@@ -125,9 +125,9 @@
    "master_cleaned_at": "2026-10-15T19:56:20.609829+00:00"
   },
   {
-   "detail": "12/14 episode selesai. Episode saat ini: Chef.of.Antarctica.S01E13.1080p.WEB-DL. Sisa episode E13\u2013E14 dikerjakan di Kaggle Mesin 2 (kernel gucinggaminf/chef-antarctica-encode), hasil diantar ke Drive oleh chef-m6-relay. Catatan: E13 versi AV1 sudah ada di Drive, versi x264 belum \u2014 menunggu relay berikutnya.",
+   "detail": "13/14 episode selesai. Episode saat ini: Chef.of.Antarctica.S01E14.1080p.WEB-DL. Sisa episode E14 dikerjakan di Kaggle Mesin 2 (kernel gucinggaminf/chef-antarctica-encode), hasil diantar ke Drive oleh chef-m6-relay. Catatan: E14 versi x264 sudah ada di Drive, versi AV1 belum \u2014 menunggu relay berikutnya. E13 QC lulus (babysitter 2026-10-19).",
    "id": "chef-antartika-series",
-   "job_dir": "Chef.of.Antarctica.S01E13.1080p.WEB-DL",
+   "job_dir": "Chef.of.Antarctica.S01E14.1080p.WEB-DL",
    "kind": "encode",
    "started_at": "2026-10-13T08:05:00+07:00",
    "status": "running",
