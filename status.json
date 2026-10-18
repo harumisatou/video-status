@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T11:24:30.216185+00:00",
+ "generated_at": "2026-10-18T11:26:51.296181+00:00",
  "session": {
   "alive": true,
-  "age_min": 4,
+  "age_min": 7,
   "busy": true,
   "job": {
    "job": "Chef.of.Antarctica.S01E12.1080p.WEB-DL",
@@ -253,32 +253,43 @@
    "title": "Encode film: Spermageddon (2024) REMUX \u2014 AV1 + x264 + finishing N3X"
   },
   {
-   "detail": "Encode dual-codec di Mesin 5 (Kaggle, dua kernel paralel stephanygerald/oshi-movie-encode-av1 & oshi-movie-encode-x264) dimulai 2026-10-18 13:35 WIB. Sumber AMZN WEB-DL ATMOS 4,62 GB (HEVC 1920x800 scope native TANPA crop, audio DD+ 5.1 Jepang, 17 subtitle termasuk Bahasa Indonesia). Dataset dibuat via jalur upload TERPECAH baru: VM hanya initiate+finalize API, sesi Colab menarik file dari Drive dan PUT langsung ke storage Kaggle (4,62 GB dalam 41 detik) \u2014 byte tidak lewat VM. Kernel RUNNING; QC independen + upload hasil ke Hasil Encode menyusul saat COMPLETE.",
+   "cover": "https://raw.githubusercontent.com/harumisatou/video-status/main/covers/oshimovie.jpg",
+   "detail": "Encode dual-codec di Mesin 5 (Kaggle, dua kernel paralel) + finishing N3X SELESAI, verifikasi LULUS PENUH (semua stream sumber identik bit di file jadi, durasi delta 0,0 dtk). Sumber AMZN WEB-DL 4,62 GB: HEVC 1920x800 scope native TANPA crop, audio DD+ 5.1 Jepang, 17 subtitle termasuk Bahasa Indonesia (semua dipertahankan). Dataset dibuat via jalur upload terpecah: sesi Colab menarik file dari Drive dan PUT langsung ke storage Kaggle (4,62 GB dalam 41 detik), byte tidak lewat VM. Finishing: metadata N3X (TMDB movie/1235431, IMDB tt31031808, Writing application N3X 2.0), cover template N3X dari poster teatrikal Jepang (disetujui Haru), nama pola N3X. File jadi tersimpan privat \u2014 link tidak ditampilkan di sini.",
+   "finished_at": "2026-10-18T18:26:00+07:00",
    "id": "oshi-final-act-movie",
-   "job_dir": "Oshi.No.Ko.The.Final.Act.2024.1080p.WEB-DL",
    "kind": "encode",
+   "mediainfo": [
+    {
+     "katb": "https://katb.in/aveqenavibi",
+     "label": "MediaInfo \u2014 AV1",
+     "url": "https://raw.githubusercontent.com/harumisatou/video-status/main/mediainfo/oshimovie-av1.txt"
+    },
+    {
+     "katb": "https://katb.in/mepamugoxuq",
+     "label": "MediaInfo \u2014 x264",
+     "url": "https://raw.githubusercontent.com/harumisatou/video-status/main/mediainfo/oshimovie-x264.txt"
+    }
+   ],
+   "results": [
+    {
+     "name": "Oshi.No.Ko.The.Final.Act.2024.1080p.WEB-DL.AV1.10bit.Opus.5.1-N3X.mkv",
+     "size": 1153209917
+    },
+    {
+     "name": "Oshi.No.Ko.The.Final.Act.2024.1080p.WEB-DL.x264.AAC.5.1-N3X.mkv",
+     "size": 1527557995
+    }
+   ],
+   "results_exclude": [
+    "Oshi.No.Ko.The.Final.Act.2024.1080p.WEB-DL.Opus5.1.AV1-N3X.mkv",
+    "Oshi.No.Ko.The.Final.Act.2024.1080p.WEB-DL.AAC5.1.x264-N3X.mkv"
+   ],
    "source": "Oshi.No.Ko.The.Final.Act.2024.1080p.AMZN.WEB-DL.DDP5.1.H.265-ATMOS.mkv (4,62 GB, AMZN WEB-DL 1080p HEVC, DD+ 5.1 Jepang, 17 subtitle)",
    "started_at": "2026-10-18T13:35:00+07:00",
-   "status": "running",
-   "title": "Encode film: Oshi no Ko The Final Act (2024) \u2014 AV1 + x264",
-   "total_parts": 2,
-   "parts_done": 0,
-   "parts_total": 2,
-   "progress_pct": 0.0
+   "status": "done",
+   "title": "Encode film: Oshi no Ko The Final Act (2024) \u2014 AV1 + x264 + finishing N3X",
+   "total_parts": 2
   }
  ],
- "results": [
-  {
-   "name": "Oshi.No.Ko.The.Final.Act.2024.1080p.WEB-DL.AAC5.1.x264-N3X.mkv",
-   "size": 1528715921,
-   "modified": "2026-10-18T10:25:09.958Z",
-   "link": "https://drive.google.com/open?id=1v6GavnGw79a1I-y-6q6t77dSm4cypcjC"
-  },
-  {
-   "name": "Oshi.No.Ko.The.Final.Act.2024.1080p.WEB-DL.Opus5.1.AV1-N3X.mkv",
-   "size": 1154501640,
-   "modified": "2026-10-18T09:40:58.448Z",
-   "link": "https://drive.google.com/open?id=1xlAcLaUm3mqxFRhpC5nC4Da6XkqGpQre"
-  }
- ]
+ "results": []
 }
