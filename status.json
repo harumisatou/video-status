@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-18T23:19:12.453304+00:00",
+ "generated_at": "2026-10-18T23:23:35.992670+00:00",
  "session": {
   "alive": true,
-  "age_min": 119,
+  "age_min": 123,
   "busy": false,
   "job": null
  },
@@ -201,7 +201,7 @@
    "total_parts": 8
   },
   {
-   "detail": "21/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17 + E18-E21, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-19 05:15 WIB): kernel batch terakhir [22,23,24,25] COMPLETE \u2014 kedelapan file hasil sudah terunduh lengkap di outputs/solo-batch (ukuran persis cocok log kernel, JANGAN unduh ulang), QC probe lulus semua, decode penuh sedang berjalan via daemon persisten (CPU VM jenuh malam ini) \u2014 hasil decode + upload dicek run berikutnya. Catatan lengkap: hidden_files/solo-series/qc_batch22_note.md",
+   "detail": "21/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17 + E18-E21, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-19 06:15 WIB): kernel batch terakhir [22,23,24,25] COMPLETE (terverifikasi ulang via kg status), kedelapan file hasil utuh di outputs/solo-batch (ukuran byte persis cocok log kernel), QC probe lulus semua, decode penuh masih berjalan via daemon persisten /tmp/qc_decode2.sh (pasangan E22 sedang didecode \u00b123 mnt, /tmp/qc_decode_results.log masih kosong = belum ada file selesai di putaran daemon ini, load VM ~14) \u2014 hasil decode + upload dicek run berikutnya. Catatan lengkap: hidden_files/solo-series/qc_batch22_note.md",
    "id": "solo-leveling-series",
    "job_dir": "Solo.Leveling.S01E22.1080p.WEB-DL",
    "kind": "encode",
