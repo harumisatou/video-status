@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-19T01:55:18.714792+00:00",
+ "generated_at": "2026-10-19T01:57:47.435795+00:00",
  "session": {
-  "alive": true,
-  "age_min": 275,
+  "alive": false,
+  "age_min": 278,
   "busy": false,
   "job": null
  },
@@ -59,8 +59,8 @@
    "role": "Colab serbaguna \u2014 finishing, Transfer.it, putter dataset Kaggle",
    "status": "live",
    "detail": "Sesi encode Colab langsung; detail job-nya ada di kartu tugas masing-masing. Swap 2026-10-16: encode pindah ke akun Pro Stephany (units lagi 0 \u2014 kelas free sampai refill langganan), HaruBot pindah ke akun Nama Saya. 2026-10-18 malam: sisa Chef (E12\u2013E14) DIPINDAH ke Mesin 2 (Kaggle) karena antrean Colab tidak kunjung tuntas. (Nomor lama: Mesin 1.)",
-   "status_label": "Free",
-   "status_kind": "free"
+   "status_label": "Mati",
+   "status_kind": "blocked"
   },
   {
    "id": "mesin6",
