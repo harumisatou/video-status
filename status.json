@@ -1,22 +1,10 @@
 {
- "generated_at": "2026-10-19T02:19:00.733893+00:00",
+ "generated_at": "2026-10-19T02:22:22.424488+00:00",
  "session": {
-  "alive": true,
-  "age_min": 16,
-  "busy": true,
-  "job": {
-   "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
-   "name": "Yuru.Camp.S01E01.1080p.WEB-DL.mkv",
-   "stage": "encode",
-   "codec": "av1",
-   "codecs": [
-    "av1",
-    "h264"
-   ],
-   "seg": 8,
-   "total": 12,
-   "via": "drive"
-  }
+  "alive": false,
+  "age_min": 20,
+  "busy": false,
+  "job": null
  },
  "machines": [
   {
@@ -71,8 +59,8 @@
    "role": "Colab serbaguna \u2014 finishing, Transfer.it, putter dataset Kaggle",
    "status": "live",
    "detail": "Sesi encode Colab langsung; detail job-nya ada di kartu tugas masing-masing. Swap 2026-10-16: encode pindah ke akun Pro Stephany (units lagi 0 \u2014 kelas free sampai refill langganan), HaruBot pindah ke akun Nama Saya. 2026-10-18 malam: sisa Chef (E12\u2013E14) DIPINDAH ke Mesin 2 (Kaggle) karena antrean Colab tidak kunjung tuntas. (Nomor lama: Mesin 1.)",
-   "status_label": "Sibuk",
-   "status_kind": "busy"
+   "status_label": "Mati",
+   "status_kind": "blocked"
   },
   {
    "id": "mesin6",
