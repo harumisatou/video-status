@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-19T15:44:48.809811+00:00",
+ "generated_at": "2026-10-19T15:47:16.859939+00:00",
  "session": {
   "alive": true,
-  "age_min": 7,
+  "age_min": 10,
   "busy": true,
   "job": {
    "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
@@ -739,7 +739,121 @@
    "status": "done",
    "title": "Encode series: Loner Life in Another World S01 REMUX \u2014 AV1 + x264",
    "total_parts": 12,
-   "finished_at": "2026-10-19T18:05:00+07:00"
+   "finished_at": "2026-10-19T18:05:00+07:00",
+   "results": [
+    {
+     "name": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.AV1.10bit.DUAL.Opus.2.0-N3X.mkv",
+     "size": 263148296
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E02.1080p.BluRay.AV1.10bit.DUAL.Opus.2.0-N3X.mkv",
+     "size": 239478346
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E03.1080p.BluRay.AV1.10bit.DUAL.Opus.2.0-N3X.mkv",
+     "size": 249133906
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E04.1080p.BluRay.AV1.10bit.DUAL.Opus.2.0-N3X.mkv",
+     "size": 286228760
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E05.1080p.BluRay.AV1.10bit.DUAL.Opus.2.0-N3X.mkv",
+     "size": 270279957
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E06.1080p.BluRay.AV1.10bit.DUAL.Opus.2.0-N3X.mkv",
+     "size": 375732060
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E07.1080p.BluRay.AV1.10bit.DUAL.Opus.2.0-N3X.mkv",
+     "size": 190321558
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E08.1080p.BluRay.AV1.10bit.DUAL.Opus.2.0-N3X.mkv",
+     "size": 313537129
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E09.1080p.BluRay.AV1.10bit.DUAL.Opus.2.0-N3X.mkv",
+     "size": 265645425
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E10.1080p.BluRay.AV1.10bit.DUAL.Opus.2.0-N3X.mkv",
+     "size": 238304152
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E11.1080p.BluRay.AV1.10bit.DUAL.Opus.2.0-N3X.mkv",
+     "size": 294703541
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E12.1080p.BluRay.AV1.10bit.DUAL.Opus.2.0-N3X.mkv",
+     "size": 267027464
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.x264.DUAL.AAC.2.0-N3X.mkv",
+     "size": 289406935
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E02.1080p.BluRay.x264.DUAL.AAC.2.0-N3X.mkv",
+     "size": 258543477
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E03.1080p.BluRay.x264.DUAL.AAC.2.0-N3X.mkv",
+     "size": 280665630
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E04.1080p.BluRay.x264.DUAL.AAC.2.0-N3X.mkv",
+     "size": 307380588
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E05.1080p.BluRay.x264.DUAL.AAC.2.0-N3X.mkv",
+     "size": 296416359
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E06.1080p.BluRay.x264.DUAL.AAC.2.0-N3X.mkv",
+     "size": 417558344
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E07.1080p.BluRay.x264.DUAL.AAC.2.0-N3X.mkv",
+     "size": 244160801
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E08.1080p.BluRay.x264.DUAL.AAC.2.0-N3X.mkv",
+     "size": 362805869
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E09.1080p.BluRay.x264.DUAL.AAC.2.0-N3X.mkv",
+     "size": 343297035
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E10.1080p.BluRay.x264.DUAL.AAC.2.0-N3X.mkv",
+     "size": 292354004
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E11.1080p.BluRay.x264.DUAL.AAC.2.0-N3X.mkv",
+     "size": 347443060
+    },
+    {
+     "name": "Loner.Life.in.Another.World.S01E12.1080p.BluRay.x264.DUAL.AAC.2.0-N3X.mkv",
+     "size": 285341464
+    }
+   ],
+   "progress": "12/12 selesai + finishing beres",
+   "updated_at": "2026-10-19T23:30:00+07:00",
+   "cover": "https://raw.githubusercontent.com/harumisatou/video-status/main/covers/loner-life.jpg",
+   "mediainfo": [
+    {
+     "label": "MediaInfo E01 AV1",
+     "url": "https://raw.githubusercontent.com/harumisatou/video-status/main/mediainfo/loner-av1.txt",
+     "katb": "https://katb.in/imajelukowo"
+    },
+    {
+     "label": "MediaInfo E01 x264",
+     "url": "https://raw.githubusercontent.com/harumisatou/video-status/main/mediainfo/loner-x264.txt",
+     "katb": "https://katb.in/ujakihetitu"
+    }
+   ],
+   "notes": "Encode 12/12 QC lolos di Mesin 1 (Kaggle stephanygerald) \u2014 sumber BluRay REMUX CRUCiBLE (JP FLAC + EN FLAC -> Opus/AAC 128k, sub ASS/PGS/SRT utuh + font). Finishing BERES 19 Okt 2026 malam (Mesin 5): mux mkvmerge ke N3X/Series + cover + tag N3X persis (judul 'Loner Life in Another World (2024) - N3X', DESCRIPTION sinopsis TMDB EN, IMDB tt32512773, TMDB tv/259558), verifikasi streamhash NYATA 24/24 identik + statistik BPS utuh. Folder finished: AV1 12 file 3.253.540.594 B; x264 12 file 3.725.373.566 B. Transfer.it finished: AV1 https://transfer.it/t/EzmWnSpBQZRC - x264 https://transfer.it/t/a1wVvHwlGT4Z. katb: AV1 https://katb.in/imajelukowo - x264 https://katb.in/ujakihetitu. File RAW di Hasil Encode sudah dipindah ke Trash (aturan auto-delete)."
   }
  ],
  "results": []
