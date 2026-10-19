@@ -1,10 +1,22 @@
 {
- "generated_at": "2026-10-19T23:23:29.056080+00:00",
+ "generated_at": "2026-10-19T23:25:45.205166+00:00",
  "session": {
-  "alive": false,
-  "age_min": 385,
-  "busy": false,
-  "job": null
+  "alive": true,
+  "age_min": null,
+  "busy": true,
+  "job": {
+   "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
+   "name": "Yuru.Camp.S01E01.1080p.WEB-DL.mkv",
+   "stage": "encode",
+   "codec": "av1",
+   "codecs": [
+    "av1",
+    "h264"
+   ],
+   "seg": 8,
+   "total": 12,
+   "via": "drive"
+  }
  },
  "machines": [
   {
@@ -66,8 +78,8 @@
    "progress": "Finishing Solo Leveling (50 file) + Chef of Antarctica (28 file) TUNTAS 2026-10-19; penutupan Transfer.it folder Loner Life berjalan lewat sesi ini",
    "role": "Colab serbaguna \u2014 finishing, Transfer.it, putter dataset Kaggle",
    "status": "live",
-   "status_label": "Mati",
-   "status_kind": "blocked"
+   "status_label": "Sibuk",
+   "status_kind": "busy"
   },
   {
    "account": "Arif (akun Google nganggur, profil CLI terauth 2026-10-15)",
