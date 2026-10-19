@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-19T01:49:00.412787+00:00",
+ "generated_at": "2026-10-19T01:51:56.033205+00:00",
  "session": {
   "alive": true,
-  "age_min": 269,
+  "age_min": 272,
   "busy": false,
   "job": null
  },
@@ -201,7 +201,7 @@
    "total_parts": 8
   },
   {
-   "detail": "21/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17 + E18-E21, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-19 08:15 WIB): kernel batch terakhir [22,23,24,25] terverifikasi ulang COMPLETE (KG_STATUS COMPLETE, failureMessage null). 8 file hasil utuh di outputs/solo-batch, ukuran byte persis cocok log kernel (diverifikasi ulang run ini). Probe ffprobe sudah LULUS semua run sebelumnya. Decode penuh persisten qc_decode3 (daemon PID 3883, PPID 1, mulai 00:50 UTC) baru 1/8 bersih di qc_decode_results.log persisten: E22 x264 rc=0 errlen=0. Sedang didecode: E22 AV1 (ffmpeg PID 3896) + E23 x264 (ffmpeg PID 7119); load VM ~12,8 karena 3 pengasuh decode bersamaan di VM 2-core \u2014 lambat, bukan file rusak. Upload ditahan sampai DECODE_ALL_DONE dengan 8/8 rc=0 errlen=0. JANGAN unduh ulang output (kg.py output menimpa dari 0 byte).",
+   "detail": "21/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17 + E18-E21, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-19 08:45 WIB): kernel batch terakhir [22,23,24,25] COMPLETE (KG_STATUS COMPLETE, failureMessage null). 8 file hasil utuh di outputs/solo-batch, ukuran byte persis cocok log kernel. Probe ffprobe diulang run ini: LULUS semua 8 file (AV1 av1/yuv420p10le+opus 2ch, x264 h264/yuv420p+aac 2ch, 1 video stream, 4 subtitle kedua versi, durasi selisih <0,02 dtk). Decode penuh: daemon persisten qc_decode3 mati lagi karena VM restart (uptime 26 mnt saat cek, boot 01:22 UTC) \u2014 bukti persisten tersisa 1/8 bersih (E22 x264 rc=0 errlen=0 di qc_decode_results.log hidden_files). Decode dijalankan ULANG versi RESUMABLE qc_decode4.sh via daemonize.py (PID 6742, PPID 1, mulai 01:49 UTC): skip otomatis file yang sudah rc=0, kini sedang decode E22 AV1 + E23 x264 (2 paralel). Upload ditahan sampai DECODE_ALL_DONE dengan 8/8 unik rc=0 errlen=0. JANGAN unduh ulang output (kg.py output menimpa dari 0 byte).",
    "id": "solo-leveling-series",
    "job_dir": "Solo.Leveling.S01E22.1080p.WEB-DL",
    "kind": "encode",
