@@ -1,10 +1,22 @@
 {
- "generated_at": "2026-10-19T07:18:53.597104+00:00",
+ "generated_at": "2026-10-19T07:21:14.690952+00:00",
  "session": {
-  "alive": false,
-  "age_min": 38,
-  "busy": false,
-  "job": null
+  "alive": true,
+  "age_min": 1,
+  "busy": true,
+  "job": {
+   "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
+   "name": "Yuru.Camp.S01E01.1080p.WEB-DL.mkv",
+   "stage": "encode",
+   "codec": "av1",
+   "codecs": [
+    "av1",
+    "h264"
+   ],
+   "seg": 8,
+   "total": 12,
+   "via": "drive"
+  }
  },
  "machines": [
   {
@@ -59,8 +71,8 @@
    "role": "Colab serbaguna \u2014 finishing, Transfer.it, putter dataset Kaggle",
    "status": "live",
    "detail": "Sesi encode Colab langsung; detail job-nya ada di kartu tugas masing-masing. Swap 2026-10-16: encode pindah ke akun Pro Stephany (units lagi 0 \u2014 kelas free sampai refill langganan), HaruBot pindah ke akun Nama Saya. 2026-10-18 malam: sisa Chef (E12\u2013E14) DIPINDAH ke Mesin 2 (Kaggle) karena antrean Colab tidak kunjung tuntas. (Nomor lama: Mesin 1.)",
-   "status_label": "Mati",
-   "status_kind": "blocked"
+   "status_label": "Sibuk",
+   "status_kind": "busy"
   },
   {
    "id": "mesin6",
@@ -80,9 +92,9 @@
    "account": "harumisatochan@gmail.com (InstaBox, Free plan)",
    "role": "Lane encode baru \u2014 box persisten InstaBox (bench lulus 2026-10-19), calon lane batch berikutnya",
    "status": "live",
-   "status_label": "Mati",
+   "status_label": "Sibuk",
    "detail": "Diadopsi 2026-10-19. Box 'mesin7' (id m_agqvd7rcoe4xp7cfuqqmdkp2d4): Debian 13, 4 vCPU AMD EPYC, RAM 8 GB, root 16 GB + /data persisten 20 GB. ffmpeg BtbN N-127651 (SVT-AV1 + x264 + Opus) terpasang di /data/home/tools. Bench klip uji 60 dtk 1080p: AV1 preset 8 CRF 36 tune VQ selesai 25,8 dtk (56 fps, 2,33x realtime, hasil 38.027.813 byte); x264 preset slow CRF 26 selesai 22,6 dtk (63 fps, 29.058.682 byte); unduh dari GitHub 156 MB dalam \u00b11,1 dtk. Catatan: auto-suspend DIPAKSA 1800 dtk oleh akun (fixedAutoSuspendSeconds) walau diminta 0 \u2014 box pause setelah 30 mnt idle, bangun lagi saat ada exec. Akses API dari VM lewat helper REST ibapi.py (CLI Go resmi gagal auth dari VM). Drive speed belum terbench: endpoint files API mesin membalas 404 (transfer file box rupanya lewat jalur connections/Vault, Vault tak bisa dikelola API key).",
-   "status_kind": "blocked"
+   "status_kind": "busy"
   },
   {
    "id": "mesin8",
@@ -91,9 +103,9 @@
    "account": "harumisatochan@gmail.com (InstaBox, Free plan)",
    "role": "Lane encode series \u2014 box persisten InstaBox kedua (dibuat 2026-10-19, ffmpeg siap)",
    "status": "live",
-   "status_label": "Mati",
+   "status_label": "Sibuk",
    "detail": "Dibuat 2026-10-19 atas perintah Haru setelah Mesin 7 lulus tes encode nyata (Loner Life E08); peran yang ditetapkan Haru: InstaBox untuk series, Kaggle untuk REMUX film/film. Box 'mesin8' (id m_agqveoxwrpk2k57ywx5gsr6ll4): Debian 13, 4 vCPU AMD EPYC, RAM 8 GB, root 16 GB + /data persisten 20 GB \u2014 spek identik Mesin 7, terverifikasi dari dalam box. ffmpeg BtbN N-127651-gb60ab6c9a4-20261018 (encoder libsvtav1 + libx264 + libopus terverifikasi) terpasang di /data/home/tools/ffmpeg-master-latest-linux64-gpl/bin/ffmpeg. IP egress 32.190.147.107 (AWS us-west-2, Boardman, Oregon, AS \u2014 IP egress yang sama dengan Mesin 7); speedtest unduh 100 MB dalam 3,1 dtk (\u00b1271 Mbps, Hetzner Ashburn). auto-suspend dipaksa 1800 dtk oleh akun seperti Mesin 7 \u2014 box pause setelah 30 mnt idle, bangun saat ada exec. Jalur file masuk/keluar box = jembatan Transfer.it (pola tes Mesin 7); akses API dari VM lewat helper REST ibapi.py.",
-   "status_kind": "blocked"
+   "status_kind": "busy"
   }
  ],
  "tasks": [
