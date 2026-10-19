@@ -1,0 +1,274 @@
+General
+Unique ID                                : 30378624662831407400886798187616067275 (0x16DAB5D59D3F65BB55E71908DBF0DECB)
+Complete name                            : /content/finish_loner/out/Loner.Life.in.Another.World.S01E01.1080p.BluRay.AV1.10bit.DUAL.Opus.2.0-N3X.mkv
+Format                                   : Matroska
+Format version                           : Version 4
+File size                                : 251 MiB
+Duration                                 : 23 min 41 s
+Overall bit rate                         : 1 481 kb/s
+Frame rate                               : 23.976 FPS
+Movie name                               : Loner Life in Another World (2024) - N3X
+Description                              : Isekai'd into another world, Haruka makes use of seemingly underpowered skills to live as a lone wolf.
+Encoded date                             : 2026-10-19 14:09:23 UTC
+Writing application                      : N3X 2.0
+Writing library                          : N3X 2.0
+Cover                                    : Yes
+Comment                                  : Encoded by N3X
+Attachments                              : cover.jpg / Chei3-bold-hkscs-u.TTF / Ebrima.TTF / Hooteroll.TTF / Hyxiaobomeiyantiw.TTF / Wien-SemiBold.TTF / A-OTFReisho101StdMedium.OTF / DFNaughtyStdW3.OTF / FOT-DotGothic12StdM-Medium.OTF / FOT-LyraStdDB-SemiBold.OTF / FOT-PearlStdL-Light.OTF / FOT-SeuratProNB-Bold.OTF / FOT-SlumpStdDB-SemiBold.OTF / FOT-UDKakugoC60ProM-Medium.OTF / GandhiSans-Bold.OTF / GandhiSans-BoldItalic.OTF / LatienneSwashTOT-Bold.OTF / Spoverridef-Bold.OTF / SubAlegreya-Bold.OTF
+IMDB                                     : tt32512773
+TMDB                                     : tv/259558
+YEAR                                     : 2024
+
+Video
+ID                                       : 1
+Format                                   : AV1
+Format/Info                              : AOMedia Video 1
+Codec ID                                 : V_AV1
+Duration                                 : 23 min 41 s
+Bit rate                                 : 865 kb/s
+Width                                    : 1 920 pixels
+Height                                   : 1 080 pixels
+Display aspect ratio                     : 16:9
+Frame rate mode                          : Constant
+Frame rate                               : 23.976 (24000/1001) FPS
+Bits/(Pixel*Frame)                       : 0.017
+Stream size                              : 147 MiB (58%)
+Title                                    : JPBD
+Writing library                          : Lavc63.20.100 libsvtav1
+Language                                 : Japanese
+Default                                  : Yes
+Forced                                   : No
+Color range                              : Limited
+
+Audio #1
+ID                                       : 2
+Format                                   : Opus
+Codec ID                                 : A_OPUS
+Duration                                 : 23 min 41 s
+Bit rate                                 : 126 kb/s
+Channel(s)                               : 2 channels
+Channel layout                           : L R
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 50.000 FPS (960 SPF)
+Bit depth                                : 32 bits
+Compression mode                         : Lossy
+Stream size                              : 21.4 MiB (9%)
+Title                                    : Japanese FLAC 2.0
+Writing library                          : Lavc63.20.100 libopus
+Language                                 : Japanese
+Default                                  : Yes
+Forced                                   : No
+
+Audio #2
+ID                                       : 3
+Format                                   : Opus
+Codec ID                                 : A_OPUS
+Duration                                 : 23 min 41 s
+Bit rate                                 : 125 kb/s
+Channel(s)                               : 2 channels
+Channel layout                           : L R
+Sampling rate                            : 48.0 kHz
+Frame rate                               : 50.001 FPS (960 SPF)
+Bit depth                                : 16 bits
+Compression mode                         : Lossy
+Stream size                              : 21.2 MiB (8%)
+Title                                    : English FLAC 2.0
+Writing library                          : Lavc63.20.100 libopus
+Language                                 : English
+Default                                  : Yes
+Forced                                   : No
+
+Text #1
+ID                                       : 4
+Format                                   : ASS
+Codec ID                                 : S_TEXT/ASS
+Codec ID/Info                            : Advanced Sub Station Alpha
+Duration                                 : 22 min 31 s
+Bit rate                                 : 52.5 kb/s
+Frame rate                               : 12.916 FPS
+Count of elements                        : 17458
+Compression mode                         : Lossless
+Stream size                              : 8.46 MiB (3%)
+Title                                    : English [Freehold v2]
+Language                                 : English
+Default                                  : Yes
+Forced                                   : No
+
+Text #2
+ID                                       : 5
+Format                                   : PGS
+Muxing mode                              : zlib
+Codec ID                                 : S_HDMV/PGS
+Codec ID/Info                            : Picture based subtitle format used on BDs/HD-DVDs
+Duration                                 : 22 min 31 s
+Bit rate                                 : 64.6 kb/s
+Frame rate                               : 0.480 FPS
+Count of elements                        : 648
+Stream size                              : 10.4 MiB (4%)
+Title                                    : English [USBD]
+Language                                 : English
+Default                                  : Yes
+Forced                                   : No
+
+Text #3
+ID                                       : 6
+Format                                   : ASS
+Codec ID                                 : S_TEXT/ASS
+Codec ID/Info                            : Advanced Sub Station Alpha
+Duration                                 : 21 min 1 s
+Bit rate                                 : 240 b/s
+Frame rate                               : 0.404 FPS
+Count of elements                        : 509
+Compression mode                         : Lossless
+Stream size                              : 37.0 KiB (0%)
+Title                                    : English [AMZN]
+Language                                 : English
+Default                                  : Yes
+Forced                                   : No
+
+Text #4
+ID                                       : 7
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 22 min 31 s
+Bit rate                                 : 93 b/s
+Frame rate                               : 0.251 FPS
+Count of elements                        : 339
+Stream size                              : 15.4 KiB (0%)
+Title                                    : English [BILI]
+Language                                 : English
+Default                                  : Yes
+Forced                                   : No
+
+Text #5
+ID                                       : 8
+Format                                   : ASS
+Codec ID                                 : S_TEXT/ASS
+Codec ID/Info                            : Advanced Sub Station Alpha
+Duration                                 : 22 min 9 s
+Bit rate                                 : 53.2 kb/s
+Frame rate                               : 12.919 FPS
+Count of elements                        : 17174
+Compression mode                         : Lossless
+Stream size                              : 8.44 MiB (3%)
+Title                                    : English Signs/Songs [Freehold v2]
+Language                                 : English
+Default                                  : No
+Forced                                   : Yes
+
+Text #6
+ID                                       : 9
+Format                                   : PGS
+Muxing mode                              : zlib
+Codec ID                                 : S_HDMV/PGS
+Codec ID/Info                            : Picture based subtitle format used on BDs/HD-DVDs
+Duration                                 : 22 min 8 s
+Bit rate                                 : 18.7 kb/s
+Frame rate                               : 0.110 FPS
+Count of elements                        : 146
+Stream size                              : 2.96 MiB (1%)
+Title                                    : English Signs/Songs [USBD]
+Language                                 : English
+Default                                  : No
+Forced                                   : No
+
+Text #7
+ID                                       : 10
+Format                                   : ASS
+Codec ID                                 : S_TEXT/ASS
+Codec ID/Info                            : Advanced Sub Station Alpha
+Duration                                 : 18 min 50 s
+Bit rate                                 : 153 b/s
+Frame rate                               : 0.203 FPS
+Count of elements                        : 229
+Compression mode                         : Lossless
+Stream size                              : 21.1 KiB (0%)
+Title                                    : English Signs/Songs [AMZN]
+Language                                 : English
+Default                                  : No
+Forced                                   : No
+
+Text #8
+ID                                       : 11
+Format                                   : PGS
+Muxing mode                              : zlib
+Codec ID                                 : S_HDMV/PGS
+Codec ID/Info                            : Picture based subtitle format used on BDs/HD-DVDs
+Duration                                 : 23 min 31 s
+Bit rate                                 : 73.4 kb/s
+Frame rate                               : 0.569 FPS
+Count of elements                        : 803
+Stream size                              : 12.3 MiB (5%)
+Title                                    : English (SDH) [USBD]
+Language                                 : English
+Default                                  : No
+Forced                                   : No
+
+Text #9
+ID                                       : 12
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 22 min 12 s
+Bit rate                                 : 83 b/s
+Frame rate                               : 0.324 FPS
+Count of elements                        : 431
+Stream size                              : 13.5 KiB (0%)
+Title                                    : English (SDH)
+Language                                 : English
+Default                                  : No
+Forced                                   : No
+
+Text #10
+ID                                       : 13
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 22 min 31 s
+Bit rate                                 : 79 b/s
+Frame rate                               : 0.277 FPS
+Count of elements                        : 375
+Stream size                              : 13.0 KiB (0%)
+Title                                    : Chinese (Simplified)
+Language                                 : Chinese
+Default                                  : Yes
+Forced                                   : No
+
+Text #11
+ID                                       : 14
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 21 min 1 s
+Bit rate                                 : 80 b/s
+Frame rate                               : 0.266 FPS
+Count of elements                        : 336
+Stream size                              : 12.5 KiB (0%)
+Title                                    : Indonesian
+Language                                 : Indonesian
+Default                                  : Yes
+Forced                                   : No
+
+Text #12
+ID                                       : 15
+Format                                   : UTF-8
+Codec ID                                 : S_TEXT/UTF8
+Codec ID/Info                            : UTF-8 Plain Text
+Duration                                 : 22 min 31 s
+Bit rate                                 : 267 b/s
+Frame rate                               : 0.249 FPS
+Count of elements                        : 337
+Stream size                              : 44.1 KiB (0%)
+Title                                    : Thai
+Language                                 : Thai
+Default                                  : Yes
+Forced                                   : No
+
+Menu
+00:00:00.000                             : Prologue
+00:01:19.997                             : Part A
+00:12:32.001                             : Part B
+00:22:09.995                             : Ending
+
+
