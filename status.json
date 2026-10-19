@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-19T05:07:54.945079+00:00",
+ "generated_at": "2026-10-19T05:10:38.323120+00:00",
  "session": {
   "alive": true,
-  "age_min": 3,
+  "age_min": 6,
   "busy": true,
   "job": {
    "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
@@ -159,7 +159,7 @@
    "master_cleaned_at": "2026-10-15T19:56:20.609829+00:00"
   },
   {
-   "detail": "14/14 episode selesai, semua QC lulus, tidak ada qc_failed. Series DITUTUP 2026-10-19. Transfer.it folder AV1: https://transfer.it/t/cmttfGhBjL6A (14 file, 7.327.209.409 byte, terverifikasi HTTP 200). Transfer.it folder x264: https://transfer.it/t/d8tVieg3kJhS (14 file, 8.942.800.823 byte, terverifikasi HTTP 200; transfer pertama mati bersama sesi Colab lama, diulang sukses di sesi segar Mesin 5 oleh babysitter run 2026-10-19 08:33). Catatan: sisa episode memang dikerjakan di Kaggle Mesin 2 dan sudah komplet semua.",
+   "detail": "14/14 episode selesai, semua QC lulus, tidak ada qc_failed. Series DITUTUP 2026-10-19. Transfer.it folder AV1: https://transfer.it/t/cmttfGhBjL6A (14 file, 7.327.209.409 byte, terverifikasi HTTP 200). Transfer.it folder x264: https://transfer.it/t/d8tVieg3kJhS (14 file, 8.942.800.823 byte, terverifikasi HTTP 200; transfer pertama mati bersama sesi Colab lama, diulang sukses di sesi segar Mesin 5 oleh babysitter run 2026-10-19 08:33). Catatan: sisa episode memang dikerjakan di Kaggle Mesin 2 dan sudah komplet semua. FINISHING N3X SELESAI 2026-10-19: 28/28 file termux + terverifikasi (streamhash identik, stream = sumber+1 cover, delta durasi 0,0 dtk) ke folder N3X/Series (AV1.10bit.Opus.2.0 / x264.AAC.2.0) \u2014 metadata TMDB tv/305928, tanpa IMDb (tidak ada entrinya), title 'Chef of Antarctica (2025) - N3X', Writing application N3X 2.0, cover terpasang. MediaInfo E01 (katb): AV1 https://katb.in/atixidujilu, x264 https://katb.in/muxunobahul. Transfer.it folder FINISHING: AV1 https://transfer.it/t/Z9j4DLpjDRiT (14 file, 7.325.855.212 byte), x264 https://transfer.it/t/mIOAGaxlgDAA (14 file, 8.941.992.871 byte).",
    "id": "chef-antartika-series",
    "job_dir": "Chef.of.Antarctica.S01E14.1080p.WEB-DL",
    "kind": "encode",
@@ -167,7 +167,165 @@
    "status": "done",
    "title": "Encode series: Chef of Antarctica S01 \u2014 14 episode (AV1 + x264)",
    "total_parts": 20,
-   "finished_at": "2026-10-19T09:13:19+07:00"
+   "finished_at": "2026-10-19T09:13:19+07:00",
+   "cover": "https://raw.githubusercontent.com/harumisatou/video-status/main/covers/chef-antartika.jpg",
+   "mediainfo": [
+    {
+     "katb": "https://katb.in/atixidujilu",
+     "label": "MediaInfo \u2014 AV1",
+     "url": "https://raw.githubusercontent.com/harumisatou/video-status/main/mediainfo/chef-av1.txt"
+    },
+    {
+     "katb": "https://katb.in/muxunobahul",
+     "label": "MediaInfo \u2014 x264",
+     "url": "https://raw.githubusercontent.com/harumisatou/video-status/main/mediainfo/chef-x264.txt"
+    }
+   ],
+   "results": [
+    {
+     "name": "Chef.of.Antarctica.S01E01.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 479478460
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E02.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 556443788
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E03.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 566448507
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E04.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 524872524
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E05.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 561614374
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E06.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 519853764
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E07.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 550302509
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E08.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 504906575
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E09.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 607548267
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E10.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 454120863
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E11.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 572207716
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 452302144
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E13.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 464517941
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E14.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 511237780
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E01.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 606500921
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E02.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 645825285
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E03.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 703629539
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E04.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 598218018
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E05.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 652042293
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E06.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 622839196
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E07.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 707726753
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E08.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 616152552
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E09.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 742950409
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E10.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 553323103
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E11.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 719749316
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E12.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 584522315
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E13.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 562958671
+    },
+    {
+     "name": "Chef.of.Antarctica.S01E14.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 625554500
+    }
+   ],
+   "results_exclude": [
+    "Chef.of.Antarctica.S01E01.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Chef.of.Antarctica.S01E01.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Chef.of.Antarctica.S01E02.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Chef.of.Antarctica.S01E02.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Chef.of.Antarctica.S01E03.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Chef.of.Antarctica.S01E03.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Chef.of.Antarctica.S01E04.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Chef.of.Antarctica.S01E04.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Chef.of.Antarctica.S01E05.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Chef.of.Antarctica.S01E05.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Chef.of.Antarctica.S01E06.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Chef.of.Antarctica.S01E06.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Chef.of.Antarctica.S01E07.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Chef.of.Antarctica.S01E07.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Chef.of.Antarctica.S01E08.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Chef.of.Antarctica.S01E08.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Chef.of.Antarctica.S01E09.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Chef.of.Antarctica.S01E09.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Chef.of.Antarctica.S01E10.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Chef.of.Antarctica.S01E10.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Chef.of.Antarctica.S01E11.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Chef.of.Antarctica.S01E11.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Chef.of.Antarctica.S01E12.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Chef.of.Antarctica.S01E12.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Chef.of.Antarctica.S01E13.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Chef.of.Antarctica.S01E13.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Chef.of.Antarctica.S01E14.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Chef.of.Antarctica.S01E14.1080p.WEB-DL.AAC2.0.x264-N3X.mkv"
+   ],
+   "source": "Chef.of.Antarctica.S01E##.1080p.VIU.WEB-DL.AAC2.0.H.264-Haru \u2014 Chef of Antarctica S01 (14 eps), folder Drive Haru"
   },
   {
    "cover": "https://raw.githubusercontent.com/harumisatou/video-status/main/covers/zombie.jpg",
@@ -320,7 +478,7 @@
    "total_parts": 2
   },
   {
-   "detail": "Progres: 8/12 episode QC lulus + terverifikasi di Drive (batch1 E01-E04 selesai; batch2 E05-E07 QC penuh + Drive==lokal; E08 selesai via Mesin 7 InstaBox, QC lulus, di Drive). Batch3 (E09-E12): staging dataset SELESAI 12/12 \u2014 ingest E11 retry sukses 19 Okt 11:07 (dataset ready) + E12 sukses (dataset ready). Kernel batch3 sudah di-push (versi 3, EPS=[9,10,11,12], dataset e09-e12) dan RUNNING di Mesin 1 Kaggle (stephanygerald/loner-life-encode). Run pengasuh berikutnya: tunggu COMPLETE lalu QC independen + upload E09-E12; setelah 12/12 buat 2 transfer Transfer.it folder (LONER_AV1/LONER_X264).",
+   "detail": "Progres: 8/12 episode QC lulus + terverifikasi di Drive (batch1 E01-E04 selesai; batch2 E05-E07 QC penuh + Drive==lokal; E08 selesai via Mesin 7 InstaBox, QC lulus, di Drive). Batch3 (E09-E12): staging dataset SELESAI 12/12. Kernel batch3 v3 (EPS=[9,10,11,12]) RUNNING di Mesin 1 Kaggle (stephanygerald/loner-life-encode) \u2014 cek 19 Okt 12:07 masih RUNNING, belum >11 jam. Run pengasuh berikutnya: tunggu COMPLETE lalu QC independen + upload E09-E12; setelah 12/12 buat 2 transfer Transfer.it folder (LONER_AV1/LONER_X264).",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
