@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-19T02:35:35.926713+00:00",
+ "generated_at": "2026-10-19T02:38:01.970366+00:00",
  "session": {
   "alive": true,
-  "age_min": 11,
+  "age_min": 13,
   "busy": true,
   "job": {
    "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
@@ -84,6 +84,17 @@
    "status_label": "Berhenti \u2014 OAuth mati, Yuru Camp\u25b3 pindah ke Mesin 2",
    "detail": "OAuth sesi encode3 MATI sejak 2026-10-17 21:57 (butuh login ulang dari Haru). Keputusan 2026-10-18: Yuru Camp\u25b3 TIDAK dilanjutkan di sini \u2014 dipindah ke Mesin 2 (Kaggle akun gucinggaminf); mesin ini pensiun untuk encode. (Nomor lama: Mesin 3.)",
    "status_kind": "blocked"
+  },
+  {
+   "id": "mesin7",
+   "name": "Mesin 7",
+   "platform": "InstaBox",
+   "account": "harumisatochan@gmail.com (InstaBox, Free plan)",
+   "role": "Lane encode baru \u2014 box persisten InstaBox (bench lulus 2026-10-19), calon lane batch berikutnya",
+   "status": "live",
+   "status_label": "Sibuk",
+   "detail": "Diadopsi 2026-10-19. Box 'mesin7' (id m_agqvd7rcoe4xp7cfuqqmdkp2d4): Debian 13, 4 vCPU AMD EPYC, RAM 8 GB, root 16 GB + /data persisten 20 GB. ffmpeg BtbN N-127651 (SVT-AV1 + x264 + Opus) terpasang di /data/home/tools. Bench klip uji 60 dtk 1080p: AV1 preset 8 CRF 36 tune VQ selesai 25,8 dtk (56 fps, 2,33x realtime, hasil 38.027.813 byte); x264 preset slow CRF 26 selesai 22,6 dtk (63 fps, 29.058.682 byte); unduh dari GitHub 156 MB dalam \u00b11,1 dtk. Catatan: auto-suspend DIPAKSA 1800 dtk oleh akun (fixedAutoSuspendSeconds) walau diminta 0 \u2014 box pause setelah 30 mnt idle, bangun lagi saat ada exec. Akses API dari VM lewat helper REST ibapi.py (CLI Go resmi gagal auth dari VM). Drive speed belum terbench: endpoint files API mesin membalas 404 (transfer file box rupanya lewat jalur connections/Vault, Vault tak bisa dikelola API key).",
+   "status_kind": "busy"
   }
  ],
  "tasks": [
