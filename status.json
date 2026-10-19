@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-19T04:22:24.208777+00:00",
+ "generated_at": "2026-10-19T04:27:33.607527+00:00",
  "session": {
   "alive": true,
-  "age_min": 5,
+  "age_min": 10,
   "busy": true,
   "job": {
    "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
@@ -320,7 +320,7 @@
    "total_parts": 2
   },
   {
-   "detail": "Progres: 8/12 episode QC lulus + terverifikasi di Drive (batch1 E01-E04 selesai; batch2 E05-E07 QC penuh + Drive==lokal; E08 selesai via Mesin 7 InstaBox, QC lulus, di Drive). Batch3 staging: E09 + E10 sudah staged jadi dataset Kaggle. Ingest E11 terputus run 19 Okt 10:37 (restart layanan VM di tengah initiate + sesi Colab Mesin 5 'encode' hilang/session lost) - belum staged, di-retry run pengasuh berikutnya setelah sesi Mesin 5 hidup. Sisa E11-E12 lalu kernel batch3 di-push. Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle).",
+   "detail": "Progres: 8/12 episode QC lulus + terverifikasi di Drive (batch1 E01-E04 selesai; batch2 E05-E07 QC penuh + Drive==lokal; E08 selesai via Mesin 7 InstaBox, QC lulus, di Drive). Batch3 (E09-E12): staging dataset SELESAI 12/12 \u2014 ingest E11 retry sukses 19 Okt 11:07 (dataset ready) + E12 sukses (dataset ready). Kernel batch3 sudah di-push (versi 3, EPS=[9,10,11,12], dataset e09-e12) dan RUNNING di Mesin 1 Kaggle (stephanygerald/loner-life-encode). Run pengasuh berikutnya: tunggu COMPLETE lalu QC independen + upload E09-E12; setelah 12/12 buat 2 transfer Transfer.it folder (LONER_AV1/LONER_X264).",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
