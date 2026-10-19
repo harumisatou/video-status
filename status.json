@@ -1,22 +1,10 @@
 {
- "generated_at": "2026-10-19T11:04:27.227868+00:00",
+ "generated_at": "2026-10-19T11:06:38.382273+00:00",
  "session": {
-  "alive": true,
-  "age_min": 16,
-  "busy": true,
-  "job": {
-   "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
-   "name": "Yuru.Camp.S01E01.1080p.WEB-DL.mkv",
-   "stage": "encode",
-   "codec": "av1",
-   "codecs": [
-    "av1",
-    "h264"
-   ],
-   "seg": 8,
-   "total": 12,
-   "via": "drive"
-  }
+  "alive": false,
+  "age_min": 18,
+  "busy": false,
+  "job": null
  },
  "machines": [
   {
@@ -78,8 +66,8 @@
    "progress": "Finishing Solo Leveling (50 file) + Chef of Antarctica (28 file) TUNTAS 2026-10-19; penutupan Transfer.it folder Loner Life berjalan lewat sesi ini",
    "role": "Colab serbaguna \u2014 finishing, Transfer.it, putter dataset Kaggle",
    "status": "live",
-   "status_label": "Sibuk",
-   "status_kind": "busy"
+   "status_label": "Mati",
+   "status_kind": "blocked"
   },
   {
    "account": "Arif (akun Google nganggur, profil CLI terauth 2026-10-15)",
@@ -730,18 +718,16 @@
    "total_parts": 2
   },
   {
-   "detail": "Progres: 12/12 episode QC lulus + terverifikasi di Drive (batch1 E01-E04, batch2 E05-E07 Kaggle + E08 via Mesin 7 InstaBox, batch3 E09-E12). Transfer.it folder AV1 SELESAI: https://transfer.it/t/xgGEzewnhD4A (12 file, terverifikasi HTTP 200). Transfer.it folder x264 (LONER_X264) SEDANG BERJALAN di sesi Colab Mesin 5 (pid 50228, mulai 19 Okt ~17:40 WIB). Run pengasuh berikutnya: ambil hasil tf_result_LONER_X264, verifikasi link live, catat state.tf_links, set task done, kirim ringkasan final, hapus cron loner-babysitter.",
+   "detail": "SELESAI 12/12: semua episode QC lulus + terverifikasi di Drive (batch1 E01-E04, batch2 E05-E07 Kaggle + E08 via Mesin 7 InstaBox, batch3 E09-E12). Transfer.it folder AV1: https://transfer.it/t/xgGEzewnhD4A (12 file, 3.442.853.449 byte) | x264: https://transfer.it/t/I3J9SXojQLQZ (12 file, 3.914.305.074 byte) \u2014 kedua link terverifikasi HTTP 200 pada 19 Okt 18:05 WIB. Judul transfer = nama folder rilis persis.",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
    "source": "Loner.Life.in.Another.World.S01.1080p.BluRay.Remux.Dual-Audio.FLAC2.0.H.264-CRUCiBLE (12 episode, 63,27 GB, BluRay REMUX 1080p, FLAC 2.0 jpn+eng, 14 subtitle)",
    "started_at": "2026-10-18T18:35:00+07:00",
-   "status": "running",
+   "status": "done",
    "title": "Encode series: Loner Life in Another World S01 REMUX \u2014 AV1 + x264",
    "total_parts": 12,
-   "parts_done": 0,
-   "parts_total": 12,
-   "progress_pct": 0.0
+   "finished_at": "2026-10-19T18:05:00+07:00"
   }
  ],
  "results": []
