@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-19T10:39:11.100056+00:00",
+ "generated_at": "2026-10-19T10:41:30.414042+00:00",
  "session": {
   "alive": true,
-  "age_min": 199,
+  "age_min": 201,
   "busy": true,
   "job": {
    "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
@@ -20,91 +20,76 @@
  },
  "machines": [
   {
+   "account": "Stephany Gerald (username Kaggle: stephanygerald)",
+   "detail": "Resmi jadi armada Kaggle pada 2026-10-17 (nomor lama: Mesin 5; diganti nomor 2026-10-18 atas perintah Haru \u2014 Kaggle kini Mesin 1-2). Kernel batch Kaggle: 4 core Xeon 2,20 GHz, RAM 32 GB, disk kerja 20 GB, run sampai 12 jam tanpa reap/babysit. TANPA internet di kernel (akun belum verifikasi) \u2014 bahan masuk sebagai dataset, hasil keluar via output kernel lalu diantar ke Drive. Kuota CPU mingguan belum terverifikasi. Riwayat tugas: Solo Leveling S01 (25 eps) encode + finishing N3X TUNTAS 2026-10-19; Loner Life in Another World S01 (12 eps REMUX) encode SELESAI 12/12 pada 2026-10-19 (E08 dikerjakan via Mesin 7 InstaBox sebelum platform itu mati). Doktrin armada 2026-10-19: Kaggle = lane film, terutama REMUX \u2014 lane ini menunggu judul film berikutnya.",
    "id": "mesin1",
    "name": "Mesin 1",
+   "now": "Tidak ada kernel yang berjalan",
    "platform": "Kaggle",
-   "account": "Stephany Gerald (username Kaggle: stephanygerald)",
-   "role": "Lane batch \u2014 Solo Leveling S01 (25 eps) + Loner Life in Another World S01 (12 eps REMUX) berjalan",
-   "status": "busy",
-   "status_label": "Sibuk \u2014 Solo Leveling + Loner Life (batch)",
-   "detail": "Resmi jadi armada Kaggle pada 2026-10-17 (nomor lama: Mesin 5; diganti nomor 2026-10-18 atas perintah Haru \u2014 Kaggle kini Mesin 1-2). Kernel batch Kaggle: 4 core Xeon 2,20 GHz, RAM 32 GB, disk kerja 20 GB, run sampai 12 jam tanpa reap/babysit. TANPA internet di kernel (akun belum verifikasi) \u2014 bahan masuk sebagai dataset, hasil keluar via output kernel lalu diantar ke Drive. Kuota CPU mingguan belum terverifikasi.",
-   "status_kind": "busy"
+   "progress": "Solo Leveling 25/25 + finishing N3X tuntas (2026-10-19) \u2022 Loner Life encode 12/12 QC lulus & terverifikasi Drive (2026-10-19), penutupan Transfer.it sedang berjalan",
+   "role": "Lane Kaggle film \u2014 judul terakhir: Solo Leveling S01 + Loner Life S01 (keduanya tuntas)",
+   "status": "free",
+   "status_label": "Free \u2014 semua tugas tuntas, menunggu judul berikutnya",
+   "status_kind": "free"
   },
   {
+   "account": "gucinggaminf (username Kaggle: gucinggaminf) \u2014 akun Kaggle BARU dibuat Haru 2026-10-18",
+   "detail": "Dibuka 2026-10-18 malam (nomor lama: Mesin 6; diganti nomor 2026-10-18): token API terverifikasi (ListKernels 200), dataset ffmpeg terpasang, kernel probe COMPLETE. Kuota CPU mingguan per akun terpisah dari Mesin 1 \u2192 armada Kaggle kini 2 akun paralel. Tugas pertama Chef of Antarctica E12\u2013E14 (pindahan dari Mesin 5) TUNTAS \u2014 series 14/14 + finishing selesai 2026-10-19. Yuru Camp\u25b3: batch 1\u20132 selesai (8/25 reported), batch 3 (S01E09\u2013E12) RUNNING sejak 2026-10-19 14:00. S02+SP sempat dialihkan ke InstaBox (2026-10-19 13:03), tapi akun InstaBox di-ban admin di hari yang sama \u2014 keputusan Haru 2026-10-19 15:09: S02+SP balik ke mesin ini, menyambung sesudah S01 sampai 25/25.",
    "id": "mesin2",
    "name": "Mesin 2",
+   "now": "Kernel yuru-camp-encode batch 3: S01E09\u2013S01E12",
    "platform": "Kaggle",
-   "account": "gucinggaminf (username Kaggle: gucinggaminf) \u2014 akun Kaggle BARU dibuat Haru 2026-10-18",
-   "role": "Lane limpahan Colab \u2014 Chef E12\u2013E14 (berjalan), lalu Yuru Camp\u25b3 25 item",
+   "progress": "Yuru Camp\u25b3 8/25 item QC lulus & terverifikasi Drive (S01E01\u2013E08). Staging S01 tuntas 12/12; lanjut S02 + SP di mesin ini sampai 25/25.",
+   "progress_pct": 32,
+   "role": "Lane series Kaggle \u2014 Yuru Camp\u25b3 S01+S02+SP (25 item)",
    "status": "busy",
-   "status_label": "Sibuk \u2014 Chef of Antarctica E12\u2013E14 + Yuru Camp\u25b3 batch 1",
-   "detail": "Dibuka 2026-10-18 malam (nomor lama: Mesin 6; diganti nomor 2026-10-18): token API terverifikasi (ListKernels 200), dataset ffmpeg terpasang, kernel probe COMPLETE. Kuota CPU mingguan per akun terpisah dari Mesin 1 \u2192 armada Kaggle kini 2 akun paralel. Tugas pertama: menuntaskan Chef of Antarctica E12\u2013E14 (pindahan dari Mesin 5); berikutnya antrean Yuru Camp\u25b3 (pindahan dari Mesin 6).",
+   "status_label": "Sibuk \u2014 Yuru Camp\u25b3 8/25, batch 3 (S01E09\u2013E12) RUNNING",
    "status_kind": "busy"
   },
   {
+   "account": "GitHub gucinggaminf-lab",
+   "detail": "Kuota Codespaces bulan ini habis (start ditolak HTTP 402); First Love berhenti di E20 (E01\u2013E19 selesai). Reset kuota 1 November. (Nomor lama: Mesin 2.)",
    "id": "mesin3",
    "name": "Mesin 3",
    "platform": "Codespaces",
-   "account": "GitHub gucinggaminf-lab",
    "role": "Encode film + rantai series First Love",
    "status": "blocked",
    "status_label": "Berhenti \u2014 kuota habis",
-   "detail": "Kuota Codespaces bulan ini habis (start ditolak HTTP 402); First Love berhenti di E20 (E01\u2013E19 selesai). Reset kuota 1 November. (Nomor lama: Mesin 2.)",
    "status_kind": "blocked"
   },
   {
+   "account": "GitHub nama64034-commits",
+   "detail": "Oshi no Ko LA SELESAI 8/8 + finishing N3X tuntas 2026-10-17. Kuota Codespaces Oktober HABIS \u2014 tes start 2026-10-17 15:43 WIB ditolak HTTP 402 (billing issue), sama seperti Mesin 3. Codespace encode-4core-m4 Shutdown. Reset kuota 1 November 2026. (Nomor sama seperti sebelumnya: tetap Mesin 4.)",
    "id": "mesin4",
    "name": "Mesin 4",
    "platform": "Codespaces",
-   "account": "GitHub nama64034-commits",
    "role": "Encode series Oshi no Ko LA S01 (8 eps); sebelumnya: First Love 24/24 + finishing + Transfer.it tuntas (2026-10-15/16)",
    "status": "blocked",
    "status_label": "Berhenti \u2014 kuota Oktober habis (402)",
-   "detail": "Oshi no Ko LA SELESAI 8/8 + finishing N3X tuntas 2026-10-17. Kuota Codespaces Oktober HABIS \u2014 tes start 2026-10-17 15:43 WIB ditolak HTTP 402 (billing issue), sama seperti Mesin 3. Codespace encode-4core-m4 Shutdown. Reset kuota 1 November 2026. (Nomor sama seperti sebelumnya: tetap Mesin 4.)",
    "status_kind": "blocked"
   },
   {
+   "account": "Stephany Gerald (stephanygerald9@gmail.com) \u2014 swap akun 2026-10-16 (sebelumnya HaruBot)",
+   "detail": "Sesi encode Colab langsung; detail job-nya ada di kartu tugas masing-masing. Swap 2026-10-16: encode pindah ke akun Pro Stephany (units lagi 0 \u2014 kelas free sampai refill langganan), HaruBot pindah ke akun Nama Saya. 2026-10-18 malam: sisa Chef (E12\u2013E14) DIPINDAH ke Mesin 2 (Kaggle) karena antrean Colab tidak kunjung tuntas. (Nomor lama: Mesin 1.)",
    "id": "mesin5",
    "name": "Mesin 5",
+   "now": "Jembatan Transfer.it + putter dataset Kaggle (split signed-URL)",
    "platform": "Colab",
-   "account": "Stephany Gerald (stephanygerald9@gmail.com) \u2014 swap akun 2026-10-16 (sebelumnya HaruBot)",
+   "progress": "Finishing Solo Leveling (50 file) + Chef of Antarctica (28 file) TUNTAS 2026-10-19; penutupan Transfer.it folder Loner Life berjalan lewat sesi ini",
    "role": "Colab serbaguna \u2014 finishing, Transfer.it, putter dataset Kaggle",
    "status": "live",
-   "detail": "Sesi encode Colab langsung; detail job-nya ada di kartu tugas masing-masing. Swap 2026-10-16: encode pindah ke akun Pro Stephany (units lagi 0 \u2014 kelas free sampai refill langganan), HaruBot pindah ke akun Nama Saya. 2026-10-18 malam: sisa Chef (E12\u2013E14) DIPINDAH ke Mesin 2 (Kaggle) karena antrean Colab tidak kunjung tuntas. (Nomor lama: Mesin 1.)",
    "status_label": "Sibuk",
    "status_kind": "busy"
   },
   {
+   "account": "Arif (akun Google nganggur, profil CLI terauth 2026-10-15)",
+   "detail": "OAuth sesi encode3 MATI sejak 2026-10-17 21:57 (butuh login ulang dari Haru). Keputusan 2026-10-18: Yuru Camp\u25b3 TIDAK dilanjutkan di sini \u2014 dipindah ke Mesin 2 (Kaggle akun gucinggaminf); mesin ini pensiun untuk encode. (Nomor lama: Mesin 3.)",
    "id": "mesin6",
    "name": "Mesin 6",
    "platform": "Colab",
-   "account": "Arif (akun Google nganggur, profil CLI terauth 2026-10-15)",
    "role": "Encode series Yuru Camp\u25b3 \u2014 PENSIUN (pindah ke Mesin 2)",
    "status": "blocked",
    "status_label": "Berhenti \u2014 OAuth mati, Yuru Camp\u25b3 pindah ke Mesin 2",
-   "detail": "OAuth sesi encode3 MATI sejak 2026-10-17 21:57 (butuh login ulang dari Haru). Keputusan 2026-10-18: Yuru Camp\u25b3 TIDAK dilanjutkan di sini \u2014 dipindah ke Mesin 2 (Kaggle akun gucinggaminf); mesin ini pensiun untuk encode. (Nomor lama: Mesin 3.)",
-   "status_kind": "blocked"
-  },
-  {
-   "id": "mesin7",
-   "name": "Mesin 7",
-   "platform": "InstaBox",
-   "account": "harumisatochan@gmail.com (InstaBox, Free plan)",
-   "role": "Lane encode baru \u2014 box persisten InstaBox (bench lulus 2026-10-19), calon lane batch berikutnya",
-   "status": "blocked",
-   "status_label": "Mati \u2014 akun InstaBox dinonaktifkan admin",
-   "detail": "Akun InstaBox (harumisatochan@gmail.com) DINONAKTIFKAN admin provider 2026-10-19 (\u00b113:3x key di-revoke api_key_revoked; \u00b115:06 halaman akun: \"This account was disabled by an administrator\"). Box + isinya tidak bisa diakses lagi. Sempat lulus bench + tes nyata Loner E08 penuh dan mengerjakan Yuru S02E01 (AV1 selesai di dalam box, hilang bersama box). (Diadopsi 2026-10-19 pagi; box id m_agqvd7rcoe4xp7cfuqqmdkp2d4, 4 vCPU EPYC, RAM 8 GB, /data 20 GB.)",
-   "status_kind": "blocked"
-  },
-  {
-   "id": "mesin8",
-   "name": "Mesin 8",
-   "platform": "InstaBox",
-   "account": "harumisatochan@gmail.com (InstaBox, Free plan)",
-   "role": "Lane encode series \u2014 box persisten InstaBox kedua (dibuat 2026-10-19, ffmpeg siap)",
-   "status": "blocked",
-   "status_label": "Mati \u2014 akun InstaBox dinonaktifkan admin",
-   "detail": "Ikut mati bersama akun InstaBox yang dinonaktifkan admin 2026-10-19. Box kembaran Mesin 7 (id m_agqveoxwrpk2k57ywx5gsr6ll4, dibuat 2026-10-19, ffmpeg terpasang & terverifikasi); sempat mulai Yuru S02E07 (AV1 selesai di dalam box, hilang bersama box); belum pernah menyelesaikan satu item pun sampai Drive.",
    "status_kind": "blocked"
   }
  ],
@@ -745,7 +730,7 @@
    "total_parts": 2
   },
   {
-   "detail": "Progres: 8/12 episode QC lulus + terverifikasi di Drive (batch1 E01-E04 selesai; batch2 E05-E07 QC penuh + Drive==lokal; E08 selesai via Mesin 7 InstaBox, QC lulus, di Drive). Batch3 (E09-E12): staging dataset SELESAI 12/12. Kernel batch3 v3 (EPS=[9,10,11,12]) RUNNING di Mesin 1 Kaggle (stephanygerald/loner-life-encode) \u2014 cek 19 Okt 16:07 masih RUNNING, belum >11 jam. Run pengasuh berikutnya: tunggu COMPLETE lalu QC independen + upload E09-E12; setelah 12/12 buat 2 transfer Transfer.it folder (LONER_AV1/LONER_X264).",
+   "detail": "Progres: 12/12 episode QC lulus + terverifikasi di Drive (batch1 E01-E04, batch2 E05-E07 Kaggle + E08 via Mesin 7 InstaBox, batch3 E09-E12). Transfer.it folder AV1 SELESAI: https://transfer.it/t/xgGEzewnhD4A (12 file, terverifikasi HTTP 200). Transfer.it folder x264 (LONER_X264) SEDANG BERJALAN di sesi Colab Mesin 5 (pid 50228, mulai 19 Okt ~17:40 WIB). Run pengasuh berikutnya: ambil hasil tf_result_LONER_X264, verifikasi link live, catat state.tf_links, set task done, kirim ringkasan final, hapus cron loner-babysitter.",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
