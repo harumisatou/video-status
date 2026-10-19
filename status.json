@@ -1,22 +1,10 @@
 {
- "generated_at": "2026-10-19T05:46:54.052803+00:00",
+ "generated_at": "2026-10-19T05:49:15.238473+00:00",
  "session": {
-  "alive": true,
-  "age_min": 9,
-  "busy": true,
-  "job": {
-   "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
-   "name": "Yuru.Camp.S01E01.1080p.WEB-DL.mkv",
-   "stage": "encode",
-   "codec": "av1",
-   "codecs": [
-    "av1",
-    "h264"
-   ],
-   "seg": 8,
-   "total": 12,
-   "via": "drive"
-  }
+  "alive": false,
+  "age_min": 12,
+  "busy": false,
+  "job": null
  },
  "machines": [
   {
@@ -71,8 +59,8 @@
    "role": "Colab serbaguna \u2014 finishing, Transfer.it, putter dataset Kaggle",
    "status": "live",
    "detail": "Sesi encode Colab langsung; detail job-nya ada di kartu tugas masing-masing. Swap 2026-10-16: encode pindah ke akun Pro Stephany (units lagi 0 \u2014 kelas free sampai refill langganan), HaruBot pindah ke akun Nama Saya. 2026-10-18 malam: sisa Chef (E12\u2013E14) DIPINDAH ke Mesin 2 (Kaggle) karena antrean Colab tidak kunjung tuntas. (Nomor lama: Mesin 1.)",
-   "status_label": "Sibuk",
-   "status_kind": "busy"
+   "status_label": "Mati",
+   "status_kind": "blocked"
   },
   {
    "id": "mesin6",
@@ -92,9 +80,9 @@
    "account": "harumisatochan@gmail.com (InstaBox, Free plan)",
    "role": "Lane encode baru \u2014 box persisten InstaBox (bench lulus 2026-10-19), calon lane batch berikutnya",
    "status": "live",
-   "status_label": "Sibuk",
+   "status_label": "Mati",
    "detail": "Diadopsi 2026-10-19. Box 'mesin7' (id m_agqvd7rcoe4xp7cfuqqmdkp2d4): Debian 13, 4 vCPU AMD EPYC, RAM 8 GB, root 16 GB + /data persisten 20 GB. ffmpeg BtbN N-127651 (SVT-AV1 + x264 + Opus) terpasang di /data/home/tools. Bench klip uji 60 dtk 1080p: AV1 preset 8 CRF 36 tune VQ selesai 25,8 dtk (56 fps, 2,33x realtime, hasil 38.027.813 byte); x264 preset slow CRF 26 selesai 22,6 dtk (63 fps, 29.058.682 byte); unduh dari GitHub 156 MB dalam \u00b11,1 dtk. Catatan: auto-suspend DIPAKSA 1800 dtk oleh akun (fixedAutoSuspendSeconds) walau diminta 0 \u2014 box pause setelah 30 mnt idle, bangun lagi saat ada exec. Akses API dari VM lewat helper REST ibapi.py (CLI Go resmi gagal auth dari VM). Drive speed belum terbench: endpoint files API mesin membalas 404 (transfer file box rupanya lewat jalur connections/Vault, Vault tak bisa dikelola API key).",
-   "status_kind": "busy"
+   "status_kind": "blocked"
   },
   {
    "id": "mesin8",
@@ -103,9 +91,9 @@
    "account": "harumisatochan@gmail.com (InstaBox, Free plan)",
    "role": "Lane encode series \u2014 box persisten InstaBox kedua (dibuat 2026-10-19, ffmpeg siap)",
    "status": "live",
-   "status_label": "Sibuk",
+   "status_label": "Mati",
    "detail": "Dibuat 2026-10-19 atas perintah Haru setelah Mesin 7 lulus tes encode nyata (Loner Life E08); peran yang ditetapkan Haru: InstaBox untuk series, Kaggle untuk REMUX film/film. Box 'mesin8' (id m_agqveoxwrpk2k57ywx5gsr6ll4): Debian 13, 4 vCPU AMD EPYC, RAM 8 GB, root 16 GB + /data persisten 20 GB \u2014 spek identik Mesin 7, terverifikasi dari dalam box. ffmpeg BtbN N-127651-gb60ab6c9a4-20261018 (encoder libsvtav1 + libx264 + libopus terverifikasi) terpasang di /data/home/tools/ffmpeg-master-latest-linux64-gpl/bin/ffmpeg. IP egress 32.190.147.107 (AWS us-west-2, Boardman, Oregon, AS \u2014 IP egress yang sama dengan Mesin 7); speedtest unduh 100 MB dalam 3,1 dtk (\u00b1271 Mbps, Hetzner Ashburn). auto-suspend dipaksa 1800 dtk oleh akun seperti Mesin 7 \u2014 box pause setelah 30 mnt idle, bangun saat ada exec. Jalur file masuk/keluar box = jembatan Transfer.it (pola tes Mesin 7); akses API dari VM lewat helper REST ibapi.py.",
-   "status_kind": "busy"
+   "status_kind": "blocked"
   }
  ],
  "tasks": [
@@ -391,8 +379,8 @@
    "total_parts": 8
   },
   {
-   "detail": "25/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17 + E18-E21 + E22-E25, semua QC lulus, sudah di Hasil Encode). Fase final TUNTAS run 2026-10-19 10:15-10:55 WIB: transfer folder Transfer.it kedua folder hasil dibuat lewat sesi Colab encode Mesin 5 dan tautannya terverifikasi hidup (HTTP 200, dibaca dari tf_result aktual) \u2014 AV1 (25 file, 5.406.149.444 byte): https://transfer.it/t/dqK0GDhXWB5C ; x264 (25 file, 7.606.026.427 byte): https://transfer.it/t/lsGNvPpHSD6K . qc_failed kosong, failed_eps tidak ada. Cron solo-babysitter dihapus setelah laporan final ini.",
-   "finished_at": "2026-10-19T10:56:37+07:00",
+   "detail": "25/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17 + E18-E21 + E22-E25, semua QC lulus, sudah di Hasil Encode). Fase final TUNTAS run 2026-10-19 10:15-10:55 WIB: transfer folder Transfer.it kedua folder hasil dibuat lewat sesi Colab encode Mesin 5 dan tautannya terverifikasi hidup (HTTP 200, dibaca dari tf_result aktual) \u2014 AV1 (25 file, 5.406.149.444 byte): https://transfer.it/t/dqK0GDhXWB5C ; x264 (25 file, 7.606.026.427 byte): https://transfer.it/t/lsGNvPpHSD6K . qc_failed kosong, failed_eps tidak ada. Cron solo-babysitter dihapus setelah laporan final ini. FINISHING N3X SELESAI 2026-10-19: 50/50 file termux + terverifikasi (streamhash identik, stream = sumber+1 cover, delta durasi 0,0 dtk) ke folder N3X/Series (AV1.10bit.Opus.2.0 / x264.AAC.2.0) \u2014 metadata TMDB tv/127532, IMDb tt21209876, title 'Solo Leveling (2024) - N3X', Writing application N3X 2.0, cover terpasang. Perbaikan lanjutan di hari yang sama: tag DESCRIPTION warisan sumber NF yang tergabung saat mux diganti bersih ke sinopsis TMDB di semua 50 file (mkvpropedit --tags global:, statistik per-track utuh, streamhash tetap identik, 50/50 lulus). MediaInfo E01 (katb): AV1 https://katb.in/uveqopidiwo, x264 https://katb.in/utapotavapu. Transfer.it folder FINISHING: AV1 https://transfer.it/t/qYozrT5lABZK (25 file, 5.409.952.819 byte), x264 https://transfer.it/t/ki2ocnrUDYIy (25 file, 7.610.222.358 byte) \u2014 byte TF cocok persis dengan total folder Drive.",
+   "finished_at": "2026-10-19T12:49:05+07:00",
    "id": "solo-leveling-series",
    "job_dir": "Solo.Leveling.S01E25.1080p.WEB-DL",
    "kind": "encode",
@@ -400,7 +388,274 @@
    "started_at": "2026-10-17T07:50:00+07:00",
    "status": "done",
    "title": "Encode series: Solo Leveling S01 \u2014 25 episode (AV1 + x264)",
-   "total_parts": 25
+   "total_parts": 25,
+   "cover": "https://raw.githubusercontent.com/harumisatou/video-status/main/covers/solo-leveling.jpg",
+   "mediainfo": [
+    {
+     "katb": "https://katb.in/uveqopidiwo",
+     "label": "MediaInfo \u2014 AV1",
+     "url": "https://raw.githubusercontent.com/harumisatou/video-status/main/mediainfo/solo-av1.txt"
+    },
+    {
+     "katb": "https://katb.in/utapotavapu",
+     "label": "MediaInfo \u2014 x264",
+     "url": "https://raw.githubusercontent.com/harumisatou/video-status/main/mediainfo/solo-x264.txt"
+    }
+   ],
+   "results": [
+    {
+     "name": "Solo.Leveling.S01E01.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 182638235
+    },
+    {
+     "name": "Solo.Leveling.S01E02.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 183611878
+    },
+    {
+     "name": "Solo.Leveling.S01E03.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 225883141
+    },
+    {
+     "name": "Solo.Leveling.S01E04.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 199324481
+    },
+    {
+     "name": "Solo.Leveling.S01E05.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 222945289
+    },
+    {
+     "name": "Solo.Leveling.S01E06.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 249896673
+    },
+    {
+     "name": "Solo.Leveling.S01E07.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 240244500
+    },
+    {
+     "name": "Solo.Leveling.S01E08.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 186393817
+    },
+    {
+     "name": "Solo.Leveling.S01E09.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 203140953
+    },
+    {
+     "name": "Solo.Leveling.S01E10.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 189338306
+    },
+    {
+     "name": "Solo.Leveling.S01E11.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 221907654
+    },
+    {
+     "name": "Solo.Leveling.S01E12.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 221175428
+    },
+    {
+     "name": "Solo.Leveling.S01E13.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 213881873
+    },
+    {
+     "name": "Solo.Leveling.S01E14.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 249460090
+    },
+    {
+     "name": "Solo.Leveling.S01E15.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 221229460
+    },
+    {
+     "name": "Solo.Leveling.S01E16.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 172837979
+    },
+    {
+     "name": "Solo.Leveling.S01E17.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 196497302
+    },
+    {
+     "name": "Solo.Leveling.S01E18.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 235605463
+    },
+    {
+     "name": "Solo.Leveling.S01E19.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 178666689
+    },
+    {
+     "name": "Solo.Leveling.S01E20.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 235692497
+    },
+    {
+     "name": "Solo.Leveling.S01E21.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 183738764
+    },
+    {
+     "name": "Solo.Leveling.S01E22.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 229708265
+    },
+    {
+     "name": "Solo.Leveling.S01E23.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 275676209
+    },
+    {
+     "name": "Solo.Leveling.S01E24.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 241235963
+    },
+    {
+     "name": "Solo.Leveling.S01E25.1080p.WEB-DL.AV1.10bit.Opus.2.0-N3X.mkv",
+     "size": 249221910
+    },
+    {
+     "name": "Solo.Leveling.S01E01.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 246321595
+    },
+    {
+     "name": "Solo.Leveling.S01E02.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 290146035
+    },
+    {
+     "name": "Solo.Leveling.S01E03.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 318309389
+    },
+    {
+     "name": "Solo.Leveling.S01E04.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 322456210
+    },
+    {
+     "name": "Solo.Leveling.S01E05.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 290022917
+    },
+    {
+     "name": "Solo.Leveling.S01E06.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 333564476
+    },
+    {
+     "name": "Solo.Leveling.S01E07.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 352750394
+    },
+    {
+     "name": "Solo.Leveling.S01E08.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 243892837
+    },
+    {
+     "name": "Solo.Leveling.S01E09.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 295855750
+    },
+    {
+     "name": "Solo.Leveling.S01E10.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 249929018
+    },
+    {
+     "name": "Solo.Leveling.S01E11.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 346778453
+    },
+    {
+     "name": "Solo.Leveling.S01E12.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 336192914
+    },
+    {
+     "name": "Solo.Leveling.S01E13.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 290045268
+    },
+    {
+     "name": "Solo.Leveling.S01E14.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 336485366
+    },
+    {
+     "name": "Solo.Leveling.S01E15.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 300820341
+    },
+    {
+     "name": "Solo.Leveling.S01E16.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 224012667
+    },
+    {
+     "name": "Solo.Leveling.S01E17.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 277722590
+    },
+    {
+     "name": "Solo.Leveling.S01E18.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 345937171
+    },
+    {
+     "name": "Solo.Leveling.S01E19.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 245717644
+    },
+    {
+     "name": "Solo.Leveling.S01E20.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 353267425
+    },
+    {
+     "name": "Solo.Leveling.S01E21.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 244078672
+    },
+    {
+     "name": "Solo.Leveling.S01E22.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 290757741
+    },
+    {
+     "name": "Solo.Leveling.S01E23.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 393993438
+    },
+    {
+     "name": "Solo.Leveling.S01E24.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 346648496
+    },
+    {
+     "name": "Solo.Leveling.S01E25.1080p.WEB-DL.x264.AAC.2.0-N3X.mkv",
+     "size": 334515551
+    }
+   ],
+   "results_exclude": [
+    "Solo.Leveling.S01E01.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E01.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E02.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E02.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E03.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E03.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E04.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E04.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E05.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E05.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E06.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E06.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E07.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E07.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E08.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E08.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E09.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E09.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E10.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E10.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E11.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E11.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E12.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E12.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E13.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E13.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E14.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E14.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E15.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E15.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E16.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E16.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E17.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E17.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E18.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E18.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E19.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E19.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E20.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E20.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E21.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E21.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E22.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E22.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E23.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E23.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E24.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E24.1080p.WEB-DL.AAC2.0.x264-N3X.mkv",
+    "Solo.Leveling.S01E25.1080p.WEB-DL.Opus2.0.AV1-N3X.mkv",
+    "Solo.Leveling.S01E25.1080p.WEB-DL.AAC2.0.x264-N3X.mkv"
+   ]
   },
   {
    "cover": "https://raw.githubusercontent.com/harumisatou/video-status/main/covers/spermageddon.jpg",
