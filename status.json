@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-19T03:16:12.427761+00:00",
+ "generated_at": "2026-10-19T03:18:37.320093+00:00",
  "session": {
   "alive": true,
-  "age_min": 15,
+  "age_min": 17,
   "busy": true,
   "job": {
    "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
@@ -311,7 +311,7 @@
    "total_parts": 2
   },
   {
-   "detail": "Progres: 5/12 episode terupload terverifikasi (batch1 E01-E04 selesai, batch2 E05 selesai). Batch2: E05-E07 LULUS QC penuh (stream vs sumber E05 11sub/15att, E06 12/17, E07 12/6; durasi ~1421 dtk diff <0,02 dtk; full decode semua 6 file rc=0 bersih). Upload awal E05-E07 terputus (diduga VM restart): verifikasi 09:37 E05 kedua versi + E06 AV1 ukuran Drive==lokal, sisa E06 x264 + E07 kedua versi sedang di-upload ulang via daemon (log hidden_files/loner-series/upload-b2-resume.log) \u2014 reported naik ke 7/12 setelah verifikasi berikutnya. E08 gagal di kernel: SOURCE_NOT_FOUND, sumber terverifikasi ada di Drive (5.244.055.898 byte, 12 sub/13 att) \u2014 push retry EPS=[8] saja setelah upload E05-E07 terverifikasi, sebelum batch3 (E09-E12, belum staged). Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle).",
+   "detail": "Progres: 7/12 episode terupload terverifikasi di Drive (batch1 E01-E04 selesai; batch2 E05-E07 selesai QC penuh + ukuran Drive==lokal terverifikasi 19 Okt 10:07 - E06 AV1 391.258.770 / x264 433.051.270, E07 AV1 204.836.228 / x264 258.644.008). E08 diambil alih agen utama di Mesin 7 (InstaBox) atas perintah Haru - babysitter tidak encode/push E08; batch2 dianggap tuntas dari sisi kernel begitu agen utama menambahkan E08 ke reported. Batch3 staging berjalan: E09 + E10 sudah staged jadi dataset Kaggle (LONER_E09/E10_DATASET_OK), sisa E11-E12 lalu kernel batch3 di-push. Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle).",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
