@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-19T03:30:58.024505+00:00",
+ "generated_at": "2026-10-19T03:33:32.637968+00:00",
  "session": {
   "alive": true,
-  "age_min": 8,
+  "age_min": 11,
   "busy": true,
   "job": {
    "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
@@ -311,7 +311,7 @@
    "total_parts": 2
   },
   {
-   "detail": "Progres: 7/12 episode terupload terverifikasi di Drive (batch1 E01-E04 selesai; batch2 E05-E07 selesai QC penuh + ukuran Drive==lokal terverifikasi 19 Okt 10:07 - E06 AV1 391.258.770 / x264 433.051.270, E07 AV1 204.836.228 / x264 258.644.008). E08 diambil alih agen utama di Mesin 7 (InstaBox) atas perintah Haru - babysitter tidak encode/push E08; batch2 dianggap tuntas dari sisi kernel begitu agen utama menambahkan E08 ke reported. Batch3 staging berjalan: E09 + E10 sudah staged jadi dataset Kaggle (LONER_E09/E10_DATASET_OK), sisa E11-E12 lalu kernel batch3 di-push. Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle).",
+   "detail": "Progres: 8/12 episode QC lulus + terverifikasi di Drive (batch1 E01-E04 selesai; batch2 E05-E07 QC penuh + ukuran Drive==lokal terverifikasi 19 Okt 10:07). E08 SELESAI via Mesin 7 (InstaBox) 19 Okt: tes encode nyata lulus penuh - encode AV1 563 dtk / x264 604 dtk di box, QC gerbang sumber-relatif lulus (sub 12, att 13, decode bersih), hasil AV1 329.779.429 / x264 379.017.431 byte terverifikasi di folder Hasil Encode. Batch3 staging berjalan: E09 + E10 sudah staged jadi dataset Kaggle (LONER_E09/E10_DATASET_OK), sisa E11-E12 lalu kernel batch3 di-push. Kernel: stephanygerald/loner-life-encode (Mesin 1 Kaggle).",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
