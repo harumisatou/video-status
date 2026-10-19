@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-19T06:07:30.840441+00:00",
+ "generated_at": "2026-10-19T06:12:15.650102+00:00",
  "session": {
   "alive": true,
-  "age_min": 13,
+  "age_min": 18,
   "busy": true,
   "job": {
    "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
@@ -745,7 +745,7 @@
    "total_parts": 2
   },
   {
-   "detail": "Progres: 8/12 episode QC lulus + terverifikasi di Drive (batch1 E01-E04 selesai; batch2 E05-E07 QC penuh + Drive==lokal; E08 selesai via Mesin 7 InstaBox, QC lulus, di Drive). Batch3 (E09-E12): staging dataset SELESAI 12/12. Kernel batch3 v3 (EPS=[9,10,11,12]) RUNNING di Mesin 1 Kaggle (stephanygerald/loner-life-encode) \u2014 cek 19 Okt 12:37 masih RUNNING, belum >11 jam. Run pengasuh berikutnya: tunggu COMPLETE lalu QC independen + upload E09-E12; setelah 12/12 buat 2 transfer Transfer.it folder (LONER_AV1/LONER_X264).",
+   "detail": "Progres: 8/12 episode QC lulus + terverifikasi di Drive (batch1 E01-E04 selesai; batch2 E05-E07 QC penuh + Drive==lokal; E08 selesai via Mesin 7 InstaBox, QC lulus, di Drive). Batch3 (E09-E12): staging dataset SELESAI 12/12. Kernel batch3 v3 (EPS=[9,10,11,12]) RUNNING di Mesin 1 Kaggle (stephanygerald/loner-life-encode) \u2014 cek 19 Okt 13:07 masih RUNNING, belum >11 jam. Run pengasuh berikutnya: tunggu COMPLETE lalu QC independen + upload E09-E12; setelah 12/12 buat 2 transfer Transfer.it folder (LONER_AV1/LONER_X264).",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
