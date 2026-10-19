@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-19T07:07:22.370845+00:00",
+ "generated_at": "2026-10-19T07:09:43.668075+00:00",
  "session": {
   "alive": true,
-  "age_min": 26,
+  "age_min": 29,
   "busy": true,
   "job": {
    "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
@@ -365,7 +365,7 @@
    "title": "Encode film: My Daughter Is a Zombie (2025) \u2014 AV1 + x264 + finishing N3X"
   },
   {
-   "detail": "8/25 selesai. Batch2 (S01E05\u2013E08) di Mesin 2 Kaggle (gucinggaminf/yuru-camp-encode v2) COMPLETE, QC lolos 8/8 file (AV1 yuv420p10le + Opus 2ch 0 sub; x264 yuv420p + AAC 2ch 0 sub; durasi 1440.072/1440.085 dtk, \u0394 0.013 dtk; full decode bersih 8/8), terupload & terverifikasi ukuran di Drive run 2026-10-19 12:00 WIB: AV1 E05 290801776, E06 312329507, E07 305954174, E08 404542330; x264 E05 395422477, E06 391264236, E07 412398526, E08 435066945 \u2014 semua persis sama lokal. Batch1 sebelumnya: AV1 E01 357403604, E02 325455674, E03 229999644, E04 353881848; x264 E01 416920843, E02 388864761, E03 334584808, E04 409801060. Dataset batch1+batch2 (yuru-s01e01..e08) masuk datasets_deletable \u2014 penghapusan wewenang agen utama. Subtitle Jepang eksternal ditambahkan nanti di finishing, BUKAN di encode (hasil encode 0 sub). Berikutnya: staging batch3 (S01E09\u2013E12, maks 2 item/run), lalu push kernel batch3. Run 12:00 WIB: staging batch3 dimulai \u2014 ingest S01E09 terputus karena service lokal restart dan sesi Colab Mesin 5 kemudian tidak ditemukan lagi (put result tidak muncul); BUKAN kegagalan item, tidak ditandai failed, retry run berikutnya. S01E10 belum dimulai.",
+   "detail": "8/25 selesai. Batch2 (S01E05\u2013E08) di Mesin 2 Kaggle (gucinggaminf/yuru-camp-encode v2) COMPLETE, QC lolos 8/8 file (AV1 yuv420p10le + Opus 2ch 0 sub; x264 yuv420p + AAC 2ch 0 sub; durasi 1440.072/1440.085 dtk, \u0394 0.013 dtk; full decode bersih 8/8), terupload & terverifikasi ukuran di Drive run 2026-10-19 12:00 WIB: AV1 E05 290801776, E06 312329507, E07 305954174, E08 404542330; x264 E05 395422477, E06 391264236, E07 412398526, E08 435066945 \u2014 semua persis sama lokal. Batch1 sebelumnya: AV1 E01 357403604, E02 325455674, E03 229999644, E04 353881848; x264 E01 416920843, E02 388864761, E03 334584808, E04 409801060. Dataset batch1+batch2 (yuru-s01e01..e08) masuk datasets_deletable \u2014 penghapusan wewenang agen utama. Subtitle Jepang eksternal ditambahkan nanti di finishing, BUKAN di encode (hasil encode 0 sub). Berikutnya: staging batch3 (S01E09\u2013E12, maks 2 item/run), lalu push kernel batch3. Run 12:00 WIB: staging batch3 dimulai \u2014 ingest S01E09 terputus karena service lokal restart dan sesi Colab Mesin 5 kemudian tidak ditemukan lagi (put result tidak muncul); BUKAN kegagalan item, tidak ditandai failed, retry run berikutnya. S01E10 belum dimulai. Run 14:00 WIB (cakupan S01 SAJA di Mesin 2; S02+SP dikerjakan InstaBox Mesin 7 & 8): staging batch3 TUNTAS \u2014 S01E12 ingest BERHASIL (YURU_S01E12_DATASET_OK; put ok size 1761259557, md5 886f28efa6499d0884663ba4c1e31488 persis inventory; dataset-status yuru-s01e09..e12 semua ready). Kernel batch3 di-push: BATCH=['S01E09','S01E10','S01E11','S01E12'], dataset_sources=ffmpeg-btb + yuru-s01e09..e12, KG_PUSH_OK version_number=3, status sesudah push RUNNING. State: staged S01 lengkap 12/12, current_batch=batch3, reported tetap 8/12 S01. Berikutnya: tunggu kernel v3 COMPLETE -> unduh output batch3, QC per item, upload ke folder S01 AV1/x264 di Drive.",
    "id": "yurucamp-series",
    "job_dir": "Yuru.Camp.S01E01.1080p.WEB-DL",
    "kind": "encode",
@@ -745,7 +745,7 @@
    "total_parts": 2
   },
   {
-   "detail": "Progres: 8/12 episode QC lulus + terverifikasi di Drive (batch1 E01-E04 selesai; batch2 E05-E07 QC penuh + Drive==lokal; E08 selesai via Mesin 7 InstaBox, QC lulus, di Drive). Batch3 (E09-E12): staging dataset SELESAI 12/12. Kernel batch3 v3 (EPS=[9,10,11,12]) RUNNING di Mesin 1 Kaggle (stephanygerald/loner-life-encode) \u2014 cek 19 Okt 13:37 masih RUNNING, belum >11 jam. Run pengasuh berikutnya: tunggu COMPLETE lalu QC independen + upload E09-E12; setelah 12/12 buat 2 transfer Transfer.it folder (LONER_AV1/LONER_X264).",
+   "detail": "Progres: 8/12 episode QC lulus + terverifikasi di Drive (batch1 E01-E04 selesai; batch2 E05-E07 QC penuh + Drive==lokal; E08 selesai via Mesin 7 InstaBox, QC lulus, di Drive). Batch3 (E09-E12): staging dataset SELESAI 12/12. Kernel batch3 v3 (EPS=[9,10,11,12]) RUNNING di Mesin 1 Kaggle (stephanygerald/loner-life-encode) \u2014 cek 19 Okt 14:07 masih RUNNING, belum >11 jam. Run pengasuh berikutnya: tunggu COMPLETE lalu QC independen + upload E09-E12; setelah 12/12 buat 2 transfer Transfer.it folder (LONER_AV1/LONER_X264).",
    "id": "loner-life-series",
    "job_dir": "Loner.Life.in.Another.World.S01E01.1080p.BluRay.Remux",
    "kind": "encode",
