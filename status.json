@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-19T06:19:23.513070+00:00",
+ "generated_at": "2026-10-19T06:21:46.965238+00:00",
  "session": {
   "alive": true,
-  "age_min": null,
+  "age_min": 2,
   "busy": true,
   "job": {
    "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
