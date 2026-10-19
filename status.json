@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-19T02:52:32.081408+00:00",
+ "generated_at": "2026-10-19T02:54:53.624564+00:00",
  "session": {
   "alive": true,
-  "age_min": 28,
+  "age_min": 30,
   "busy": true,
   "job": {
    "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
@@ -222,9 +222,9 @@
    "total_parts": 8
   },
   {
-   "detail": "21/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17 + E18-E21, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-19 09:15 WIB): batch terakhir [22,23,24,25] QC LULUS PENUH \u2014 kernel COMPLETE, probe ffprobe ulang lulus semua 8 file (AV1 av1/yuv420p10le+opus 2ch, x264 h264/yuv420p+aac 2ch, 1 video stream, 4 subtitle kedua versi, durasi selisih <0,02 dtk), decode penuh DECODE_ALL_DONE 8/8 rc=0 errlen=0. Upload 8 file ke Hasil Encode sedang berjalan via daemon persisten upload_batch22.sh (PID 1881, PPID 1, log di hidden_files/solo-series/upload_batch22.log): AV1 E22 rc=0 selesai, 7 file sisanya antre (upload exec biasa sebelumnya mati kena restart runtime, terverifikasi belum ada E22-E25 di Drive sebelum daemon mulai). reported di state tetap 1-21 sampai upload terverifikasi rclone ls. Setelah itu: reported 25/25, bersihkan lokal, fase final Transfer.it folder.",
+   "detail": "25/25 episode selesai (E01 pilot + E02-E05 + E06-E09 + E10-E13 + E14-E17 + E18-E21 + E22-E25, semua QC lulus, sudah di Hasil Encode). Aktivitas saat ini (run 2026-10-19 09:45 WIB): batch terakhir [22,23,24,25] TUNTAS \u2014 daemon upload_batch22.sh UPLOAD_ALL_DONE 02:51 UTC, 8/8 file rc=0, ukuran Drive terverifikasi persis cocok log kernel (AV1 E22 218,9MB/E23 262,8MB/E24 229,9MB/E25 237,5MB; x264 E22 277,1MB/E23 375,6MB/E24 330,4MB/E25 318,9MB), state reported=25/25, current_batch=null, lokal dibersihkan. Berikutnya fase final: buat transfer folder Transfer.it untuk kedua folder hasil (brief SOLO_AV1 & SOLO_X264 sudah disiapkan lokal, sesi Colab encode Mesin 5 hidup), lalu laporan final + tutup cron.",
    "id": "solo-leveling-series",
-   "job_dir": "Solo.Leveling.S01E22.1080p.WEB-DL",
+   "job_dir": "Solo.Leveling.S01E25.1080p.WEB-DL",
    "kind": "encode",
    "source": "Solo.Leveling.S01E##.1080p.NF.WEB-DL.AAC2.0.H.264-Haru \u2014 Solo Leveling S01 (25 eps), folder Drive Haru",
    "started_at": "2026-10-17T07:50:00+07:00",
