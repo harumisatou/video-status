@@ -1,10 +1,22 @@
 {
- "generated_at": "2026-10-19T05:18:05.672963+00:00",
+ "generated_at": "2026-10-19T05:20:45.504216+00:00",
  "session": {
-  "alive": false,
-  "age_min": 13,
-  "busy": false,
-  "job": null
+  "alive": true,
+  "age_min": 0,
+  "busy": true,
+  "job": {
+   "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
+   "name": "Yuru.Camp.S01E01.1080p.WEB-DL.mkv",
+   "stage": "encode",
+   "codec": "av1",
+   "codecs": [
+    "av1",
+    "h264"
+   ],
+   "seg": 8,
+   "total": 12,
+   "via": "drive"
+  }
  },
  "machines": [
   {
@@ -59,8 +71,8 @@
    "role": "Colab serbaguna \u2014 finishing, Transfer.it, putter dataset Kaggle",
    "status": "live",
    "detail": "Sesi encode Colab langsung; detail job-nya ada di kartu tugas masing-masing. Swap 2026-10-16: encode pindah ke akun Pro Stephany (units lagi 0 \u2014 kelas free sampai refill langganan), HaruBot pindah ke akun Nama Saya. 2026-10-18 malam: sisa Chef (E12\u2013E14) DIPINDAH ke Mesin 2 (Kaggle) karena antrean Colab tidak kunjung tuntas. (Nomor lama: Mesin 1.)",
-   "status_label": "Mati",
-   "status_kind": "blocked"
+   "status_label": "Sibuk",
+   "status_kind": "busy"
   },
   {
    "id": "mesin6",
@@ -80,9 +92,9 @@
    "account": "harumisatochan@gmail.com (InstaBox, Free plan)",
    "role": "Lane encode baru \u2014 box persisten InstaBox (bench lulus 2026-10-19), calon lane batch berikutnya",
    "status": "live",
-   "status_label": "Mati",
+   "status_label": "Sibuk",
    "detail": "Diadopsi 2026-10-19. Box 'mesin7' (id m_agqvd7rcoe4xp7cfuqqmdkp2d4): Debian 13, 4 vCPU AMD EPYC, RAM 8 GB, root 16 GB + /data persisten 20 GB. ffmpeg BtbN N-127651 (SVT-AV1 + x264 + Opus) terpasang di /data/home/tools. Bench klip uji 60 dtk 1080p: AV1 preset 8 CRF 36 tune VQ selesai 25,8 dtk (56 fps, 2,33x realtime, hasil 38.027.813 byte); x264 preset slow CRF 26 selesai 22,6 dtk (63 fps, 29.058.682 byte); unduh dari GitHub 156 MB dalam \u00b11,1 dtk. Catatan: auto-suspend DIPAKSA 1800 dtk oleh akun (fixedAutoSuspendSeconds) walau diminta 0 \u2014 box pause setelah 30 mnt idle, bangun lagi saat ada exec. Akses API dari VM lewat helper REST ibapi.py (CLI Go resmi gagal auth dari VM). Drive speed belum terbench: endpoint files API mesin membalas 404 (transfer file box rupanya lewat jalur connections/Vault, Vault tak bisa dikelola API key).",
-   "status_kind": "blocked"
+   "status_kind": "busy"
   },
   {
    "id": "mesin8",
@@ -91,9 +103,9 @@
    "account": "harumisatochan@gmail.com (InstaBox, Free plan)",
    "role": "Lane encode series \u2014 box persisten InstaBox kedua (dibuat 2026-10-19, ffmpeg siap)",
    "status": "live",
-   "status_label": "Mati",
+   "status_label": "Sibuk",
    "detail": "Dibuat 2026-10-19 atas perintah Haru setelah Mesin 7 lulus tes encode nyata (Loner Life E08); peran yang ditetapkan Haru: InstaBox untuk series, Kaggle untuk REMUX film/film. Box 'mesin8' (id m_agqveoxwrpk2k57ywx5gsr6ll4): Debian 13, 4 vCPU AMD EPYC, RAM 8 GB, root 16 GB + /data persisten 20 GB \u2014 spek identik Mesin 7, terverifikasi dari dalam box. ffmpeg BtbN N-127651-gb60ab6c9a4-20261018 (encoder libsvtav1 + libx264 + libopus terverifikasi) terpasang di /data/home/tools/ffmpeg-master-latest-linux64-gpl/bin/ffmpeg. IP egress 32.190.147.107 (AWS us-west-2, Boardman, Oregon, AS \u2014 IP egress yang sama dengan Mesin 7); speedtest unduh 100 MB dalam 3,1 dtk (\u00b1271 Mbps, Hetzner Ashburn). auto-suspend dipaksa 1800 dtk oleh akun seperti Mesin 7 \u2014 box pause setelah 30 mnt idle, bangun saat ada exec. Jalur file masuk/keluar box = jembatan Transfer.it (pola tes Mesin 7); akses API dari VM lewat helper REST ibapi.py.",
-   "status_kind": "blocked"
+   "status_kind": "busy"
   }
  ],
  "tasks": [
@@ -353,7 +365,7 @@
    "title": "Encode film: My Daughter Is a Zombie (2025) \u2014 AV1 + x264 + finishing N3X"
   },
   {
-   "detail": "8/25 selesai. Batch2 (S01E05\u2013E08) di Mesin 2 Kaggle (gucinggaminf/yuru-camp-encode v2) COMPLETE, QC lolos 8/8 file (AV1 yuv420p10le + Opus 2ch 0 sub; x264 yuv420p + AAC 2ch 0 sub; durasi 1440.072/1440.085 dtk, \u0394 0.013 dtk; full decode bersih 8/8), terupload & terverifikasi ukuran di Drive run 2026-10-19 12:00 WIB: AV1 E05 290801776, E06 312329507, E07 305954174, E08 404542330; x264 E05 395422477, E06 391264236, E07 412398526, E08 435066945 \u2014 semua persis sama lokal. Batch1 sebelumnya: AV1 E01 357403604, E02 325455674, E03 229999644, E04 353881848; x264 E01 416920843, E02 388864761, E03 334584808, E04 409801060. Dataset batch1+batch2 (yuru-s01e01..e08) masuk datasets_deletable \u2014 penghapusan wewenang agen utama. Subtitle Jepang eksternal ditambahkan nanti di finishing, BUKAN di encode (hasil encode 0 sub). Berikutnya: staging batch3 (S01E09\u2013E12, maks 2 item/run), lalu push kernel batch3.",
+   "detail": "8/25 selesai. Batch2 (S01E05\u2013E08) di Mesin 2 Kaggle (gucinggaminf/yuru-camp-encode v2) COMPLETE, QC lolos 8/8 file (AV1 yuv420p10le + Opus 2ch 0 sub; x264 yuv420p + AAC 2ch 0 sub; durasi 1440.072/1440.085 dtk, \u0394 0.013 dtk; full decode bersih 8/8), terupload & terverifikasi ukuran di Drive run 2026-10-19 12:00 WIB: AV1 E05 290801776, E06 312329507, E07 305954174, E08 404542330; x264 E05 395422477, E06 391264236, E07 412398526, E08 435066945 \u2014 semua persis sama lokal. Batch1 sebelumnya: AV1 E01 357403604, E02 325455674, E03 229999644, E04 353881848; x264 E01 416920843, E02 388864761, E03 334584808, E04 409801060. Dataset batch1+batch2 (yuru-s01e01..e08) masuk datasets_deletable \u2014 penghapusan wewenang agen utama. Subtitle Jepang eksternal ditambahkan nanti di finishing, BUKAN di encode (hasil encode 0 sub). Berikutnya: staging batch3 (S01E09\u2013E12, maks 2 item/run), lalu push kernel batch3. Run 12:00 WIB: staging batch3 dimulai \u2014 ingest S01E09 terputus karena service lokal restart dan sesi Colab Mesin 5 kemudian tidak ditemukan lagi (put result tidak muncul); BUKAN kegagalan item, tidak ditandai failed, retry run berikutnya. S01E10 belum dimulai.",
    "id": "yurucamp-series",
    "job_dir": "Yuru.Camp.S01E01.1080p.WEB-DL",
    "kind": "encode",
