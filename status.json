@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-20T12:16:51.155894+00:00",
+ "generated_at": "2026-10-20T12:19:12.414798+00:00",
  "session": {
   "alive": true,
-  "age_min": 322,
+  "age_min": 324,
   "busy": true,
   "job": {
    "job": "Yuru.Camp.S01E01.1080p.WEB-DL",
@@ -82,15 +82,17 @@
    "status_kind": "busy"
   },
   {
-   "account": "Arif (akun Google nganggur, profil CLI terauth 2026-10-15)",
-   "detail": "OAuth sesi encode3 MATI sejak 2026-10-17 21:57 (butuh login ulang dari Haru). Keputusan 2026-10-18: Yuru Camp\u25b3 TIDAK dilanjutkan di sini \u2014 dipindah ke Mesin 2 (Kaggle akun gucinggaminf); mesin ini pensiun untuk encode. (Nomor lama: Mesin 3.)",
+   "account": "Arif (akun Google nganggur, profil CLI encode-colab3)",
+   "detail": "OAuth DIVERIFIKASI HIDUP 2026-10-20 (sesi encode3 aktif, token ter-refresh; WARN OAuth 17 Okt cuma historis \u2014 catatan lama 'OAuth mati/pensiun' dicabut). Keputusan Haru 2026-10-20: Mesin 6 = Colab kedua khusus jalur film \u2014 jembatan/putter Kaggle Mesin 2 (putter split signed-URL terpasang & terverifikasi di sesi) + finishing film. Dilengkapi 2026-10-20: put_blob_generic/start/kgput_status(2) + suite Transfer.it identik Mesin 5; catatan peran di encode-colab3/colab/FILM_ROLE.md. (Nomor lama: Mesin 3.)",
    "id": "mesin6",
    "name": "Mesin 6",
    "platform": "Colab",
-   "role": "Encode series Yuru Camp\u25b3 \u2014 PENSIUN (pindah ke Mesin 2)",
-   "status": "blocked",
-   "status_label": "Berhenti \u2014 OAuth mati, Yuru Camp\u25b3 pindah ke Mesin 2",
-   "status_kind": "blocked"
+   "role": "Colab film \u2014 jembatan Kaggle Mesin 2 + finishing film (sesi encode3)",
+   "status": "free",
+   "status_label": "Free \u2014 khusus film, menunggu 2 film berikutnya",
+   "now": "Siap: putter Kaggle Mesin 2 + finishing film",
+   "progress": "Dilengkapi & terverifikasi 2026-10-20; belum ada film yang di-encode lewat jalur ini",
+   "status_kind": "free"
   }
  ],
  "tasks": [
