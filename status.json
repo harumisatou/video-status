@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-22T04:46:32.767129+00:00",
+ "generated_at": "2026-10-22T04:48:43.998488+00:00",
  "session": {
   "alive": true,
-  "age_min": 10,
+  "age_min": 12,
   "busy": false,
   "job": null
  },
