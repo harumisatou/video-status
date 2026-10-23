@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-23T23:12:42.021744+00:00",
+ "generated_at": "2026-10-23T23:14:53.862894+00:00",
  "session": {
-  "alive": true,
-  "age_min": 20,
+  "alive": false,
+  "age_min": 23,
   "busy": false,
   "job": null
  },
@@ -66,8 +66,8 @@
    "progress": "Finishing Solo Leveling (50 file) + Chef of Antarctica (28 file) TUNTAS 2026-10-19; penutupan Transfer.it folder Loner Life berjalan lewat sesi ini",
    "role": "Colab serbaguna \u2014 finishing, Transfer.it, putter dataset Kaggle",
    "status": "live",
-   "status_label": "Free",
-   "status_kind": "free"
+   "status_label": "Mati",
+   "status_kind": "blocked"
   },
   {
    "account": "Arif (akun Google nganggur, profil CLI encode-colab3)",
@@ -846,17 +846,17 @@
    "notes": "Encode 12/12 QC lolos di Mesin 1 (Kaggle stephanygerald) \u2014 sumber BluRay REMUX CRUCiBLE (JP FLAC + EN FLAC -> Opus/AAC 128k, sub ASS/PGS/SRT utuh + font). Finishing BERES 19 Okt 2026 malam (Mesin 5): mux mkvmerge ke N3X/Series + cover + tag N3X persis (judul 'Loner Life in Another World (2024) - N3X', DESCRIPTION sinopsis TMDB EN, IMDB tt32512773, TMDB tv/259558), verifikasi streamhash NYATA 24/24 identik + statistik BPS utuh. Folder finished: AV1 12 file 3.253.540.594 B; x264 12 file 3.725.373.566 B. Transfer.it finished: AV1 https://transfer.it/t/EzmWnSpBQZRC - x264 https://transfer.it/t/a1wVvHwlGT4Z. katb: AV1 https://katb.in/imajelukowo - x264 https://katb.in/ujakihetitu. File RAW di Hasil Encode sudah dipindah ke Trash (aturan auto-delete)."
   },
   {
-   "detail": "Staging lengkap 12/12 terverifikasi di Drive (12 mkv + RAR sub Indo). Encode Mesin 1: batch 1 (E01-E04) sedang ingest dataset per-part dari VM (driver ingest_batch.sh, diawasi pengasuh hitori-babysitter yang juga meluncurkan kernel begitu 8 dataset part batch siap); batch 2 (E05-E08) dan batch 3 (E09-E12) mengikuti pola yang sama.",
+   "detail": "Staging lengkap 12/12 terverifikasi di Drive (12 mkv + RAR sub Indo). Encode Mesin 1: batch 1 (E01-E04) ingest dataset per-part via driver Colab ingest_batch_colab.sh skema judul probe (terbukti commit); pengasuh hitori-babysitter self-heal driver + push kernel stephanygerald/hitori-encode begitu 8 dataset part batch siap; batch 2 (E05-E08, E05 dataset sudah ready) dan batch 3 (E09-E12) mengikuti pola yang sama.",
    "id": "hitoribocchi-series",
    "job_dir": "Hitoribocchi.no.Marumaruseikatsu.S01.1080p.BluRay.Remux",
    "kind": "encode",
-   "progress": "0/12 encode selesai \u2014 batch 1 berjalan (driver ingest hidup: EP1 gagal finalize 500 x3, EP2 PUT part1 berjalan; 0/8 dataset part ready, finalize 3,6 GB masih gagal 500 pola kuota akun)",
+   "progress": "5/12 dataset part batch1 ready (E01 lengkap, E02 lengkap, E03p1; driver Colab EP3 berjalan); E04 menyusul \u2014 kernel batch1 push setelah 8/8 ready",
    "source": "Hitoribocchi.no.Marumaruseikatsu.S01.1080p.BluRay.Remux.AVC.FLAC2.0-CRUCiBLE (12 episode, 83,99 GB, BluRay REMUX 1080p, FLAC 2.0 jpn 1 audio, sub ASS bawaan + RAR sub Indo terpisah)",
    "started_at": "2026-10-23T15:35:00+07:00",
    "status": "running",
    "title": "Encode series: Hitoribocchi no Marumaru Seikatsu S01 REMUX \u2014 AV1 + x264",
    "total_parts": 12,
-   "updated_at": "2026-10-24T01:41:00+07:00",
+   "updated_at": "2026-10-24T06:11:00+07:00",
    "parts_done": 0,
    "parts_total": 12,
    "progress_pct": 0.0
