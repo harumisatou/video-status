@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-23T10:58:59.936522+00:00",
+ "generated_at": "2026-10-23T11:01:18.191506+00:00",
  "session": {
   "alive": true,
-  "age_min": 34,
+  "age_min": 36,
   "busy": false,
   "job": null
  },
@@ -846,7 +846,7 @@
    "notes": "Encode 12/12 QC lolos di Mesin 1 (Kaggle stephanygerald) \u2014 sumber BluRay REMUX CRUCiBLE (JP FLAC + EN FLAC -> Opus/AAC 128k, sub ASS/PGS/SRT utuh + font). Finishing BERES 19 Okt 2026 malam (Mesin 5): mux mkvmerge ke N3X/Series + cover + tag N3X persis (judul 'Loner Life in Another World (2024) - N3X', DESCRIPTION sinopsis TMDB EN, IMDB tt32512773, TMDB tv/259558), verifikasi streamhash NYATA 24/24 identik + statistik BPS utuh. Folder finished: AV1 12 file 3.253.540.594 B; x264 12 file 3.725.373.566 B. Transfer.it finished: AV1 https://transfer.it/t/EzmWnSpBQZRC - x264 https://transfer.it/t/a1wVvHwlGT4Z. katb: AV1 https://katb.in/imajelukowo - x264 https://katb.in/ujakihetitu. File RAW di Hasil Encode sudah dipindah ke Trash (aturan auto-delete)."
   },
   {
-   "detail": "Staging lengkap 12/12 terverifikasi di Drive (12 mkv + RAR sub Indo). Encode Mesin 1: batch 1 (E01-E04) ingest dataset + kernel berjalan; batch 2 (E05-E08) dan batch 3 (E09-E12) mengikuti via pengasuh hitori-babysitter.",
+   "detail": "Staging lengkap 12/12 terverifikasi di Drive (12 mkv + RAR sub Indo). Encode Mesin 1: batch 1 (E01-E04) sedang ingest dataset per-part dari VM (driver ingest_batch.sh, diawasi pengasuh hitori-babysitter yang juga meluncurkan kernel begitu 8 dataset part batch siap); batch 2 (E05-E08) dan batch 3 (E09-E12) mengikuti pola yang sama.",
    "id": "hitoribocchi-series",
    "job_dir": "Hitoribocchi.no.Marumaruseikatsu.S01.1080p.BluRay.Remux",
    "kind": "encode",
@@ -856,7 +856,7 @@
    "status": "running",
    "title": "Encode series: Hitoribocchi no Marumaru Seikatsu S01 REMUX \u2014 AV1 + x264",
    "total_parts": 12,
-   "updated_at": "2026-10-23T15:35:00+07:00",
+   "updated_at": "2026-10-23T18:00:00+07:00",
    "parts_done": 0,
    "parts_total": 12,
    "progress_pct": 0.0
