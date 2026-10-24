@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-24T00:46:20.071306+00:00",
+ "generated_at": "2026-10-24T00:48:42.528764+00:00",
  "session": {
   "alive": true,
-  "age_min": 15,
+  "age_min": 18,
   "busy": false,
   "job": null
  },
@@ -850,7 +850,7 @@
    "id": "hitoribocchi-series",
    "job_dir": "Hitoribocchi.no.Marumaruseikatsu.S01.1080p.BluRay.Remux",
    "kind": "encode",
-   "progress": "5/12 dataset part batch1 ready (E01 lengkap, E02 lengkap, E03p1; driver Colab EP3 berjalan); E04 menyusul \u2014 kernel batch1 push setelah 8/8 ready",
+   "progress": "kernel batch1 (E01-E04) ter-push v1 ke stephanygerald/hitori-encode 2026-10-24 07:52 WIB; 8/8 dataset part batch1 ready; menunggu hasil encode batch1",
    "source": "Hitoribocchi.no.Marumaruseikatsu.S01.1080p.BluRay.Remux.AVC.FLAC2.0-CRUCiBLE (12 episode, 83,99 GB, BluRay REMUX 1080p, FLAC 2.0 jpn 1 audio, sub ASS bawaan + RAR sub Indo terpisah)",
    "started_at": "2026-10-23T15:35:00+07:00",
    "status": "running",
