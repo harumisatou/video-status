@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-25T14:00:52.954870+00:00",
+ "generated_at": "2026-10-25T14:03:07.438494+00:00",
  "session": {
   "alive": true,
-  "age_min": 19,
+  "age_min": 21,
   "busy": false,
   "job": null
  },
@@ -876,13 +876,13 @@
    "id": "redo-healer-series",
    "job_dir": "Redo.of.Healer.S01",
    "kind": "encode",
-   "progress": "Ingest batch1 (E01-E04) berjalan via Colab Mesin 5: E01 selesai (dataset e01-p1/p2 ready), E02 sedang ingest (siklus 2 PUT); kernel batch1 belum push (menunggu 8/8 dataset part ready)",
+   "progress": "Ingest batch1 (E01-E04) berjalan via Colab Mesin 5: E01-E03 selesai (dataset e01-p1/p2, e02-p1/p2, e03-p1 ready; e03-p2 baru ter-finalize, sedang diproses Kaggle), E04 belum di-ingest; kernel batch1 belum push (menunggu 8/8 dataset part ready)",
    "source": "Redo of Healer S01 BD Remux FLAC-TTGA (12 episode, \u00b177,7 GB) + sub Indo Zen-Kuso (finishing only)",
    "started_at": "2026-10-25T19:30:00+07:00",
    "status": "active",
    "title": "Encode series: Redo of Healer S01 \u2014 AV1 + x264 (paralel per codec)",
    "total_parts": 12,
-   "updated_at": "2026-10-25T20:30:00+07:00"
+   "updated_at": "2026-10-25T21:01:00+07:00"
   }
  ],
  "results": []
