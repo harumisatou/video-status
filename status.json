@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-25T06:40:46.453370+00:00",
+ "generated_at": "2026-10-25T06:43:04.056760+00:00",
  "session": {
   "alive": true,
-  "age_min": 271,
+  "age_min": 273,
   "busy": false,
   "job": null
  },
@@ -850,13 +850,13 @@
    "id": "hitoribocchi-series",
    "job_dir": "Hitoribocchi.no.Marumaruseikatsu.S01.1080p.BluRay.Remux",
    "kind": "encode",
-   "progress": "batch1 (E01-E04) SELESAI: QC 8/8 lolos (AV1+x264) + terunggah ke folder Hasil Encode; batch2 (E05-E08) kernel RUNNING (push v2 2026-10-25, dataset 8/8 ready termasuk slug baru e07b-p1/p2 pengganti slug lama yang stall); batch3 (E09-E12) ingest SELESAI, 8/8 dataset part ready \u2014 tinggal menunggu kernel batch2 COMPLETE untuk push kernel batch3",
+   "progress": "batch1 (E01-E04) SELESAI + batch2 (E05-E08) SELESAI: QC 8/8 lolos (AV1+x264) + terunggah ke folder Hasil Encode; batch3 (E09-E12) kernel di-push 2026-10-25 (dataset 8/8 ready, EPS 9-12) \u2014 menunggu COMPLETE + QC + upload",
    "source": "Hitoribocchi.no.Marumaruseikatsu.S01.1080p.BluRay.Remux.AVC.FLAC2.0-CRUCiBLE (12 episode, 83,99 GB, BluRay REMUX 1080p, FLAC 2.0 jpn 1 audio, sub ASS bawaan + RAR sub Indo terpisah)",
    "started_at": "2026-10-23T15:35:00+07:00",
    "status": "running",
    "title": "Encode series: Hitoribocchi no Marumaru Seikatsu S01 REMUX \u2014 AV1 + x264",
    "total_parts": 12,
-   "updated_at": "2026-10-25T09:41:00+07:00",
+   "updated_at": "2026-10-25T13:14:00+07:00",
    "parts_done": 0,
    "parts_total": 12,
    "progress_pct": 0.0
