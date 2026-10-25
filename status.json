@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-25T18:00:29.489886+00:00",
+ "generated_at": "2026-10-25T18:02:45.014445+00:00",
  "session": {
   "alive": true,
-  "age_min": 31,
+  "age_min": 33,
   "busy": false,
   "job": null
  },
@@ -876,13 +876,13 @@
    "id": "redo-healer-series",
    "job_dir": "Redo.of.Healer.S01",
    "kind": "encode",
-   "progress": "PERHATIAN: batch1 (E01-E04) MASIH TERBELAH per cek 00:30 WIB 26 Okt \u2014 kernel x264 COMPLETE (konfirmasi 2x), kernel AV1 masih ERROR (konfirmasi 2x, failureMessage null, log kosong). VM restart lagi (uptime 6 mnt) tanpa kerugian ingest (driver batch2 sudah DONE). Dataset batch2 8/8 READY (cek ulang). Output x264 BELUM diunduh/QC/diunggah (menunggu AV1, per alur langkah 5); repush AV1 menunggu keputusan, tidak dilakukan otomatis; push kernel batch2 ditahan (syarat batch1 lengkap belum terpenuhi).",
+   "progress": "PERUBAHAN per cek 01:00 WIB 26 Okt \u2014 kernel AV1 kini RUNNING (konfirmasi 3x, failureMessage null) setelah 5 cek sebelumnya ERROR; x264 tetap COMPLETE. Batch1 masih terbelah tapi kini menunggu AV1 selesai, bukan menunggu keputusan ERROR. Dataset batch2 8/8 READY (cek ulang). Output BELUM diunduh/QC/diunggah (menunggu kedua kernel COMPLETE); push kernel batch2 ditahan; tidak ada repush oleh run ini.",
    "source": "Redo of Healer S01 BD Remux FLAC-TTGA (12 episode, \u00b177,7 GB) + sub Indo Zen-Kuso (finishing only)",
    "started_at": "2026-10-25T19:30:00+07:00",
    "status": "active",
    "title": "Encode series: Redo of Healer S01 \u2014 AV1 + x264 (paralel per codec)",
    "total_parts": 12,
-   "updated_at": "2026-10-26T00:30:00+07:00"
+   "updated_at": "2026-10-26T01:00:00+07:00"
   }
  ],
  "results": []
