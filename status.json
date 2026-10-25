@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-25T12:28:14.419124+00:00",
+ "generated_at": "2026-10-25T12:30:24.745145+00:00",
  "session": {
   "alive": true,
-  "age_min": 619,
+  "age_min": 621,
   "busy": false,
   "job": null
  },
@@ -857,6 +857,32 @@
    "title": "Encode series: Hitoribocchi no Marumaru Seikatsu S01 REMUX \u2014 AV1 + x264",
    "total_parts": 12,
    "updated_at": "2026-10-25T19:10:00+07:00"
+  },
+  {
+   "detail": "Pemetaan terverifikasi probe 2026-10-25: sumber video = batch SubsPlease (26 eps, h264 + AAC jpn + ASS eng; v2 dipakai E01/E07/E08/E09/E10/E13; file ke-27 = duplikat E26 md5 identik, dipakai satu salinan). Donor finishing = Zeyowopi AMZN DUAL (AAC ind + AAC jpn + sub ind, terverifikasi E01+E26) \u2014 HANYA mux finishing. Encode Mesin 1: batch 4 episode, kernel paralel per codec (liar-encode-av1 + liar-encode-x264), dataset satu part per episode (ukuran < 3,6 GB), judul aman pola Probe.",
+   "id": "liar-game-series",
+   "job_dir": "Liar.Game.S01",
+   "kind": "encode",
+   "progress": "Pemetaan terverifikasi; ingest batch1 (E01-E04) dimulai",
+   "source": "LIAR GAME S01 SubsPlease batch (26 episode, \u00b139,3 GB, WEB-DL 1080p) + donor Zeyowopi (26 file, \u00b15,6 GB, finishing only)",
+   "started_at": "2026-10-25T19:30:00+07:00",
+   "status": "active",
+   "title": "Encode series: LIAR GAME S01 \u2014 AV1 + x264 (paralel per codec)",
+   "total_parts": 26,
+   "updated_at": "2026-10-25T19:30:00+07:00"
+  },
+  {
+   "detail": "Pemetaan terverifikasi probe 2026-10-25: sumber video = BD Remux FLAC-TTGA (12 eps, h264 + FLAC jpn + ASS eng). Sub Indo finishing = Zen-Kuso .ass 01-12 END di Kurumi Dump (xml diabaikan; NCOP/NCED = ekstra). Encode Mesin 1: batch 4 episode, kernel paralel per codec (redo-encode-av1 + redo-encode-x264), dataset per part split 3,6 GB, judul aman pola Probe.",
+   "id": "redo-healer-series",
+   "job_dir": "Redo.of.Healer.S01",
+   "kind": "encode",
+   "progress": "Pemetaan terverifikasi; ingest batch1 (E01-E04) antre setelah LIAR GAME batch1 RUNNING",
+   "source": "Redo of Healer S01 BD Remux FLAC-TTGA (12 episode, \u00b177,7 GB) + sub Indo Zen-Kuso (finishing only)",
+   "started_at": "2026-10-25T19:30:00+07:00",
+   "status": "active",
+   "title": "Encode series: Redo of Healer S01 \u2014 AV1 + x264 (paralel per codec)",
+   "total_parts": 12,
+   "updated_at": "2026-10-25T19:30:00+07:00"
   }
  ],
  "results": []
