@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-26T05:42:02.368612+00:00",
+ "generated_at": "2026-10-26T05:44:12.612120+00:00",
  "session": {
   "alive": true,
-  "age_min": 56,
+  "age_min": 59,
   "busy": false,
   "job": null
  },
@@ -863,13 +863,13 @@
    "id": "liar-game-series",
    "job_dir": "Liar.Game.S01",
    "kind": "encode",
-   "progress": "Batch1 (E01-E04) + batch2 (E05-E08) + batch3 (E09-E12) + batch4 (E13-E16) + batch5 (E17-E20) SELESAI: AV1 + x264 COMPLETE bersih, QC lolos semua, 40 file terunggah ke Hasil Encode (ukuran Drive == lokal); batch6 (E21-E24): dataset sudah ready, kernel AV1 + x264 v6 siap di-push run berikutnya; batch7 (E25-E26) menunggu",
+   "progress": "Batch1 (E01-E04) + batch2 (E05-E08) + batch3 (E09-E12) + batch4 (E13-E16) + batch5 (E17-E20) SELESAI: AV1 + x264 COMPLETE bersih, QC lolos semua, 40 file terunggah ke Hasil Encode (ukuran Drive == lokal); batch6 (E21-E24): kernel AV1 + x264 v6 di-push 12:43 WIB, KEDUA RUNNING; batch7 (E25-E26): ingest via Colab diluncurkan 12:43 WIB (pipelining, dataset masih 403)",
    "source": "LIAR GAME S01 SubsPlease batch (26 episode, \u00b139,3 GB, WEB-DL 1080p) + donor Zeyowopi (26 file, \u00b15,6 GB, finishing only)",
    "started_at": "2026-10-25T19:30:00+07:00",
    "status": "active",
    "title": "Encode series: LIAR GAME S01 \u2014 AV1 + x264 (paralel per codec)",
    "total_parts": 26,
-   "updated_at": "2026-10-26T12:41:00+07:00"
+   "updated_at": "2026-10-26T12:44:00+07:00"
   },
   {
    "detail": "Pemetaan terverifikasi probe 2026-10-25: sumber video = BD Remux FLAC-TTGA (12 eps, h264 + FLAC jpn + ASS eng). Sub Indo finishing = Zen-Kuso .ass 01-12 END di Kurumi Dump (xml diabaikan; NCOP/NCED = ekstra). Encode Mesin 1: batch 4 episode, kernel paralel per codec (redo-encode-av1 + redo-encode-x264), dataset per part split 3,6 GB, judul aman pola Probe.",
