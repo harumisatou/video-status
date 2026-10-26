@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-26T12:58:09.995129+00:00",
+ "generated_at": "2026-10-26T13:00:24.734338+00:00",
  "session": {
   "alive": true,
-  "age_min": 117,
+  "age_min": 119,
   "busy": false,
   "job": null
  },
@@ -854,7 +854,7 @@
    "id": "hitoribocchi-series",
    "job_dir": "Hitoribocchi.no.Marumaruseikatsu.S01.1080p.BluRay.Remux",
    "kind": "encode",
-   "progress": "12/12 SELESAI: batch1 (E01-E04) + batch2 (E05-E08) + batch3 (E09-E12) \u2014 QC 8/8 lolos per batch (AV1+x264) + terunggah ke folder Hasil Encode AV1/x264 (ukuran Drive == lokal terverifikasi semua) Finishing 24/24 done_upload + terverifikasi di N3X/Series (E01-E12 AV1 + x264). Pack per codec + ZIP per codec DONE di N3X/Zip. Bot post PENDING (mirror + post masih proses).",
+   "progress": "12/12 SELESAI: batch1 (E01-E04) + batch2 (E05-E08) + batch3 (E09-E12) \u2014 QC 8/8 lolos per batch (AV1+x264) + terunggah ke folder Hasil Encode AV1/x264 (ukuran Drive == lokal terverifikasi semua) Finishing 24/24 done_upload + terverifikasi di N3X/Series (E01-E12 AV1 + x264). Pack per codec + ZIP per codec DONE di N3X/Zip. Bot post TERKIRIM (message_id 41, 19:40 WIB; caption sudah ditambah GDrive Zip per pack).",
    "source": "Hitoribocchi.no.Marumaruseikatsu.S01.1080p.BluRay.Remux.AVC.FLAC2.0-CRUCiBLE (12 episode, 83,99 GB, BluRay REMUX 1080p, FLAC 2.0 jpn 1 audio, sub ASS bawaan + RAR sub Indo terpisah)",
    "started_at": "2026-10-23T15:35:00+07:00",
    "status": "done",
