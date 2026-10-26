@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-26T12:55:58.269588+00:00",
+ "generated_at": "2026-10-26T12:58:09.995129+00:00",
  "session": {
   "alive": true,
-  "age_min": 114,
+  "age_min": 117,
   "busy": false,
   "job": null
  },
@@ -849,7 +849,7 @@
    "notes": "Encode 12/12 QC lolos di Mesin 1 (Kaggle stephanygerald) \u2014 sumber BluRay REMUX CRUCiBLE (JP FLAC + EN FLAC -> Opus/AAC 128k, sub ASS/PGS/SRT utuh + font). Finishing BERES 19 Okt 2026 malam (Mesin 5): mux mkvmerge ke N3X/Series + cover + tag N3X persis (judul 'Loner Life in Another World (2024) - N3X', DESCRIPTION sinopsis TMDB EN, IMDB tt32512773, TMDB tv/259558), verifikasi streamhash NYATA 24/24 identik + statistik BPS utuh. Folder finished: AV1 12 file 3.253.540.594 B; x264 12 file 3.725.373.566 B. Transfer.it finished: AV1 https://transfer.it/t/EzmWnSpBQZRC - x264 https://transfer.it/t/a1wVvHwlGT4Z. katb: AV1 https://katb.in/imajelukowo - x264 https://katb.in/ujakihetitu. File RAW di Hasil Encode sudah dipindah ke Trash (aturan auto-delete)."
   },
   {
-   "cover": "https://pixeldrain.com/u/nPvYVfpv",
+   "cover": "https://pixeldrain.com/api/file/nPvYVfpv",
    "detail": "Staging lengkap 12/12 terverifikasi di Drive (12 mkv + RAR sub Indo). Encode Mesin 1: batch 1 (E01-E04) ingest dataset per-part via driver Colab ingest_batch_colab.sh skema judul probe (terbukti commit); pengasuh hitori-babysitter self-heal driver + push kernel stephanygerald/hitori-encode begitu 8 dataset part batch siap; batch 2 (E05-E08, E05 dataset sudah ready) dan batch 3 (E09-E12) mengikuti pola yang sama.",
    "id": "hitoribocchi-series",
    "job_dir": "Hitoribocchi.no.Marumaruseikatsu.S01.1080p.BluRay.Remux",
@@ -860,7 +860,7 @@
    "status": "done",
    "title": "Encode series: Hitoribocchi no Marumaru Seikatsu S01 REMUX \u2014 AV1 + x264",
    "total_parts": 12,
-   "updated_at": "2026-10-26T19:52:00+07:00"
+   "updated_at": "2026-10-26T19:57:00+07:00"
   },
   {
    "detail": "Pemetaan terverifikasi probe 2026-10-25: sumber video = batch SubsPlease (26 eps, h264 + AAC jpn + ASS eng; v2 dipakai E01/E07/E08/E09/E10/E13; file ke-27 = duplikat E26 md5 identik, dipakai satu salinan). Donor finishing = Zeyowopi AMZN DUAL (AAC ind + AAC jpn + sub ind, terverifikasi E01+E26) \u2014 HANYA mux finishing. Encode Mesin 1: batch 4 episode, kernel paralel per codec (liar-encode-av1 + liar-encode-x264), dataset satu part per episode (ukuran < 3,6 GB), judul aman pola Probe.",
