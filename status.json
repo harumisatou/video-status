@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-26T10:53:27.380996+00:00",
+ "generated_at": "2026-10-26T11:01:48.523870+00:00",
  "session": {
-  "alive": false,
-  "age_min": 278,
+  "alive": true,
+  "age_min": 0,
   "busy": false,
   "job": null
  },
@@ -66,8 +66,8 @@
    "progress": "Finishing Solo Leveling (50 file) + Chef of Antarctica (28 file) TUNTAS 2026-10-19; penutupan Transfer.it folder Loner Life berjalan lewat sesi ini",
    "role": "Colab serbaguna \u2014 finishing, Transfer.it, putter dataset Kaggle",
    "status": "live",
-   "status_label": "Mati",
-   "status_kind": "blocked"
+   "status_label": "Free",
+   "status_kind": "free"
   },
   {
    "account": "Arif (akun Google nganggur, profil CLI encode-colab3)",
@@ -131,7 +131,7 @@
    "status": "done",
    "title": "Encode perdana: Chicken Run (2000) \u2014 AV1+Opus5.1 & H.264+AAC5.1",
    "total_parts": 44,
-   "master_cleaned_at": "2026-10-15T19:56:20.609829+00:00"
+   "master_cleaned_at": "2026-10-26T11:01:41.432951+00:00"
   },
   {
    "detail": "14/14 episode selesai, semua QC lulus, tidak ada qc_failed. Series DITUTUP 2026-10-19. Transfer.it folder AV1: https://transfer.it/t/cmttfGhBjL6A (14 file, 7.327.209.409 byte, terverifikasi HTTP 200). Transfer.it folder x264: https://transfer.it/t/d8tVieg3kJhS (14 file, 8.942.800.823 byte, terverifikasi HTTP 200; transfer pertama mati bersama sesi Colab lama, diulang sukses di sesi segar Mesin 5 oleh babysitter run 2026-10-19 08:33). Catatan: sisa episode memang dikerjakan di Kaggle Mesin 2 dan sudah komplet semua. FINISHING N3X SELESAI 2026-10-19: 28/28 file termux + terverifikasi (streamhash identik, stream = sumber+1 cover, delta durasi 0,0 dtk) ke folder N3X/Series (AV1.10bit.Opus.2.0 / x264.AAC.2.0) \u2014 metadata TMDB tv/305928, tanpa IMDb (tidak ada entrinya), title 'Chef of Antarctica (2025) - N3X', Writing application N3X 2.0, cover terpasang. MediaInfo E01 (katb): AV1 https://katb.in/atixidujilu, x264 https://katb.in/muxunobahul. Transfer.it folder FINISHING: AV1 https://transfer.it/t/Z9j4DLpjDRiT (14 file, 7.325.855.212 byte), x264 https://transfer.it/t/mIOAGaxlgDAA (14 file, 8.941.992.871 byte).",
