@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-26T04:40:07.405676+00:00",
+ "generated_at": "2026-10-26T04:42:16.273188+00:00",
  "session": {
-  "alive": true,
-  "age_min": 89,
+  "alive": false,
+  "age_min": 91,
   "busy": false,
   "job": null
  },
@@ -66,8 +66,8 @@
    "progress": "Finishing Solo Leveling (50 file) + Chef of Antarctica (28 file) TUNTAS 2026-10-19; penutupan Transfer.it folder Loner Life berjalan lewat sesi ini",
    "role": "Colab serbaguna \u2014 finishing, Transfer.it, putter dataset Kaggle",
    "status": "live",
-   "status_label": "Free",
-   "status_kind": "free"
+   "status_label": "Mati",
+   "status_kind": "blocked"
   },
   {
    "account": "Arif (akun Google nganggur, profil CLI encode-colab3)",
