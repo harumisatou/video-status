@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-26T03:35:57.816237+00:00",
+ "generated_at": "2026-10-26T03:38:08.090217+00:00",
  "session": {
   "alive": true,
-  "age_min": 25,
+  "age_min": 27,
   "busy": false,
   "job": null
  },
@@ -876,13 +876,13 @@
    "id": "redo-healer-series",
    "job_dir": "Redo.of.Healer.S01",
    "kind": "encode",
-   "progress": "Per cek 09:00 WIB 26 Okt \u2014 BATCH3 TERBELAH MENUNGGU AV1: x264 batch3 (E09-E12) COMPLETE normal (JOINED size == expect semua, REDO_ENCODE_DONE); AV1 batch3 masih RUNNING. Batch1+batch2 tetap selesai terunggah; current_batch = batch3; done 8/12 episode.",
+   "progress": "SELESAI 12/12 per 26 Okt ~10:35 WIB \u2014 batch3 (E09-E12) COMPLETE+QC+terunggah: AV1 130388191/128887435/145341022/159128307, x264 154985550/156748237/195654363/203241888, verifikasi lsjson Drive == ukuran lokal 8/8; AV1 E09-E12 + x264 E09-E10 sudah ada di Drive saat cek run 10:30 (dari lanjutan run 09:30), run 10:30 hanya mengunggah x264 E11-E12 yang masih hilang. QC batch3: ffprobe 8/8 lulus (AV1 av1 yuv420p10le + opus 2ch, x264 h264 yuv420p + aac 2ch, 1 ass + 5 font, tanpa mjpeg), durasi vs sumber <0,03 dtk, decode segar 8/8 rc=0. current_batch = batch3 (batch terakhir, selesai); done 12/12 episode.",
    "source": "Redo of Healer S01 BD Remux FLAC-TTGA (12 episode, \u00b177,7 GB) + sub Indo Zen-Kuso (finishing only)",
    "started_at": "2026-10-25T19:30:00+07:00",
-   "status": "active",
+   "status": "done",
    "title": "Encode series: Redo of Healer S01 \u2014 AV1 + x264 (paralel per codec)",
    "total_parts": 12,
-   "updated_at": "2026-10-26T09:00:00+07:00"
+   "updated_at": "2026-10-26T10:35:00+07:00"
   }
  ],
  "results": []
