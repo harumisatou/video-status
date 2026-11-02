@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-02T03:14:49.728454+00:00",
+ "generated_at": "2026-11-02T03:26:01.641047+00:00",
  "session": {
-  "alive": true,
-  "age_min": 309,
+  "alive": false,
+  "age_min": 320,
   "busy": false,
   "job": null
  },
@@ -43,8 +43,8 @@
    "progress": "Tidak ada job berjalan (sesi hidup, job=False pada publish terakhir)",
    "role": "Colab \u2014 jembatan lama series (cadangan; digantikan Solo A RDP)",
    "status": "live",
-   "status_label": "Free",
-   "status_kind": "free"
+   "status_label": "Mati",
+   "status_kind": "blocked"
   },
   {
    "account": "rdphostings (paket Solo A, akun Haru)",
